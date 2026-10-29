@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data – NAEP TUDA Achievement by SES</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.34.0/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="site_libs/jszip-1.13.6/jszip.min.js"></script>
+<link href="site_libs/dt-ext-buttons-1.13.6/css/buttons.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-buttons-1.13.6/js/dataTables.buttons.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.html5.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.colVis.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.print.min.js"></script>
+<link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+<script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+<script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">NAEP TUDA Achievement by SES</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Scores by SES</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./gaps.html"> 
+<span class="menu-text">SES Gaps</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./proficiency.html"> 
+<span class="menu-text">Achievement Levels</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./composition.html"> 
+<span class="menu-text">SES Composition</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./data.html" aria-current="page"> 
+<span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>All values used on this site, as returned by the NAEP Data Service API. Use the buttons to copy or download the table. The full cached extract is also available as <a href="data/naep_tuda_ses.csv"><code>naep_tuda_ses.csv</code></a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-71e9f376a10a862a469f" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-71e9f376a10a862a469f">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"4\" data-max=\"8\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;All students&quot;,&quot;Low SES&quot;,&quot;Middle SES&quot;,&quot;High SES&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"1\" data-max=\"100\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"173\" data-max=\"325\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"17\" data-max=\"98\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"2\" data-max=\"87\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Buttons"],"data":[["Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Mathematics","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading","Reading"],[4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8],["Albuquerque","Albuquerque","Albuquerque","Albuquerque","Atlanta","Atlanta","Atlanta","Atlanta","Austin","Austin","Austin","Austin","Baltimore City","Baltimore City","Baltimore City","Baltimore City","Boston","Boston","Boston","Boston","Charlotte","Charlotte","Charlotte","Charlotte","Chicago","Chicago","Chicago","Chicago","Clark County (NV)","Clark County (NV)","Clark County (NV)","Clark County (NV)","Cleveland","Cleveland","Cleveland","Cleveland","Dallas","Dallas","Dallas","Dallas","Denver","Denver","Denver","Denver","Detroit","Detroit","Detroit","Detroit","District of Columbia (DCPS)","District of Columbia (DCPS)","District of Columbia (DCPS)","District of Columbia (DCPS)","Duval County (FL)","Duval County (FL)","Duval County (FL)","Duval County (FL)","Fort Worth (TX)","Fort Worth (TX)","Fort Worth (TX)","Fort Worth (TX)","Guilford County (NC)","Guilford County (NC)","Guilford County (NC)","Guilford County (NC)","Hillsborough County (FL)","Hillsborough County (FL)","Hillsborough County (FL)","Hillsborough County (FL)","Houston","Houston","Houston","Houston","Jefferson County (KY)","Jefferson County (KY)","Jefferson County (KY)","Jefferson County (KY)","Large city","Large city","Large city","Large city","Los Angeles","Los Angeles","Los Angeles","Los Angeles","Miami-Dade","Miami-Dade","Miami-Dade","Miami-Dade","Milwaukee","Milwaukee","Milwaukee","Milwaukee","National public","National public","National public","National public","New York City","New York City","New York City","New York City","Orange County (FL)","Orange County (FL)","Orange County (FL)","Orange County (FL)","Philadelphia","Philadelphia","Philadelphia","Philadelphia","San Diego","San Diego","San Diego","San Diego","Albuquerque","Albuquerque","Albuquerque","Albuquerque","Atlanta","Atlanta","Atlanta","Atlanta","Austin","Austin","Austin","Austin","Baltimore City","Baltimore City","Baltimore City","Baltimore City","Boston","Boston","Boston","Boston","Charlotte","Charlotte","Charlotte","Charlotte","Chicago","Chicago","Chicago","Chicago","Clark County (NV)","Clark County (NV)","Clark County (NV)","Clark County (NV)","Cleveland","Cleveland","Cleveland","Cleveland","Dallas","Dallas","Dallas","Dallas","Denver","Denver","Denver","Denver","Detroit","Detroit","Detroit","Detroit","District of Columbia (DCPS)","District of Columbia (DCPS)","District of Columbia (DCPS)","District of Columbia (DCPS)","Duval County (FL)","Duval County (FL)","Duval County (FL)","Duval County (FL)","Fort Worth (TX)","Fort Worth (TX)","Fort Worth (TX)","Fort Worth (TX)","Guilford County (NC)","Guilford County (NC)","Guilford County (NC)","Guilford County (NC)","Hillsborough County (FL)","Hillsborough County (FL)","Hillsborough County (FL)","Hillsborough County (FL)","Houston","Houston","Houston","Houston","Jefferson County (KY)","Jefferson County (KY)","Jefferson County (KY)","Jefferson County (KY)","Large city","Large city","Large city","Large city","Los Angeles","Los Angeles","Los Angeles","Los Angeles","Miami-Dade","Miami-Dade","Miami-Dade","Miami-Dade","Milwaukee","Milwaukee","Milwaukee","Milwaukee","National public","National public","National public","National public","New York City","New York City","New York City","New York City","Orange County (FL)","Orange County (FL)","Orange County (FL)","Orange County (FL)","Philadelphia","Philadelphia","Philadelphia","Philadelphia","San Diego","San Diego","San Diego","San Diego","Albuquerque","Albuquerque","Albuquerque","Albuquerque","Atlanta","Atlanta","Atlanta","Atlanta","Austin","Austin","Austin","Austin","Baltimore City","Baltimore City","Baltimore City","Baltimore City","Boston","Boston","Boston","Boston","Charlotte","Charlotte","Charlotte","Charlotte","Chicago","Chicago","Chicago","Chicago","Clark County (NV)","Clark County (NV)","Clark County (NV)","Clark County (NV)","Cleveland","Cleveland","Cleveland","Cleveland","Dallas","Dallas","Dallas","Dallas","Denver","Denver","Denver","Denver","Detroit","Detroit","Detroit","Detroit","District of Columbia (DCPS)","District of Columbia (DCPS)","District of Columbia (DCPS)","District of Columbia (DCPS)","Duval County (FL)","Duval County (FL)","Duval County (FL)","Duval County (FL)","Fort Worth (TX)","Fort Worth (TX)","Fort Worth (TX)","Fort Worth (TX)","Guilford County (NC)","Guilford County (NC)","Guilford County (NC)","Guilford County (NC)","Hillsborough County (FL)","Hillsborough County (FL)","Hillsborough County (FL)","Hillsborough County (FL)","Houston","Houston","Houston","Houston","Jefferson County (KY)","Jefferson County (KY)","Jefferson County (KY)","Jefferson County (KY)","Large city","Large city","Large city","Large city","Los Angeles","Los Angeles","Los Angeles","Los Angeles","Miami-Dade","Miami-Dade","Miami-Dade","Miami-Dade","Milwaukee","Milwaukee","Milwaukee","Milwaukee","National public","National public","National public","National public","New York City","New York City","New York City","New York City","Orange County (FL)","Orange County (FL)","Orange County (FL)","Orange County (FL)","Philadelphia","Philadelphia","Philadelphia","Philadelphia","San Diego","San Diego","San Diego","San Diego","Albuquerque","Albuquerque","Albuquerque","Albuquerque","Atlanta","Atlanta","Atlanta","Atlanta","Austin","Austin","Austin","Austin","Baltimore City","Baltimore City","Baltimore City","Baltimore City","Boston","Boston","Boston","Boston","Charlotte","Charlotte","Charlotte","Charlotte","Chicago","Chicago","Chicago","Chicago","Clark County (NV)","Clark County (NV)","Clark County (NV)","Clark County (NV)","Cleveland","Cleveland","Cleveland","Cleveland","Dallas","Dallas","Dallas","Dallas","Denver","Denver","Denver","Denver","Detroit","Detroit","Detroit","Detroit","District of Columbia (DCPS)","District of Columbia (DCPS)","District of Columbia (DCPS)","District of Columbia (DCPS)","Duval County (FL)","Duval County (FL)","Duval County (FL)","Duval County (FL)","Fort Worth (TX)","Fort Worth (TX)","Fort Worth (TX)","Fort Worth (TX)","Guilford County (NC)","Guilford County (NC)","Guilford County (NC)","Guilford County (NC)","Hillsborough County (FL)","Hillsborough County (FL)","Hillsborough County (FL)","Hillsborough County (FL)","Houston","Houston","Houston","Houston","Jefferson County (KY)","Jefferson County (KY)","Jefferson County (KY)","Jefferson County (KY)","Large city","Large city","Large city","Large city","Los Angeles","Los Angeles","Los Angeles","Los Angeles","Miami-Dade","Miami-Dade","Miami-Dade","Miami-Dade","Milwaukee","Milwaukee","Milwaukee","Milwaukee","National public","National public","National public","National public","New York City","New York City","New York City","New York City","Orange County (FL)","Orange County (FL)","Orange County (FL)","Orange County (FL)","Philadelphia","Philadelphia","Philadelphia","Philadelphia","San Diego","San Diego","San Diego","San Diego"],["All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES","All students","Low SES","Middle SES","High SES"],[100,36,41,23,100,50,24,26,100,31,27,43,100,58,36,6,100,48,34,18,100,24,47,29,100,57,29,14,100,73,25,1,100,81,19,null,100,71,23,6,100,null,null,null,100,77,23,null,100,25,34,42,100,30,47,23,100,75,21,4,100,28,47,25,100,38,33,28,100,66,23,11,100,50,37,13,100,48,34,18,100,62,27,12,100,39,45,16,100,63,29,7,100,31,38,31,100,51,33,15,100,27,45,28,100,57,38,6,100,35,36,29,100,41,42,17,100,61,19,20,100,32,27,41,100,65,30,5,100,59,30,11,100,27,46,27,100,64,26,10,100,88,12,null,100,93,7,null,100,78,18,4,100,null,null,null,100,81,19,null,100,29,38,33,100,29,47,24,100,75,19,6,100,34,46,20,100,34,41,25,100,69,20,11,100,47,40,13,100,52,32,16,100,69,23,8,100,51,38,11,100,69,25,6,100,33,38,29,100,64,29,7,100,29,45,26,100,65,28,7,100,38,36,26,100,39,41,21,100,49,24,27,100,32,28,40,100,55,37,8,100,45,38,17,100,25,46,29,100,58,27,15,100,75,23,1,100,83,17,null,100,72,22,6,100,null,null,null,100,78,22,null,100,23,34,43,100,28,46,25,100,71,25,4,100,29,45,26,100,34,36,29,100,63,25,12,100,50,38,11,100,48,33,18,100,62,26,12,100,40,44,15,100,60,33,7,100,31,38,31,100,50,33,16,100,29,44,28,100,56,38,6,100,33,37,30,100,39,42,18,100,60,20,20,100,32,27,41,100,62,32,6,100,60,28,12,100,27,48,25,100,68,21,11,100,87,13,null,100,92,8,null,100,81,16,4,100,null,null,null,100,82,17,2,100,26,41,33,100,30,45,25,100,76,18,6,100,31,47,22,100,36,39,25,100,68,23,10,100,48,41,11,100,51,33,16,100,67,26,7,100,50,39,11,100,69,24,7,100,33,38,29,100,65,28,7,100,25,49,25,100,65,28,7,100,37,39,24],[223,208,222,253,230,214,225,267,242,219,234,266,209,205,210,null,232,218,234,270,240,224,232,269,223,214,226,260,231,230,236,null,206,206,212,null,233,230,236,null,232,null,null,null,200,199,206,null,234,205,219,267,236,225,235,255,226,223,228,null,237,225,233,261,240,228,238,261,233,226,234,275,228,216,234,258,231,221,232,259,226,218,232,262,246,240,247,261,205,201,208,null,237,221,235,258,230,219,235,263,241,229,238,257,216,212,219,null,239,221,237,263,256,237,261,295,256,243,254,302,273,243,265,303,245,237,252,null,264,247,276,325,275,253,267,313,265,254,276,317,262,259,285,null,242,240,null,null,259,256,267,null,264,null,null,null,237,235,244,null,260,232,247,299,261,244,258,290,252,245,264,null,269,246,269,308,267,249,264,295,264,253,274,316,256,241,260,302,266,252,271,302,260,247,280,313,268,260,271,295,244,239,251,null,272,250,270,300,267,258,278,313,266,249,263,292,252,243,260,null,275,245,280,311,201,178,205,239,212,194,202,258,214,186,206,245,186,182,184,236,214,199,215,255,214,192,208,241,203,192,205,248,210,209,217,null,184,184,184,null,202,196,210,null,216,null,null,null,174,175,175,null,216,184,201,249,211,196,208,234,198,196,199,null,212,193,209,239,219,202,213,245,206,196,211,249,209,196,216,245,208,197,209,241,206,195,214,254,218,210,220,239,179,173,184,225,214,197,212,236,209,195,217,246,218,201,218,237,195,189,197,null,223,205,220,250,244,227,247,277,252,237,257,293,253,219,249,284,240,234,245,null,249,234,261,302,254,238,248,283,255,247,262,295,250,247,270,null,231,232,null,null,244,239,256,null,258,null,null,null,229,228,235,null,252,228,239,287,248,238,245,268,238,233,245,null,253,234,253,280,254,240,252,277,247,237,259,288,250,235,258,288,252,240,257,283,249,239,261,299,255,251,255,279,239,232,250,null,257,239,255,279,254,244,267,295,251,234,249,272,242,234,248,null,263,241,267,293],[60,44,59,92,66,50,65,98,76,55,73,95,45,40,48,null,67,56,70,97,75,64,71,94,60,51,65,92,70,69,74,null,41,40,50,null,74,72,78,null,67,null,null,null,32,31,39,null,67,41,56,92,76,66,77,91,65,63,66,null,75,65,72,95,79,69,80,94,71,67,72,98,67,53,77,93,69,60,71,91,65,57,72,96,85,82,84,95,40,34,45,null,76,61,75,92,67,56,74,95,79,72,77,92,52,47,55,null,76,62,77,96,42,23,47,78,41,27,39,88,58,28,52,87,29,21,39,null,48,34,61,97,59,38,54,90,49,39,62,91,48,46,70,null,27,26,null,null,47,44,57,null,49,null,null,null,20,17,32,null,42,17,30,77,47,28,43,77,37,29,52,null,54,33,56,88,53,35,52,82,49,39,62,93,42,27,46,87,52,38,58,85,46,34,69,94,54,46,58,81,30,23,38,null,59,37,59,84,51,43,62,88,53,33,50,82,38,29,47,null,61,33,69,91,47,27,50,84,55,39,46,95,57,29,50,86,31,26,30,74,56,41,59,92,58,34,55,84,47,37,50,89,56,55,61,null,28,29,28,null,46,41,56,null,58,null,null,null,20,20,23,null,58,28,45,87,54,38,53,77,42,39,44,null,56,38,56,82,62,45,58,89,49,39,56,89,54,43,60,88,53,42,55,84,50,39,59,95,63,54,66,82,27,21,33,69,59,42,57,81,54,41,61,87,60,45,61,78,39,34,42,null,67,50,64,92,54,37,58,86,59,46,65,95,61,28,60,89,49,44,55,null,58,44,72,97,63,47,59,90,63,56,71,93,59,57,77,null,40,40,null,null,53,49,64,null,65,null,null,null,35,33,41,null,57,36,49,86,59,48,57,78,47,42,55,null,62,43,64,87,64,49,63,86,56,47,67,92,57,42,66,93,61,50,67,87,58,50,72,95,65,62,66,85,48,41,60,null,66,48,66,86,62,53,74,92,60,42,59,82,50,43,58,null,71,50,77,94],[26,9,22,60,32,14,24,78,46,17,35,77,12,7,14,null,33,16,33,80,43,24,32,78,24,13,26,68,34,32,39,null,9,8,15,null,33,28,36,null,36,null,null,null,7,6,11,null,38,8,20,73,35,20,33,63,25,21,29,null,40,24,34,70,39,24,34,69,32,23,35,87,27,13,33,67,33,20,33,68,27,17,33,70,49,38,52,71,12,8,15,null,39,20,36,65,33,21,38,71,42,27,38,63,19,12,22,null,41,19,40,72,17,3,17,50,16,4,13,56,29,5,17,58,9,4,11,null,24,8,34,83,32,11,23,69,21,12,27,69,19,16,43,null,6,5,null,null,15,10,23,null,24,null,null,null,4,3,7,null,22,2,9,54,18,5,13,45,11,5,20,null,25,7,23,62,20,6,17,47,20,10,26,73,15,4,16,55,23,11,25,57,18,8,34,66,22,14,26,48,8,5,8,null,27,9,22,52,23,16,32,62,20,8,17,42,15,8,19,null,31,9,31,66,23,8,23,55,33,15,21,79,34,9,24,62,13,7,12,58,31,17,29,74,31,10,25,61,23,13,26,65,28,27,34,null,8,8,11,null,20,13,30,null,33,null,null,null,5,4,6,null,36,9,19,66,27,13,23,51,16,14,19,null,30,14,25,58,35,19,29,62,23,13,27,69,26,16,31,60,26,16,26,58,25,13,31,75,35,25,37,56,9,6,11,35,30,15,27,51,28,16,33,62,35,17,35,55,17,11,20,null,39,19,35,69,20,6,21,50,25,11,27,66,31,4,23,58,16,11,21,null,26,12,34,79,27,11,21,56,27,18,33,72,23,21,44,null,8,8,null,null,18,12,35,null,31,null,null,null,6,5,9,null,27,7,14,59,20,10,18,38,12,8,16,null,25,11,23,52,26,13,23,48,21,11,31,64,23,10,29,60,26,14,29,55,22,13,32,72,28,22,28,53,15,10,21,null,29,13,26,51,29,20,40,67,24,11,22,43,18,11,23,null,37,17,36,69]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Subject<\/th>\n      <th>Grade<\/th>\n      <th>Jurisdiction<\/th>\n      <th>Group<\/th>\n      <th>% of students<\/th>\n      <th>Average score<\/th>\n      <th>% at/above Basic<\/th>\n      <th>% at/above Proficient<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":25,"dom":"Bfrtip","buttons":["copy","csv","excel"],"columnDefs":[{"className":"dt-right","targets":[1,4,5,6,7]},{"name":"Subject","targets":0},{"name":"Grade","targets":1},{"name":"Jurisdiction","targets":2},{"name":"Group","targets":3},{"name":"% of students","targets":4},{"name":"Average score","targets":5},{"name":"% at/above Basic","targets":6},{"name":"% at/above Proficient","targets":7}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>Blank cells are estimates NAEP did not report because reporting standards were not met.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/DavidBamat\.github\.io\/TUDAs-SES\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Source: U.S. Department of Education, NCES, National Assessment of Educational Progress (NAEP), 2024 Mathematics and Reading Assessments, via the NAEP Data Service API.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

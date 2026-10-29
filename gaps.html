@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>SES Achievement Gaps – NAEP TUDA Achievement by SES</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.11.0/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">NAEP TUDA Achievement by SES</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Scores by SES</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./gaps.html" aria-current="page"> 
+<span class="menu-text">SES Gaps</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./proficiency.html"> 
+<span class="menu-text">Achievement Levels</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./composition.html"> 
+<span class="menu-text">SES Composition</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html"> 
+<span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">SES Achievement Gaps</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The gap between the average scores of High SES and Low SES students in each district. Larger bars mean a wider achievement gap. Gray bars are the <strong>National public</strong> and <strong>Large city</strong> comparison groups. Districts where either estimate was not reported are omitted.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Grade 4 Mathematics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Grade 8 Mathematics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Grade 4 Reading</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Grade 8 Reading</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-225d74e31be0ff150d24" style="width:100%;height:537px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-225d74e31be0ff150d24">{"x":{"visdat":{"97bc32807eef":["function () ","plotlyVisDat"]},"cur_data":"97bc32807eef","attrs":{"97bc32807eef":{"x":{},"y":{},"orientation":"h","marker":{"color":{},"line":{"color":"#fcfcfb","width":1}},"customdata":{},"text":{},"textposition":"none","hovertemplate":"<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":50,"l":60,"t":40,"r":20},"font":{"family":"system-ui, -apple-system, 'Segoe UI', sans-serif","color":"#52514e","size":12},"paper_bgcolor":"#fcfcfb","plot_bgcolor":"#fcfcfb","xaxis":{"domain":[0,1],"automargin":true,"title":"High SES minus Low SES average score (points)","gridcolor":"#e1e0d9","zeroline":false,"linecolor":"#c3c2b7","tickfont":{"color":"#898781"}},"yaxis":{"domain":[0,1],"automargin":true,"title":"","gridcolor":"rgba(0,0,0,0)","tickfont":{"color":"#0b0b0b"},"type":"category","categoryorder":"array","categoryarray":["Miami-Dade","Orange County (FL)","Duval County (FL)","Hillsborough County (FL)","Guilford County (NC)","<b>National public<\/b>","<b>Large city<\/b>","Jefferson County (KY)","San Diego","New York City","Los Angeles","Albuquerque","Charlotte","Chicago","Austin","Houston","Boston","Atlanta","District of Columbia (DCPS)"]},"legend":{"orientation":"h","x":0,"y":1.02,"yanchor":"bottom","traceorder":"normal","font":{"color":"#0b0b0b"}},"hoverlabel":{"bgcolor":"white","font":{"color":"#0b0b0b"}},"showlegend":false,"bargap":0.34999999999999998,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d"]},"data":[{"x":[21.023706469979004,27.833952328220022,30.266880621983006,33.022283939741982,36.17063902856799,36.209849671727966,38.754085994321002,41.775800315024981,42.34869510295502,43.943928887618995,44.394343931211978,44.777698092841007,45.340492478963967,45.374611232531009,47.372527482631,48.213195711070028,52.732702818717001,53.069598995082998,62.071384680569025],"y":["Miami-Dade","Orange County (FL)","Duval County (FL)","Hillsborough County (FL)","Guilford County (NC)","<b>National public<\/b>","<b>Large city<\/b>","Jefferson County (KY)","San Diego","New York City","Los Angeles","Albuquerque","Charlotte","Chicago","Austin","Houston","Boston","Atlanta","District of Columbia (DCPS)"],"orientation":"h","marker":{"color":["#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#898781","#898781","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6"],"line":{"color":"#fcfcfb","width":1}},"customdata":["Miami-Dade","Orange County (FL)","Duval County (FL)","Hillsborough County (FL)","Guilford County (NC)","National public","Large city","Jefferson County (KY)","San Diego","New York City","Los Angeles","Albuquerque","Charlotte","Chicago","Austin","Houston","Boston","Atlanta","District of Columbia (DCPS)"],"text":["High 261 · Low 240","High 257 · Low 229","High 255 · Low 225","High 261 · Low 228","High 261 · Low 225","High 258 · Low 221","High 259 · Low 221","High 258 · Low 216","High 263 · Low 221","High 263 · Low 219","High 262 · Low 218","High 253 · Low 208","High 269 · Low 224","High 260 · Low 214","High 266 · Low 219","High 275 · Low 226","High 270 · Low 218","High 267 · Low 214","High 267 · Low 205"],"textposition":["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"],"hovertemplate":["<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>"],"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-999eb9d94512ac6fa48c" style="width:100%;height:537px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-999eb9d94512ac6fa48c">{"x":{"visdat":{"97bc273603b2":["function () ","plotlyVisDat"]},"cur_data":"97bc273603b2","attrs":{"97bc273603b2":{"x":{},"y":{},"orientation":"h","marker":{"color":{},"line":{"color":"#fcfcfb","width":1}},"customdata":{},"text":{},"textposition":"none","hovertemplate":"<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":50,"l":60,"t":40,"r":20},"font":{"family":"system-ui, -apple-system, 'Segoe UI', sans-serif","color":"#52514e","size":12},"paper_bgcolor":"#fcfcfb","plot_bgcolor":"#fcfcfb","xaxis":{"domain":[0,1],"automargin":true,"title":"High SES minus Low SES average score (points)","gridcolor":"#e1e0d9","zeroline":false,"linecolor":"#c3c2b7","tickfont":{"color":"#898781"}},"yaxis":{"domain":[0,1],"automargin":true,"title":"","gridcolor":"rgba(0,0,0,0)","tickfont":{"color":"#0b0b0b"},"type":"category","categoryorder":"array","categoryarray":["Miami-Dade","Orange County (FL)","Hillsborough County (FL)","Duval County (FL)","<b>National public<\/b>","<b>Large city<\/b>","New York City","Albuquerque","Atlanta","Charlotte","Austin","Jefferson County (KY)","Guilford County (NC)","Chicago","Houston","San Diego","Los Angeles","District of Columbia (DCPS)","Boston"]},"legend":{"orientation":"h","x":0,"y":1.02,"yanchor":"bottom","traceorder":"normal","font":{"color":"#0b0b0b"}},"hoverlabel":{"bgcolor":"white","font":{"color":"#0b0b0b"}},"showlegend":false,"bargap":0.34999999999999998,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d"]},"data":[{"x":[35.401938922067018,43.187916433312012,45.987011443512017,46.299041423619002,49.395358549034995,50.161057303443016,55.297363667326977,58.618104331832029,59.007346874379976,60.422193175299014,60.480260253770979,61.342408712962964,61.628149302963038,63.073815755840002,63.290697394567019,65.827844083862999,65.917797129787999,67.227608382136964,77.773223228852004],"y":["Miami-Dade","Orange County (FL)","Hillsborough County (FL)","Duval County (FL)","<b>National public<\/b>","<b>Large city<\/b>","New York City","Albuquerque","Atlanta","Charlotte","Austin","Jefferson County (KY)","Guilford County (NC)","Chicago","Houston","San Diego","Los Angeles","District of Columbia (DCPS)","Boston"],"orientation":"h","marker":{"color":["#2a78d6","#2a78d6","#2a78d6","#2a78d6","#898781","#898781","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6"],"line":{"color":"#fcfcfb","width":1}},"customdata":["Miami-Dade","Orange County (FL)","Hillsborough County (FL)","Duval County (FL)","National public","Large city","New York City","Albuquerque","Atlanta","Charlotte","Austin","Jefferson County (KY)","Guilford County (NC)","Chicago","Houston","San Diego","Los Angeles","District of Columbia (DCPS)","Boston"],"text":["High 295 · Low 260","High 292 · Low 249","High 295 · Low 249","High 290 · Low 244","High 300 · Low 250","High 302 · Low 252","High 313 · Low 258","High 295 · Low 237","High 302 · Low 243","High 313 · Low 253","High 303 · Low 243","High 302 · Low 241","High 308 · Low 246","High 317 · Low 254","High 316 · Low 253","High 311 · Low 245","High 313 · Low 247","High 299 · Low 232","High 325 · Low 247"],"textposition":["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"],"hovertemplate":["<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>"],"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-5c57bc53b45944fd8e40" style="width:100%;height:584px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5c57bc53b45944fd8e40">{"x":{"visdat":{"97bc92380d4":["function () ","plotlyVisDat"]},"cur_data":"97bc92380d4","attrs":{"97bc92380d4":{"x":{},"y":{},"orientation":"h","marker":{"color":{},"line":{"color":"#fcfcfb","width":1}},"customdata":{},"text":{},"textposition":"none","hovertemplate":"<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":50,"l":60,"t":40,"r":20},"font":{"family":"system-ui, -apple-system, 'Segoe UI', sans-serif","color":"#52514e","size":12},"paper_bgcolor":"#fcfcfb","plot_bgcolor":"#fcfcfb","xaxis":{"domain":[0,1],"automargin":true,"title":"High SES minus Low SES average score (points)","gridcolor":"#e1e0d9","zeroline":false,"linecolor":"#c3c2b7","tickfont":{"color":"#898781"}},"yaxis":{"domain":[0,1],"automargin":true,"title":"","gridcolor":"rgba(0,0,0,0)","tickfont":{"color":"#0b0b0b"},"type":"category","categoryorder":"array","categoryarray":["Miami-Dade","Orange County (FL)","Duval County (FL)","<b>National public<\/b>","Hillsborough County (FL)","<b>Large city<\/b>","San Diego","Guilford County (NC)","Jefferson County (KY)","Charlotte","Milwaukee","New York City","Houston","Baltimore City","Chicago","Boston","Los Angeles","Austin","Albuquerque","District of Columbia (DCPS)","Atlanta"]},"legend":{"orientation":"h","x":0,"y":1.02,"yanchor":"bottom","traceorder":"normal","font":{"color":"#0b0b0b"}},"hoverlabel":{"bgcolor":"white","font":{"color":"#0b0b0b"}},"showlegend":false,"bargap":0.34999999999999998,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d"]},"data":[{"x":[29.12293879549901,35.345618404276991,37.803210374300022,38.852305652968994,42.862682085379987,44.076083135272995,44.339429294534,46.089554252039989,49.067741258035994,49.724841736017993,51.500783776394002,51.574143396154,52.929720880447007,54.284618270700008,55.101410703576988,56.292499725277992,58.98466342516798,59.704651446188024,60.518013927642016,64.475956343966999,64.658189811224986],"y":["Miami-Dade","Orange County (FL)","Duval County (FL)","<b>National public<\/b>","Hillsborough County (FL)","<b>Large city<\/b>","San Diego","Guilford County (NC)","Jefferson County (KY)","Charlotte","Milwaukee","New York City","Houston","Baltimore City","Chicago","Boston","Los Angeles","Austin","Albuquerque","District of Columbia (DCPS)","Atlanta"],"orientation":"h","marker":{"color":["#2a78d6","#2a78d6","#2a78d6","#898781","#2a78d6","#898781","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6"],"line":{"color":"#fcfcfb","width":1}},"customdata":["Miami-Dade","Orange County (FL)","Duval County (FL)","National public","Hillsborough County (FL)","Large city","San Diego","Guilford County (NC)","Jefferson County (KY)","Charlotte","Milwaukee","New York City","Houston","Baltimore City","Chicago","Boston","Los Angeles","Austin","Albuquerque","District of Columbia (DCPS)","Atlanta"],"text":["High 239 · Low 210","High 237 · Low 201","High 234 · Low 196","High 236 · Low 197","High 245 · Low 202","High 241 · Low 197","High 250 · Low 205","High 239 · Low 193","High 245 · Low 196","High 241 · Low 192","High 225 · Low 173","High 246 · Low 195","High 249 · Low 196","High 236 · Low 182","High 248 · Low 192","High 255 · Low 199","High 254 · Low 195","High 245 · Low 186","High 239 · Low 178","High 249 · Low 184","High 258 · Low 194"],"textposition":["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"],"hovertemplate":["<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>"],"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-340bc43d246bc224adb0" style="width:100%;height:537px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-340bc43d246bc224adb0">{"x":{"visdat":{"97bc381a616c":["function () ","plotlyVisDat"]},"cur_data":"97bc381a616c","attrs":{"97bc381a616c":{"x":{},"y":{},"orientation":"h","marker":{"color":{},"line":{"color":"#fcfcfb","width":1}},"customdata":{},"text":{},"textposition":"none","hovertemplate":"<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":50,"l":60,"t":40,"r":20},"font":{"family":"system-ui, -apple-system, 'Segoe UI', sans-serif","color":"#52514e","size":12},"paper_bgcolor":"#fcfcfb","plot_bgcolor":"#fcfcfb","xaxis":{"domain":[0,1],"automargin":true,"title":"High SES minus Low SES average score (points)","gridcolor":"#e1e0d9","zeroline":false,"linecolor":"#c3c2b7","tickfont":{"color":"#898781"}},"yaxis":{"domain":[0,1],"automargin":true,"title":"","gridcolor":"rgba(0,0,0,0)","tickfont":{"color":"#0b0b0b"},"type":"category","categoryorder":"array","categoryarray":["Miami-Dade","Duval County (FL)","Hillsborough County (FL)","Orange County (FL)","<b>National public<\/b>","<b>Large city<\/b>","Charlotte","Guilford County (NC)","Chicago","Albuquerque","New York City","Houston","San Diego","Jefferson County (KY)","Atlanta","District of Columbia (DCPS)","Los Angeles","Austin","Boston"]},"legend":{"orientation":"h","x":0,"y":1.02,"yanchor":"bottom","traceorder":"normal","font":{"color":"#0b0b0b"}},"hoverlabel":{"bgcolor":"white","font":{"color":"#0b0b0b"}},"showlegend":false,"bargap":0.34999999999999998,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d"]},"data":[{"x":[27.658789265619987,29.511050846195985,37.113720272368028,38.115887725048992,40.721779000147023,42.141506758190019,44.082492016315967,46.273696365135038,47.946325909124994,50.179796908554977,50.860848025710965,51.235253830064011,51.750021041079009,52.736025030713989,56.234557120654017,59.037166273431012,59.348221080538991,64.414619959991995,68.217910790105009],"y":["Miami-Dade","Duval County (FL)","Hillsborough County (FL)","Orange County (FL)","<b>National public<\/b>","<b>Large city<\/b>","Charlotte","Guilford County (NC)","Chicago","Albuquerque","New York City","Houston","San Diego","Jefferson County (KY)","Atlanta","District of Columbia (DCPS)","Los Angeles","Austin","Boston"],"orientation":"h","marker":{"color":["#2a78d6","#2a78d6","#2a78d6","#2a78d6","#898781","#898781","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6","#2a78d6"],"line":{"color":"#fcfcfb","width":1}},"customdata":["Miami-Dade","Duval County (FL)","Hillsborough County (FL)","Orange County (FL)","National public","Large city","Charlotte","Guilford County (NC)","Chicago","Albuquerque","New York City","Houston","San Diego","Jefferson County (KY)","Atlanta","District of Columbia (DCPS)","Los Angeles","Austin","Boston"],"text":["High 279 · Low 251","High 268 · Low 238","High 277 · Low 240","High 272 · Low 234","High 279 · Low 239","High 283 · Low 240","High 283 · Low 238","High 280 · Low 234","High 295 · Low 247","High 277 · Low 227","High 295 · Low 244","High 288 · Low 237","High 293 · Low 241","High 288 · Low 235","High 293 · Low 237","High 287 · Low 228","High 299 · Low 239","High 284 · Low 219","High 302 · Low 234"],"textposition":["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"],"hovertemplate":["<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Gap: %{x:.0f} points<br>%{text}<extra><\/extra>"],"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>The NAEP API returns point estimates only, without standard errors, so differences between districts shown here have not been tested for statistical significance. Use the <a href="https://www.nationsreportcard.gov/ndecore/xplore/NDE">NAEP Data Explorer</a> for significance testing.</p>
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/DavidBamat\.github\.io\/TUDAs-SES\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Source: U.S. Department of Education, NCES, National Assessment of Educational Progress (NAEP), 2024 Mathematics and Reading Assessments, via the NAEP Data Service API.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

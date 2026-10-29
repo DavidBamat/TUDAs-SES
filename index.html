@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>NAEP Achievement in Large Urban Districts by Socioeconomic Status – NAEP TUDA Achievement by SES</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.11.0/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">NAEP TUDA Achievement by SES</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Scores by SES</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./gaps.html"> 
+<span class="menu-text">SES Gaps</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./proficiency.html"> 
+<span class="menu-text">Achievement Levels</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./composition.html"> 
+<span class="menu-text">SES Composition</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html"> 
+<span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#average-scores-by-ses-level" id="toc-average-scores-by-ses-level" class="nav-link active" data-scroll-target="#average-scores-by-ses-level">Average scores by SES level</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">NAEP Achievement in Large Urban Districts by Socioeconomic Status</h1>
+<p class="subtitle lead">Trial Urban District Assessment (TUDA), 2024</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Beginning with the 2024 assessments, the National Assessment of Educational Progress (NAEP) reports results by a <strong>socioeconomic status (SES) index</strong> built from student and school information. This site uses the <a href="https://www.nationsreportcard.gov/api_documentation.aspx">NAEP Data Service API</a> to show how achievement varies by SES within each of the 26 large urban districts that took part in the 2024 <a href="https://www.nationsreportcard.gov/tuda/">Trial Urban District Assessment</a>.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>At a glance (grade 8 mathematics)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>In large cities, 52% of eighth-graders are in the Low SES group, compared with 33% in the nation’s public schools.</li>
+<li>High SES eighth-graders in large cities scored 50 points higher in mathematics than their Low SES peers (national public: 49 points).</li>
+<li>Across districts with reportable results, that gap ranges from 35 to 78 points.</li>
+</ul>
+</div>
+</div>
+<section id="average-scores-by-ses-level" class="level2">
+<h2 class="anchored" data-anchor-id="average-scores-by-ses-level">Average scores by SES level</h2>
+<p>Each row is a district; dots show the average scale score of its Low, Middle, and High SES students. Districts are sorted by the Low SES average. <strong>National public</strong> and <strong>Large city</strong> are shown in bold for reference. Hover over a dot for the score and the share of the district’s students in that SES group.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Grade 4 Mathematics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Grade 8 Mathematics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Grade 4 Reading</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Grade 8 Reading</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-77c3eb3657fdde3397c4" style="width:100%;height:766px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-77c3eb3657fdde3397c4">{"x":{"visdat":{"97fb4b61bd40":["function () ","plotlyVisDat"],"97fb7dcfdb69":["function () ","data"],"97fb594e0b06":["function () ","data"],"97fb12b5e4b8":["function () ","data"],"97fb63baf5a0":["function () ","data"]},"cur_data":"97fb63baf5a0","attrs":{"97fb7dcfdb69":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"xend":{},"yend":{},"type":"scatter","mode":"lines","line":{"color":"#c3c2b7","width":2},"hoverinfo":"skip","showlegend":false,"inherit":true},"97fb594e0b06":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"Low SES","marker":{"color":"#86b6ef","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true},"97fb12b5e4b8":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"Middle SES","marker":{"color":"#2a78d6","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true},"97fb63baf5a0":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"High SES","marker":{"color":"#104281","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true}},"layout":{"margin":{"b":50,"l":60,"t":40,"r":20},"font":{"family":"system-ui, -apple-system, 'Segoe UI', sans-serif","color":"#52514e","size":12},"paper_bgcolor":"#fcfcfb","plot_bgcolor":"#fcfcfb","xaxis":{"domain":[0,1],"automargin":true,"title":"Average scale score","gridcolor":"#e1e0d9","zeroline":false,"linecolor":"#c3c2b7","tickfont":{"color":"#898781"}},"yaxis":{"domain":[0,1],"automargin":true,"title":"","gridcolor":"rgba(0,0,0,0)","tickfont":{"color":"#0b0b0b"},"categoryorder":"array","categoryarray":["Detroit","Milwaukee","District of Columbia (DCPS)","Baltimore City","Cleveland","Albuquerque","Philadelphia","Atlanta","Chicago","Jefferson County (KY)","Los Angeles","Boston","New York City","Austin","<b>Large city<\/b>","San Diego","<b>National public<\/b>","Fort Worth (TX)","Charlotte","Duval County (FL)","Guilford County (NC)","Houston","Hillsborough County (FL)","Orange County (FL)","Clark County (NV)","Dallas","Miami-Dade","Denver"],"type":"category"},"legend":{"orientation":"h","x":0,"y":1.02,"yanchor":"bottom","traceorder":"normal","font":{"color":"#0b0b0b"}},"hoverlabel":{"bgcolor":"white","font":{"color":"#0b0b0b"}},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d"]},"data":[{"x":[199.06322788654199,205.80032936658799,null,201.16159318889601,208.24326813242101,null,204.60704751500899,266.67843219557801,null,205.327486972418,210.23222507175299,null,206.03425907283801,211.634634511044,null,208.23436334067699,253.012061433518,null,212.00904046042501,219.49975511785601,null,213.99449206888599,267.06409106396899,null,214.319016986523,259.69362821905401,null,215.77530086307399,257.55110117809897,null,217.59875626823199,261.99310019944397,null,217.65548821873799,270.38819103745499,null,218.93009168835999,262.87402057597899,null,218.98576175281701,266.35828923544801,null,220.66603176184199,259.42011775616299,null,221.02468226899899,263.37337737195401,null,221.39695426960401,257.60680394133198,null,223.32423606680899,227.83772977391399,null,223.79627117935101,269.13676365831498,null,224.68923611214399,254.95611673412699,null,225.11444269890401,261.285081727472,null,226.363340211718,274.57653592278803,null,227.75382405950799,260.77610799924997,null,229.47572271335,257.30967504157002,null,229.741977160364,236.42324112761401,null,229.79540693913,236.03199437529801,null,239.80045256903901,260.82415903901801],"y":["Detroit","Detroit",null,"Milwaukee","Milwaukee",null,"District of Columbia (DCPS)","District of Columbia (DCPS)",null,"Baltimore City","Baltimore City",null,"Cleveland","Cleveland",null,"Albuquerque","Albuquerque",null,"Philadelphia","Philadelphia",null,"Atlanta","Atlanta",null,"Chicago","Chicago",null,"Jefferson County (KY)","Jefferson County (KY)",null,"Los Angeles","Los Angeles",null,"Boston","Boston",null,"New York City","New York City",null,"Austin","Austin",null,"<b>Large city<\/b>","<b>Large city<\/b>",null,"San Diego","San Diego",null,"<b>National public<\/b>","<b>National public<\/b>",null,"Fort Worth (TX)","Fort Worth (TX)",null,"Charlotte","Charlotte",null,"Duval County (FL)","Duval County (FL)",null,"Guilford County (NC)","Guilford County (NC)",null,"Houston","Houston",null,"Hillsborough County (FL)","Hillsborough County (FL)",null,"Orange County (FL)","Orange County (FL)",null,"Clark County (NV)","Clark County (NV)",null,"Dallas","Dallas",null,"Miami-Dade","Miami-Dade"],"type":"scatter","mode":"lines","line":{"color":"#c3c2b7","width":2},"hoverinfo":["skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip"],"showlegend":false,"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[199.06322788654199,201.16159318889601,204.60704751500899,205.327486972418,206.03425907283801,208.23436334067699,212.00904046042501,213.99449206888599,214.319016986523,215.77530086307399,217.59875626823199,217.65548821873799,218.93009168835999,218.98576175281701,220.66603176184199,221.02468226899899,221.39695426960401,223.32423606680899,223.79627117935101,224.68923611214399,225.11444269890401,226.363340211718,227.75382405950799,229.47572271335,229.741977160364,229.79540693913,239.80045256903901],"y":["Detroit","Milwaukee","District of Columbia (DCPS)","Baltimore City","Cleveland","Albuquerque","Philadelphia","Atlanta","Chicago","Jefferson County (KY)","Los Angeles","Boston","New York City","Austin","<b>Large city<\/b>","San Diego","<b>National public<\/b>","Fort Worth (TX)","Charlotte","Duval County (FL)","Guilford County (NC)","Houston","Hillsborough County (FL)","Orange County (FL)","Clark County (NV)","Dallas","Miami-Dade"],"type":"scatter","mode":"markers","name":"Low SES","marker":{"color":"#86b6ef","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["Detroit","Milwaukee","District of Columbia (DCPS)","Baltimore City","Cleveland","Albuquerque","Philadelphia","Atlanta","Chicago","Jefferson County (KY)","Los Angeles","Boston","New York City","Austin","Large city","San Diego","National public","Fort Worth (TX)","Charlotte","Duval County (FL)","Guilford County (NC)","Houston","Hillsborough County (FL)","Orange County (FL)","Clark County (NV)","Dallas","Miami-Dade"],"text":["77%","63%","25%","58%","81%","36%","57%","50%","57%","50%","62%","48%","51%","31%","48%","35%","31%","75%","24%","30%","28%","66%","38%","27%","73%","71%","39%"],"hovertemplate":["<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"line":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[205.80032936658799,208.24326813242101,219.449668492548,210.23222507175299,211.634634511044,221.92557943276699,219.49975511785601,225.084889080583,226.36280088167601,234.29461842992899,232.09428256425201,234.07304455739799,235.134071983317,233.73077609399201,232.112996799884,237.09226991612201,234.98528957350899,227.83772977391399,232.16004228164601,234.973916626456,233.207685458778,233.99185471531899,237.544151511076,238.14976153931201,236.42324112761401,236.03199437529801,247.39385344961201],"y":["Detroit","Milwaukee","District of Columbia (DCPS)","Baltimore City","Cleveland","Albuquerque","Philadelphia","Atlanta","Chicago","Jefferson County (KY)","Los Angeles","Boston","New York City","Austin","<b>Large city<\/b>","San Diego","<b>National public<\/b>","Fort Worth (TX)","Charlotte","Duval County (FL)","Guilford County (NC)","Houston","Hillsborough County (FL)","Orange County (FL)","Clark County (NV)","Dallas","Miami-Dade"],"type":"scatter","mode":"markers","name":"Middle SES","marker":{"color":"#2a78d6","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["Detroit","Milwaukee","District of Columbia (DCPS)","Baltimore City","Cleveland","Albuquerque","Philadelphia","Atlanta","Chicago","Jefferson County (KY)","Los Angeles","Boston","New York City","Austin","Large city","San Diego","National public","Fort Worth (TX)","Charlotte","Duval County (FL)","Guilford County (NC)","Houston","Hillsborough County (FL)","Orange County (FL)","Clark County (NV)","Dallas","Miami-Dade"],"text":["23%","29%","34%","36%","19%","41%","38%","24%","29%","37%","27%","34%","33%","27%","34%","36%","38%","21%","47%","47%","47%","23%","33%","45%","25%","23%","45%"],"hovertemplate":["<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"line":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[266.67843219557801,253.012061433518,267.06409106396899,259.69362821905401,257.55110117809897,261.99310019944397,270.38819103745499,262.87402057597899,266.35828923544801,259.42011775616299,263.37337737195401,257.60680394133198,269.13676365831498,254.95611673412699,261.285081727472,274.57653592278803,260.77610799924997,257.30967504157002,260.82415903901801],"y":["District of Columbia (DCPS)","Albuquerque","Atlanta","Chicago","Jefferson County (KY)","Los Angeles","Boston","New York City","Austin","<b>Large city<\/b>","San Diego","<b>National public<\/b>","Charlotte","Duval County (FL)","Guilford County (NC)","Houston","Hillsborough County (FL)","Orange County (FL)","Miami-Dade"],"type":"scatter","mode":"markers","name":"High SES","marker":{"color":"#104281","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["District of Columbia (DCPS)","Albuquerque","Atlanta","Chicago","Jefferson County (KY)","Los Angeles","Boston","New York City","Austin","Large city","San Diego","National public","Charlotte","Duval County (FL)","Guilford County (NC)","Houston","Hillsborough County (FL)","Orange County (FL)","Miami-Dade"],"text":["42%","23%","26%","14%","13%","12%","18%","15%","43%","18%","29%","31%","29%","23%","25%","11%","28%","28%","16%"],"hovertemplate":["<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"line":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-b3ca5e96cc736349a493" style="width:100%;height:766px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b3ca5e96cc736349a493">{"x":{"visdat":{"97fb73d08d0":["function () ","plotlyVisDat"],"97fb380d9366":["function () ","data"],"97fb3482a4a":["function () ","data"],"97fb76d061f4":["function () ","data"],"97fb6acf171c":["function () ","data"]},"cur_data":"97fb6acf171c","attrs":{"97fb380d9366":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"xend":{},"yend":{},"type":"scatter","mode":"lines","line":{"color":"#c3c2b7","width":2},"hoverinfo":"skip","showlegend":false,"inherit":true},"97fb3482a4a":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"Low SES","marker":{"color":"#86b6ef","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true},"97fb76d061f4":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"Middle SES","marker":{"color":"#2a78d6","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true},"97fb6acf171c":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"High SES","marker":{"color":"#104281","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true}},"layout":{"margin":{"b":50,"l":60,"t":40,"r":20},"font":{"family":"system-ui, -apple-system, 'Segoe UI', sans-serif","color":"#52514e","size":12},"paper_bgcolor":"#fcfcfb","plot_bgcolor":"#fcfcfb","xaxis":{"domain":[0,1],"automargin":true,"title":"Average scale score","gridcolor":"#e1e0d9","zeroline":false,"linecolor":"#c3c2b7","tickfont":{"color":"#898781"}},"yaxis":{"domain":[0,1],"automargin":true,"title":"","gridcolor":"rgba(0,0,0,0)","tickfont":{"color":"#0b0b0b"},"categoryorder":"array","categoryarray":["District of Columbia (DCPS)","Detroit","Albuquerque","Baltimore City","Milwaukee","Cleveland","Jefferson County (KY)","Austin","Atlanta","Philadelphia","Duval County (FL)","Fort Worth (TX)","San Diego","Guilford County (NC)","Boston","Los Angeles","Orange County (FL)","Hillsborough County (FL)","<b>National public<\/b>","<b>Large city<\/b>","Charlotte","Houston","Chicago","Dallas","New York City","Clark County (NV)","Miami-Dade","Denver"],"type":"category"},"legend":{"orientation":"h","x":0,"y":1.02,"yanchor":"bottom","traceorder":"normal","font":{"color":"#0b0b0b"}},"hoverlabel":{"bgcolor":"white","font":{"color":"#0b0b0b"}},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d"]},"data":[{"x":[231.83709602222501,299.06470440436198,null,234.74749092020301,244.15360448447399,null,236.69431328662299,295.31241761845502,null,237.36783456241301,252.00572712270801,null,238.65560788975,251.42458932576801,null,240.31612245520199,240.31612245520199,null,240.55274669108601,301.89515540404898,null,242.674261945957,303.15452219972798,null,242.678334577409,301.68568145178898,null,243.07416001606001,259.62744704938899,null,243.69293758643599,289.99197901005499,null,245.096925768495,263.90901039615898,null,245.25786712313101,311.08571120699401,null,246.45261577979699,308.08076508276002,null,246.90804330403401,324.68126653288601,null,247.23286152552399,313.15065865531199,null,248.83390865727699,292.021825090589,null,249.234658598458,295.22167004197001,null,250.47619956266999,299.87155811170499,null,251.762372485611,301.92342978905401,null,252.93681190669901,313.35900508199802,null,253.030826359267,316.32152375383401,null,253.75492908913199,316.82874484497199,null,255.57278274700201,267.21918770436599,null,257.57560402460803,312.872967691935,null,258.98469030327402,284.80617890991402,null,259.70874616683898,295.110685088906],"y":["District of Columbia (DCPS)","District of Columbia (DCPS)",null,"Detroit","Detroit",null,"Albuquerque","Albuquerque",null,"Baltimore City","Baltimore City",null,"Milwaukee","Milwaukee",null,"Cleveland","Cleveland",null,"Jefferson County (KY)","Jefferson County (KY)",null,"Austin","Austin",null,"Atlanta","Atlanta",null,"Philadelphia","Philadelphia",null,"Duval County (FL)","Duval County (FL)",null,"Fort Worth (TX)","Fort Worth (TX)",null,"San Diego","San Diego",null,"Guilford County (NC)","Guilford County (NC)",null,"Boston","Boston",null,"Los Angeles","Los Angeles",null,"Orange County (FL)","Orange County (FL)",null,"Hillsborough County (FL)","Hillsborough County (FL)",null,"<b>National public<\/b>","<b>National public<\/b>",null,"<b>Large city<\/b>","<b>Large city<\/b>",null,"Charlotte","Charlotte",null,"Houston","Houston",null,"Chicago","Chicago",null,"Dallas","Dallas",null,"New York City","New York City",null,"Clark County (NV)","Clark County (NV)",null,"Miami-Dade","Miami-Dade"],"type":"scatter","mode":"lines","line":{"color":"#c3c2b7","width":2},"hoverinfo":["skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip"],"showlegend":false,"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[231.83709602222501,234.74749092020301,236.69431328662299,237.36783456241301,238.65560788975,240.31612245520199,240.55274669108601,242.674261945957,242.678334577409,243.07416001606001,243.69293758643599,245.096925768495,245.25786712313101,246.45261577979699,246.90804330403401,247.23286152552399,248.83390865727699,249.234658598458,250.47619956266999,251.762372485611,252.93681190669901,253.030826359267,253.75492908913199,255.57278274700201,257.57560402460803,258.98469030327402,259.70874616683898],"y":["District of Columbia (DCPS)","Detroit","Albuquerque","Baltimore City","Milwaukee","Cleveland","Jefferson County (KY)","Austin","Atlanta","Philadelphia","Duval County (FL)","Fort Worth (TX)","San Diego","Guilford County (NC)","Boston","Los Angeles","Orange County (FL)","Hillsborough County (FL)","<b>National public<\/b>","<b>Large city<\/b>","Charlotte","Houston","Chicago","Dallas","New York City","Clark County (NV)","Miami-Dade"],"type":"scatter","mode":"markers","name":"Low SES","marker":{"color":"#86b6ef","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["District of Columbia (DCPS)","Detroit","Albuquerque","Baltimore City","Milwaukee","Cleveland","Jefferson County (KY)","Austin","Atlanta","Philadelphia","Duval County (FL)","Fort Worth (TX)","San Diego","Guilford County (NC)","Boston","Los Angeles","Orange County (FL)","Hillsborough County (FL)","National public","Large city","Charlotte","Houston","Chicago","Dallas","New York City","Clark County (NV)","Miami-Dade"],"text":["29%","81%","41%","65%","69%","93%","47%","32%","61%","65%","29%","75%","38%","34%","59%","69%","29%","34%","33%","52%","27%","69%","64%","78%","64%","88%","51%"],"hovertemplate":["<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"line":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[246.81001245515199,244.15360448447399,260.94365102810201,252.00572712270801,251.42458932576801,260.13429716703303,264.68146117516301,253.798102394159,259.62744704938899,257.50879849115699,263.90901039615898,280.31620315232999,269.233775604318,275.74509763976101,279.95580739298902,262.90570570262599,263.83770564277597,269.94687739835001,270.794315157401,267.16763333525302,274.44087414420801,275.987681392318,267.21918770436599,277.94305149400702,284.80617890991402,270.95753441273399],"y":["District of Columbia (DCPS)","Detroit","Albuquerque","Baltimore City","Milwaukee","Jefferson County (KY)","Austin","Atlanta","Philadelphia","Duval County (FL)","Fort Worth (TX)","San Diego","Guilford County (NC)","Boston","Los Angeles","Orange County (FL)","Hillsborough County (FL)","<b>National public<\/b>","<b>Large city<\/b>","Charlotte","Houston","Chicago","Dallas","New York City","Clark County (NV)","Miami-Dade"],"type":"scatter","mode":"markers","name":"Middle SES","marker":{"color":"#2a78d6","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["District of Columbia (DCPS)","Detroit","Albuquerque","Baltimore City","Milwaukee","Jefferson County (KY)","Austin","Atlanta","Philadelphia","Duval County (FL)","Fort Worth (TX)","San Diego","Guilford County (NC)","Boston","Los Angeles","Orange County (FL)","Hillsborough County (FL)","National public","Large city","Charlotte","Houston","Chicago","Dallas","New York City","Clark County (NV)","Miami-Dade"],"text":["38%","19%","42%","30%","25%","40%","27%","19%","28%","47%","19%","36%","46%","30%","23%","45%","41%","38%","32%","46%","20%","26%","18%","29%","12%","38%"],"hovertemplate":["<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"line":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[299.06470440436198,295.31241761845502,301.89515540404898,303.15452219972798,301.68568145178898,289.99197901005499,311.08571120699401,308.08076508276002,324.68126653288601,313.15065865531199,292.021825090589,295.22167004197001,299.87155811170499,301.92342978905401,313.35900508199802,316.32152375383401,316.82874484497199,312.872967691935,295.110685088906],"y":["District of Columbia (DCPS)","Albuquerque","Jefferson County (KY)","Austin","Atlanta","Duval County (FL)","San Diego","Guilford County (NC)","Boston","Los Angeles","Orange County (FL)","Hillsborough County (FL)","<b>National public<\/b>","<b>Large city<\/b>","Charlotte","Houston","Chicago","New York City","Miami-Dade"],"type":"scatter","mode":"markers","name":"High SES","marker":{"color":"#104281","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["District of Columbia (DCPS)","Albuquerque","Jefferson County (KY)","Austin","Atlanta","Duval County (FL)","San Diego","Guilford County (NC)","Boston","Los Angeles","Orange County (FL)","Hillsborough County (FL)","National public","Large city","Charlotte","Houston","Chicago","New York City","Miami-Dade"],"text":["33%","17%","13%","41%","20%","24%","26%","20%","11%","8%","26%","25%","29%","16%","27%","11%","10%","7%","11%"],"hovertemplate":["<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"line":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-48ba0ce3d5f19fa9f5f3" style="width:100%;height:766px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-48ba0ce3d5f19fa9f5f3">{"x":{"visdat":{"97fb2c9fc60":["function () ","plotlyVisDat"],"97fb1ad8040e":["function () ","data"],"97fb5bf240e6":["function () ","data"],"97fb7d82eb32":["function () ","data"],"97fb1e1f5ffe":["function () ","data"]},"cur_data":"97fb1e1f5ffe","attrs":{"97fb1ad8040e":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"xend":{},"yend":{},"type":"scatter","mode":"lines","line":{"color":"#c3c2b7","width":2},"hoverinfo":"skip","showlegend":false,"inherit":true},"97fb5bf240e6":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"Low SES","marker":{"color":"#86b6ef","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true},"97fb7d82eb32":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"Middle SES","marker":{"color":"#2a78d6","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true},"97fb1e1f5ffe":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"High SES","marker":{"color":"#104281","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true}},"layout":{"margin":{"b":50,"l":60,"t":40,"r":20},"font":{"family":"system-ui, -apple-system, 'Segoe UI', sans-serif","color":"#52514e","size":12},"paper_bgcolor":"#fcfcfb","plot_bgcolor":"#fcfcfb","xaxis":{"domain":[0,1],"automargin":true,"title":"Average scale score","gridcolor":"#e1e0d9","zeroline":false,"linecolor":"#c3c2b7","tickfont":{"color":"#898781"}},"yaxis":{"domain":[0,1],"automargin":true,"title":"","gridcolor":"rgba(0,0,0,0)","tickfont":{"color":"#0b0b0b"},"categoryorder":"array","categoryarray":["Milwaukee","Detroit","Albuquerque","Baltimore City","District of Columbia (DCPS)","Cleveland","Austin","Philadelphia","Charlotte","Chicago","Guilford County (NC)","Atlanta","New York City","Los Angeles","Duval County (FL)","Fort Worth (TX)","Houston","Jefferson County (KY)","Dallas","<b>Large city<\/b>","<b>National public<\/b>","Boston","Orange County (FL)","Hillsborough County (FL)","San Diego","Clark County (NV)","Miami-Dade","Denver"],"type":"category"},"legend":{"orientation":"h","x":0,"y":1.02,"yanchor":"bottom","traceorder":"normal","font":{"color":"#0b0b0b"}},"hoverlabel":{"bgcolor":"white","font":{"color":"#0b0b0b"}},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d"]},"data":[{"x":[173.21854881313499,224.71933258952899,null,174.65527588214201,174.89350811954299,null,178.459901687768,238.97791561541001,null,181.91240198588901,236.19702025658901,null,184.08246315977601,248.55841950374301,null,183.66077854826599,184.45270740933699,null,185.58114187967499,245.28579332586301,null,189.196721610841,196.89272714137101,null,191.74127644615101,241.466118182169,null,192.406421804046,247.50783250762299,null,193.041749079873,239.13130333191299,null,193.805547119121,258.46373693034599,null,194.63698424688101,246.21112764303501,null,195.08831851038801,254.07298193555599,null,196.03408811632099,233.83729849062101,null,196.20553049277399,199.093319635038,null,196.27253336881799,249.202254249265,null,196.41547691925601,245.483218177292,null,196.49092978498001,209.944749491154,null,197.00925485878099,241.08533799405399,null,197.36408578296701,236.216391435936,null,198.72615324107801,255.018652966356,null,201.25070090625201,236.596319310529,null,202.40182500779301,245.26450709317299,null,205.23508081212401,249.57451010665801,null,208.927077843917,216.89510339446801,null,209.55460763199599,238.677546427495],"y":["Milwaukee","Milwaukee",null,"Detroit","Detroit",null,"Albuquerque","Albuquerque",null,"Baltimore City","Baltimore City",null,"District of Columbia (DCPS)","District of Columbia (DCPS)",null,"Cleveland","Cleveland",null,"Austin","Austin",null,"Philadelphia","Philadelphia",null,"Charlotte","Charlotte",null,"Chicago","Chicago",null,"Guilford County (NC)","Guilford County (NC)",null,"Atlanta","Atlanta",null,"New York City","New York City",null,"Los Angeles","Los Angeles",null,"Duval County (FL)","Duval County (FL)",null,"Fort Worth (TX)","Fort Worth (TX)",null,"Houston","Houston",null,"Jefferson County (KY)","Jefferson County (KY)",null,"Dallas","Dallas",null,"<b>Large city<\/b>","<b>Large city<\/b>",null,"<b>National public<\/b>","<b>National public<\/b>",null,"Boston","Boston",null,"Orange County (FL)","Orange County (FL)",null,"Hillsborough County (FL)","Hillsborough County (FL)",null,"San Diego","San Diego",null,"Clark County (NV)","Clark County (NV)",null,"Miami-Dade","Miami-Dade"],"type":"scatter","mode":"lines","line":{"color":"#c3c2b7","width":2},"hoverinfo":["skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip"],"showlegend":false,"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[173.21854881313499,174.89350811954299,178.459901687768,181.91240198588901,184.08246315977601,184.45270740933699,185.58114187967499,189.196721610841,191.74127644615101,192.406421804046,193.041749079873,193.805547119121,194.63698424688101,195.08831851038801,196.03408811632099,196.20553049277399,196.27253336881799,196.41547691925601,196.49092978498001,197.00925485878099,197.36408578296701,198.72615324107801,201.25070090625201,202.40182500779301,205.23508081212401,208.927077843917,209.55460763199599],"y":["Milwaukee","Detroit","Albuquerque","Baltimore City","District of Columbia (DCPS)","Cleveland","Austin","Philadelphia","Charlotte","Chicago","Guilford County (NC)","Atlanta","New York City","Los Angeles","Duval County (FL)","Fort Worth (TX)","Houston","Jefferson County (KY)","Dallas","<b>Large city<\/b>","<b>National public<\/b>","Boston","Orange County (FL)","Hillsborough County (FL)","San Diego","Clark County (NV)","Miami-Dade"],"type":"scatter","mode":"markers","name":"Low SES","marker":{"color":"#86b6ef","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["Milwaukee","Detroit","Albuquerque","Baltimore City","District of Columbia (DCPS)","Cleveland","Austin","Philadelphia","Charlotte","Chicago","Guilford County (NC)","Atlanta","New York City","Los Angeles","Duval County (FL)","Fort Worth (TX)","Houston","Jefferson County (KY)","Dallas","Large city","National public","Boston","Orange County (FL)","Hillsborough County (FL)","San Diego","Clark County (NV)","Miami-Dade"],"text":["60%","78%","39%","55%","23%","83%","32%","56%","25%","58%","29%","49%","50%","62%","28%","71%","63%","50%","72%","48%","31%","45%","29%","34%","33%","75%","40%"],"hovertemplate":["<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"line":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[183.801280687608,174.65527588214201,204.760503425709,183.517205640718,200.545628784238,183.66077854826599,206.40687601666201,196.89272714137101,208.497462594263,205.14472057204301,208.94395157605999,201.73350002523301,216.78756218921799,214.22328887177,208.35359080228599,199.093319635038,210.67896779574301,215.76909802279201,209.944749491154,208.864612617517,211.54679225647399,214.59997970784701,217.722304990932,212.70082323970101,220.12015920019201,216.89510339446801,220.457971634091],"y":["Milwaukee","Detroit","Albuquerque","Baltimore City","District of Columbia (DCPS)","Cleveland","Austin","Philadelphia","Charlotte","Chicago","Guilford County (NC)","Atlanta","New York City","Los Angeles","Duval County (FL)","Fort Worth (TX)","Houston","Jefferson County (KY)","Dallas","<b>Large city<\/b>","<b>National public<\/b>","Boston","Orange County (FL)","Hillsborough County (FL)","San Diego","Clark County (NV)","Miami-Dade"],"type":"scatter","mode":"markers","name":"Middle SES","marker":{"color":"#2a78d6","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["Milwaukee","Detroit","Albuquerque","Baltimore City","District of Columbia (DCPS)","Cleveland","Austin","Philadelphia","Charlotte","Chicago","Guilford County (NC)","Atlanta","New York City","Los Angeles","Duval County (FL)","Fort Worth (TX)","Houston","Jefferson County (KY)","Dallas","Large city","National public","Boston","Orange County (FL)","Hillsborough County (FL)","San Diego","Clark County (NV)","Miami-Dade"],"text":["33%","22%","41%","37%","34%","17%","28%","38%","46%","27%","45%","24%","33%","26%","46%","25%","25%","38%","22%","33%","38%","38%","44%","36%","37%","23%","44%"],"hovertemplate":["<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"line":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[224.71933258952899,238.97791561541001,236.19702025658901,248.55841950374301,245.28579332586301,241.466118182169,247.50783250762299,239.13130333191299,258.46373693034599,246.21112764303501,254.07298193555599,233.83729849062101,249.202254249265,245.483218177292,241.08533799405399,236.216391435936,255.018652966356,236.596319310529,245.26450709317299,249.57451010665801,238.677546427495],"y":["Milwaukee","Albuquerque","Baltimore City","District of Columbia (DCPS)","Austin","Charlotte","Chicago","Guilford County (NC)","Atlanta","New York City","Los Angeles","Duval County (FL)","Houston","Jefferson County (KY)","<b>Large city<\/b>","<b>National public<\/b>","Boston","Orange County (FL)","Hillsborough County (FL)","San Diego","Miami-Dade"],"type":"scatter","mode":"markers","name":"High SES","marker":{"color":"#104281","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["Milwaukee","Albuquerque","Baltimore City","District of Columbia (DCPS)","Austin","Charlotte","Chicago","Guilford County (NC)","Atlanta","New York City","Los Angeles","Duval County (FL)","Houston","Jefferson County (KY)","Large city","National public","Boston","Orange County (FL)","Hillsborough County (FL)","San Diego","Miami-Dade"],"text":["7%","21%","8%","43%","40%","29%","15%","26%","27%","16%","12%","25%","12%","11%","18%","31%","17%","28%","29%","30%","15%"],"hovertemplate":["<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"line":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-c561ff5207813f8931ce" style="width:100%;height:766px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c561ff5207813f8931ce">{"x":{"visdat":{"97fb126bc7d5":["function () ","plotlyVisDat"],"97fb620c7a65":["function () ","data"],"97fb2137af2d":["function () ","data"],"97fb4ecdc464":["function () ","data"],"97fb2718a9a7":["function () ","data"]},"cur_data":"97fb2718a9a7","attrs":{"97fb620c7a65":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"xend":{},"yend":{},"type":"scatter","mode":"lines","line":{"color":"#c3c2b7","width":2},"hoverinfo":"skip","showlegend":false,"inherit":true},"97fb2137af2d":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"Low SES","marker":{"color":"#86b6ef","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true},"97fb4ecdc464":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"Middle SES","marker":{"color":"#2a78d6","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true},"97fb2718a9a7":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","name":"High SES","marker":{"color":"#104281","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":{},"text":{},"hovertemplate":"<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","inherit":true}},"layout":{"margin":{"b":50,"l":60,"t":40,"r":20},"font":{"family":"system-ui, -apple-system, 'Segoe UI', sans-serif","color":"#52514e","size":12},"paper_bgcolor":"#fcfcfb","plot_bgcolor":"#fcfcfb","xaxis":{"domain":[0,1],"automargin":true,"title":"Average scale score","gridcolor":"#e1e0d9","zeroline":false,"linecolor":"#c3c2b7","tickfont":{"color":"#898781"}},"yaxis":{"domain":[0,1],"automargin":true,"title":"","gridcolor":"rgba(0,0,0,0)","tickfont":{"color":"#0b0b0b"},"categoryorder":"array","categoryarray":["Austin","Albuquerque","Detroit","District of Columbia (DCPS)","Cleveland","Milwaukee","Fort Worth (TX)","Guilford County (NC)","Orange County (FL)","Baltimore City","Philadelphia","Boston","Jefferson County (KY)","Atlanta","Houston","Duval County (FL)","Charlotte","<b>National public<\/b>","Dallas","Los Angeles","Hillsborough County (FL)","<b>Large city<\/b>","San Diego","New York City","Chicago","Clark County (NV)","Miami-Dade","Denver"],"type":"category"},"legend":{"orientation":"h","x":0,"y":1.02,"yanchor":"bottom","traceorder":"normal","font":{"color":"#0b0b0b"}},"hoverlabel":{"bgcolor":"white","font":{"color":"#0b0b0b"}},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d"]},"data":[{"x":[219.20481276367801,283.61943272367,null,226.56279975495801,276.74259666351298,null,228.10118298356201,234.67457225219101,null,228.37318070137599,287.410346974807,null,231.55929873220401,231.55929873220401,null,232.28742434614301,250.25587365533499,null,233.163872136365,245.36471340767301,null,233.62744427143099,279.90114063656603,null,233.80951842464799,271.92540614969698,null,233.92746771146599,245.38684323713201,null,233.96379194355899,248.18000561631399,null,234.08559387797601,302.30350466808102,null,235.354468657561,288.09049368827499,null,236.93145744985901,293.16601457051303,null,237.26181426307599,288.49706809314,null,238.34386705774199,267.85491790393797,null,238.49090808938101,282.57340010569698,null,238.665197587021,279.38697658716802,null,239.11126622603899,255.853281790734,null,239.43459339180899,298.78281447234798,null,240.18086789838799,277.29458817075601,null,240.374853273111,282.51636003130102,null,240.87228891609001,292.62230995716902,null,244.10602673688501,294.96687476259598,null,246.89296178153199,294.83928769065699,null,247.32616761171101,269.86992725395498,null,250.960830665233,278.61961993085299],"y":["Austin","Austin",null,"Albuquerque","Albuquerque",null,"Detroit","Detroit",null,"District of Columbia (DCPS)","District of Columbia (DCPS)",null,"Cleveland","Cleveland",null,"Milwaukee","Milwaukee",null,"Fort Worth (TX)","Fort Worth (TX)",null,"Guilford County (NC)","Guilford County (NC)",null,"Orange County (FL)","Orange County (FL)",null,"Baltimore City","Baltimore City",null,"Philadelphia","Philadelphia",null,"Boston","Boston",null,"Jefferson County (KY)","Jefferson County (KY)",null,"Atlanta","Atlanta",null,"Houston","Houston",null,"Duval County (FL)","Duval County (FL)",null,"Charlotte","Charlotte",null,"<b>National public<\/b>","<b>National public<\/b>",null,"Dallas","Dallas",null,"Los Angeles","Los Angeles",null,"Hillsborough County (FL)","Hillsborough County (FL)",null,"<b>Large city<\/b>","<b>Large city<\/b>",null,"San Diego","San Diego",null,"New York City","New York City",null,"Chicago","Chicago",null,"Clark County (NV)","Clark County (NV)",null,"Miami-Dade","Miami-Dade"],"type":"scatter","mode":"lines","line":{"color":"#c3c2b7","width":2},"hoverinfo":["skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip",null,"skip","skip"],"showlegend":false,"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[219.20481276367801,226.56279975495801,228.10118298356201,228.37318070137599,231.55929873220401,232.28742434614301,233.163872136365,233.62744427143099,233.80951842464799,233.92746771146599,233.96379194355899,234.08559387797601,235.354468657561,236.93145744985901,237.26181426307599,238.34386705774199,238.49090808938101,238.665197587021,239.11126622603899,239.43459339180899,240.18086789838799,240.374853273111,240.87228891609001,244.10602673688501,246.89296178153199,247.32616761171101,250.960830665233],"y":["Austin","Albuquerque","Detroit","District of Columbia (DCPS)","Cleveland","Milwaukee","Fort Worth (TX)","Guilford County (NC)","Orange County (FL)","Baltimore City","Philadelphia","Boston","Jefferson County (KY)","Atlanta","Houston","Duval County (FL)","Charlotte","<b>National public<\/b>","Dallas","Los Angeles","Hillsborough County (FL)","<b>Large city<\/b>","San Diego","New York City","Chicago","Clark County (NV)","Miami-Dade"],"type":"scatter","mode":"markers","name":"Low SES","marker":{"color":"#86b6ef","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["Austin","Albuquerque","Detroit","District of Columbia (DCPS)","Cleveland","Milwaukee","Fort Worth (TX)","Guilford County (NC)","Orange County (FL)","Baltimore City","Philadelphia","Boston","Jefferson County (KY)","Atlanta","Houston","Duval County (FL)","Charlotte","National public","Dallas","Los Angeles","Hillsborough County (FL)","Large city","San Diego","New York City","Chicago","Clark County (NV)","Miami-Dade"],"text":["32%","39%","82%","26%","92%","69%","76%","31%","25%","62%","65%","60%","48%","60%","68%","30%","27%","33%","81%","67%","36%","51%","37%","65%","68%","87%","50%"],"hovertemplate":["<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Low SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"line":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[249.33857759366799,247.09124341695599,234.67457225219101,239.06270951038101,250.25587365533499,245.36471340767301,253.38398413215,249.26018245265701,245.38684323713201,248.18000561631399,261.14120085199397,257.95926450829103,256.53508364988102,258.50264218943897,244.53760624774799,248.019125843746,255.23879985141599,255.853281790734,261.39119607287199,252.24763289046601,257.33461234853002,267.31574061214297,266.79913460993203,261.75968610530498,269.86992725395498,254.83693689746499],"y":["Austin","Albuquerque","Detroit","District of Columbia (DCPS)","Milwaukee","Fort Worth (TX)","Guilford County (NC)","Orange County (FL)","Baltimore City","Philadelphia","Boston","Jefferson County (KY)","Atlanta","Houston","Duval County (FL)","Charlotte","<b>National public<\/b>","Dallas","Los Angeles","Hillsborough County (FL)","<b>Large city<\/b>","San Diego","New York City","Chicago","Clark County (NV)","Miami-Dade"],"type":"scatter","mode":"markers","name":"Middle SES","marker":{"color":"#2a78d6","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["Austin","Albuquerque","Detroit","District of Columbia (DCPS)","Milwaukee","Fort Worth (TX)","Guilford County (NC)","Orange County (FL)","Baltimore City","Philadelphia","Boston","Jefferson County (KY)","Atlanta","Houston","Duval County (FL)","Charlotte","National public","Dallas","Los Angeles","Hillsborough County (FL)","Large city","San Diego","New York City","Chicago","Clark County (NV)","Miami-Dade"],"text":["27%","42%","17%","41%","24%","18%","47%","49%","32%","28%","28%","41%","20%","23%","45%","48%","38%","16%","26%","39%","33%","39%","28%","21%","13%","39%"],"hovertemplate":["<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>Middle SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"line":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[283.61943272367,276.74259666351298,287.410346974807,279.90114063656603,271.92540614969698,302.30350466808102,288.09049368827499,293.16601457051303,288.49706809314,267.85491790393797,282.57340010569698,279.38697658716802,298.78281447234798,277.29458817075601,282.51636003130102,292.62230995716902,294.96687476259598,294.83928769065699,278.61961993085299],"y":["Austin","Albuquerque","District of Columbia (DCPS)","Guilford County (NC)","Orange County (FL)","Boston","Jefferson County (KY)","Atlanta","Houston","Duval County (FL)","Charlotte","<b>National public<\/b>","Los Angeles","Hillsborough County (FL)","<b>Large city<\/b>","San Diego","New York City","Chicago","Miami-Dade"],"type":"scatter","mode":"markers","name":"High SES","marker":{"color":"#104281","size":10,"line":{"color":"#fcfcfb","width":2}},"customdata":["Austin","Albuquerque","District of Columbia (DCPS)","Guilford County (NC)","Orange County (FL)","Boston","Jefferson County (KY)","Atlanta","Houston","Duval County (FL)","Charlotte","National public","Los Angeles","Hillsborough County (FL)","Large city","San Diego","New York City","Chicago","Miami-Dade"],"text":["41%","18%","33%","22%","25%","12%","11%","20%","10%","25%","25%","29%","7%","25%","16%","24%","7%","11%","11%"],"hovertemplate":["<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>","<b>%{customdata}<\/b><br>High SES: %{x:.0f}<br>Share of students: %{text}<extra><\/extra>"],"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"line":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Missing dots mean NAEP did not report the estimate because reporting standards were not met (usually too few students in that SES group). See <a href="./about.html">About</a> for details.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/DavidBamat\.github\.io\/TUDAs-SES\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Source: U.S. Department of Education, NCES, National Assessment of Educational Progress (NAEP), 2024 Mathematics and Reading Assessments, via the NAEP Data Service API.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

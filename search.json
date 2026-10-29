@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "proficiency.html",
+    "href": "proficiency.html",
+    "title": "Achievement Levels by SES",
+    "section": "",
+    "text": "Percentage of students in each SES group performing at or above the NAEP Proficient achievement level. Districts are sorted by the Low SES percentage.\n\nGrade 4 MathematicsGrade 8 MathematicsGrade 4 ReadingGrade 8 Reading"
+  },
+  {
+    "objectID": "proficiency.html#at-or-above-naep-proficient",
+    "href": "proficiency.html#at-or-above-naep-proficient",
+    "title": "Achievement Levels by SES",
+    "section": "",
+    "text": "Percentage of students in each SES group performing at or above the NAEP Proficient achievement level. Districts are sorted by the Low SES percentage.\n\nGrade 4 MathematicsGrade 8 MathematicsGrade 4 ReadingGrade 8 Reading"
+  },
+  {
+    "objectID": "proficiency.html#at-or-above-naep-basic",
+    "href": "proficiency.html#at-or-above-naep-basic",
+    "title": "Achievement Levels by SES",
+    "section": "At or above NAEP Basic",
+    "text": "At or above NAEP Basic\n\nGrade 4 MathematicsGrade 8 MathematicsGrade 4 ReadingGrade 8 Reading"
+  },
+  {
+    "objectID": "gaps.html",
+    "href": "gaps.html",
+    "title": "SES Achievement Gaps",
+    "section": "",
+    "text": "The gap between the average scores of High SES and Low SES students in each district. Larger bars mean a wider achievement gap. Gray bars are the National public and Large city comparison groups. Districts where either estimate was not reported are omitted.\n\nGrade 4 MathematicsGrade 8 MathematicsGrade 4 ReadingGrade 8 Reading\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe NAEP API returns point estimates only, without standard errors, so differences between districts shown here have not been tested for statistical significance. Use the NAEP Data Explorer for significance testing."
+  },
+  {
+    "objectID": "composition.html",
+    "href": "composition.html",
+    "title": "SES Composition of Districts",
+    "section": "",
+    "text": "Share of each district’s assessed students in the Low, Middle, and High SES groups. Districts are sorted by the share of Low SES students. Context matters when reading the achievement charts: in some districts, the High SES group is very small and its results could not be reported.\n\nGrade 4 MathematicsGrade 8 MathematicsGrade 4 ReadingGrade 8 Reading"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the Data",
+    "section": "",
+    "text": "All results come from the NAEP Data Service API (GetAdhocData endpoint) for the 2024 NAEP mathematics and reading assessments at grades 4 and 8. The script R/fetch_naep.R queries the API and caches results to data/naep_tuda_ses.csv; the site pages read that file. To refresh the data, run:\nRscript R/fetch_naep.R\nquarto render\nRequests use these parameters:\n\n\n\n\n\n\n\nParameter\nValues\n\n\n\n\nsubject / subscale\nmathematics / MRPCM (composite), reading / RRPCM (composite)\n\n\ngrade\n4, 8\n\n\nYear\n2024\n\n\nvariable\nSESCAT (SES index, 3 components, categorized); TOTAL (all students)\n\n\nstattype\nMN:MN (average scale score), RP:RP (percent of students), ALC:AB (% at or above Basic), ALC:AP (% at or above Proficient)\n\n\njurisdiction\nNP (National public), NL (Large city), and the 26 TUDA district codes"
+  },
+  {
+    "objectID": "about.html#source",
+    "href": "about.html#source",
+    "title": "About the Data",
+    "section": "",
+    "text": "All results come from the NAEP Data Service API (GetAdhocData endpoint) for the 2024 NAEP mathematics and reading assessments at grades 4 and 8. The script R/fetch_naep.R queries the API and caches results to data/naep_tuda_ses.csv; the site pages read that file. To refresh the data, run:\nRscript R/fetch_naep.R\nquarto render\nRequests use these parameters:\n\n\n\n\n\n\n\nParameter\nValues\n\n\n\n\nsubject / subscale\nmathematics / MRPCM (composite), reading / RRPCM (composite)\n\n\ngrade\n4, 8\n\n\nYear\n2024\n\n\nvariable\nSESCAT (SES index, 3 components, categorized); TOTAL (all students)\n\n\nstattype\nMN:MN (average scale score), RP:RP (percent of students), ALC:AB (% at or above Basic), ALC:AP (% at or above Proficient)\n\n\njurisdiction\nNP (National public), NL (Large city), and the 26 TUDA district codes"
+  },
+  {
+    "objectID": "about.html#the-naep-ses-index",
+    "href": "about.html#the-naep-ses-index",
+    "title": "About the Data",
+    "section": "The NAEP SES index",
+    "text": "The NAEP SES index\nNAEP began reporting a socioeconomic status (SES) index with the 2024 assessments. This site uses the 3-component index (SESCAT), which is available at both grades 4 and 8. It combines:\n\nthe student’s economically disadvantaged status,\nthe percentage of students in the student’s school classified as economically disadvantaged, and\nthe number of books in the student’s home (student-reported).\n\nA 4-component version (SESCATP) that adds the highest level of parental education is available only at grades 8 and 12, so it is not used here. Index scores are grouped into Low, Middle, and High SES categories by NAEP. See the NAEP SES Index dashboard and NAGB’s overview for details."
+  },
+  {
+    "objectID": "about.html#districts",
+    "href": "about.html#districts",
+    "title": "About the Data",
+    "section": "Districts",
+    "text": "Districts\nThe Trial Urban District Assessment (TUDA) reports NAEP results for large urban school districts. The 26 districts assessed in 2024 are compared with National public (all public schools in the nation) and Large city (public schools in cities with populations of 250,000 or more)."
+  },
+  {
+    "objectID": "about.html#caveats",
+    "href": "about.html#caveats",
+    "title": "About the Data",
+    "section": "Caveats",
+    "text": "Caveats\n\nSuppressed estimates. Where NAEP reporting standards were not met, the API returns a placeholder value (999) with isStatDisplayable = 0. These are shown as missing. High SES results are suppressed in several districts with few High SES students, and Denver has no reportable SES results in 2024.\nNo significance testing. The API returns point estimates without standard errors. Differences shown here have not been tested for statistical significance; use the NAEP Data Explorer for that.\nScale comparisons. Mathematics and reading are reported on separate scales, so score differences should not be compared across subjects. Grade 4 and grade 8 results are not directly comparable either.\nRounding. Values are rounded for display; gaps are computed from unrounded estimates."
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "All values used on this site, as returned by the NAEP Data Service API. Use the buttons to copy or download the table. The full cached extract is also available as naep_tuda_ses.csv.\n\n\n\n\n\n\nBlank cells are estimates NAEP did not report because reporting standards were not met."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NAEP Achievement in Large Urban Districts by Socioeconomic Status",
+    "section": "",
+    "text": "Beginning with the 2024 assessments, the National Assessment of Educational Progress (NAEP) reports results by a socioeconomic status (SES) index built from student and school information. This site uses the NAEP Data Service API to show how achievement varies by SES within each of the 26 large urban districts that took part in the 2024 Trial Urban District Assessment."
+  },
+  {
+    "objectID": "index.html#average-scores-by-ses-level",
+    "href": "index.html#average-scores-by-ses-level",
+    "title": "NAEP Achievement in Large Urban Districts by Socioeconomic Status",
+    "section": "Average scores by SES level",
+    "text": "Average scores by SES level\nEach row is a district; dots show the average scale score of its Low, Middle, and High SES students. Districts are sorted by the Low SES average. National public and Large city are shown in bold for reference. Hover over a dot for the score and the share of the district’s students in that SES group.\n\nGrade 4 MathematicsGrade 8 MathematicsGrade 4 ReadingGrade 8 Reading\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissing dots mean NAEP did not report the estimate because reporting standards were not met (usually too few students in that SES group). See About for details."
+  }
+]
