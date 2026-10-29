@@ -1,0 +1,17 @@
+---
+title: "Data"
+---
+
+```{r}
+#| include: false
+source(here::here("R/site_helpers.R"))
+```
+
+All values used on this site, as returned by the NAEP Data Service API. Use the buttons to copy or download the table.
+The full cached extract is also available as [`naep_tuda_ses.csv`](data/naep_tuda_ses.csv).
+
+```{r}
+naep_table()
+```
+
+Blank cells are estimates NAEP did not report because reporting standards were not met.

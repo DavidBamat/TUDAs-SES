@@ -1,0 +1,73 @@
+---
+title: "Achievement Levels by SES"
+---
+
+```{r}
+#| include: false
+source(here::here("R/site_helpers.R"))
+```
+
+## At or above NAEP Proficient
+
+Percentage of students in each SES group performing at or above the *NAEP Proficient* achievement level.
+Districts are sorted by the Low SES percentage.
+
+::: {.panel-tabset}
+
+## Grade 4 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 4, "proficient")
+```
+
+## Grade 8 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 8, "proficient")
+```
+
+## Grade 4 Reading
+
+```{r}
+ses_dotplot("Reading", 4, "proficient")
+```
+
+## Grade 8 Reading
+
+```{r}
+ses_dotplot("Reading", 8, "proficient")
+```
+
+:::
+
+
+## At or above NAEP Basic
+
+::: {.panel-tabset}
+
+## Grade 4 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 4, "basic")
+```
+
+## Grade 8 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 8, "basic")
+```
+
+## Grade 4 Reading
+
+```{r}
+ses_dotplot("Reading", 4, "basic")
+```
+
+## Grade 8 Reading
+
+```{r}
+ses_dotplot("Reading", 8, "basic")
+```
+
+:::
+

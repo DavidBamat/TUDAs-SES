@@ -1,0 +1,218 @@
+---
+title: "NAEP Achievement in Large Urban Districts by Socioeconomic Status"
+subtitle: "Trial Urban District Assessment (TUDA), 2024"
+date: today
+format:
+  html:
+    theme: cosmo
+    css: ../styles.css
+    embed-resources: true
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    page-layout: full
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+source(here::here("R/site_helpers.R"))
+```
+
+Beginning with the 2024 assessments, the National Assessment of Educational Progress (NAEP) reports results by a **socioeconomic status (SES) index** built from student and school information. This report uses the [NAEP Data Service API](https://www.nationsreportcard.gov/api_documentation.aspx) to show how achievement varies by SES within each of the `r n_tuda` large urban districts that took part in the 2024 [Trial Urban District Assessment](https://www.nationsreportcard.gov/tuda/).
+
+::: {.callout-note appearance="simple"}
+## At a glance (grade 8 mathematics)
+
+- In large cities, `r low_share("Large city", "Mathematics", 8)`% of eighth-graders are in the Low SES group, compared with `r low_share("National public", "Mathematics", 8)`% in the nation's public schools.
+- High SES eighth-graders in large cities scored `r ref_gap("Large city", "Mathematics", 8)` points higher in mathematics than their Low SES peers (national public: `r ref_gap("National public", "Mathematics", 8)` points).
+- Across districts with reportable results, that gap ranges from `r gap_range("Mathematics", 8)[1]` to `r gap_range("Mathematics", 8)[2]` points.
+:::
+
+## Average scores by SES level
+
+Each row is a district; dots show the average scale score of its Low, Middle, and High SES students. Districts are sorted by the Low SES average. **National public** and **Large city** are shown in bold for reference. Hover over a dot for the score and the share of the district's students in that SES group. Missing dots mean NAEP did not report the estimate because reporting standards were not met.
+
+::: panel-tabset
+
+### Grade 4 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 4, "mean")
+```
+
+### Grade 8 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 8, "mean")
+```
+
+### Grade 4 Reading
+
+```{r}
+ses_dotplot("Reading", 4, "mean")
+```
+
+### Grade 8 Reading
+
+```{r}
+ses_dotplot("Reading", 8, "mean")
+```
+
+:::
+
+
+## SES achievement gaps
+
+The gap between the average scores of High SES and Low SES students in each district. Gray bars are the **National public** and **Large city** comparison groups. Districts where either estimate was not reported are omitted.
+
+::: panel-tabset
+
+### Grade 4 Mathematics
+
+```{r}
+ses_gap_chart("Mathematics", 4)
+```
+
+### Grade 8 Mathematics
+
+```{r}
+ses_gap_chart("Mathematics", 8)
+```
+
+### Grade 4 Reading
+
+```{r}
+ses_gap_chart("Reading", 4)
+```
+
+### Grade 8 Reading
+
+```{r}
+ses_gap_chart("Reading", 8)
+```
+
+:::
+
+
+## At or above NAEP Proficient
+
+Percentage of students in each SES group performing at or above the *NAEP Proficient* achievement level, sorted by the Low SES percentage.
+
+::: panel-tabset
+
+### Grade 4 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 4, "proficient")
+```
+
+### Grade 8 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 8, "proficient")
+```
+
+### Grade 4 Reading
+
+```{r}
+ses_dotplot("Reading", 4, "proficient")
+```
+
+### Grade 8 Reading
+
+```{r}
+ses_dotplot("Reading", 8, "proficient")
+```
+
+:::
+
+
+## At or above NAEP Basic
+
+::: panel-tabset
+
+### Grade 4 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 4, "basic")
+```
+
+### Grade 8 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 8, "basic")
+```
+
+### Grade 4 Reading
+
+```{r}
+ses_dotplot("Reading", 4, "basic")
+```
+
+### Grade 8 Reading
+
+```{r}
+ses_dotplot("Reading", 8, "basic")
+```
+
+:::
+
+
+## SES composition of districts
+
+Share of each district's assessed students in the Low, Middle, and High SES groups, sorted by the share of Low SES students.
+
+::: panel-tabset
+
+### Grade 4 Mathematics
+
+```{r}
+ses_composition_chart("Mathematics", 4)
+```
+
+### Grade 8 Mathematics
+
+```{r}
+ses_composition_chart("Mathematics", 8)
+```
+
+### Grade 4 Reading
+
+```{r}
+ses_composition_chart("Reading", 4)
+```
+
+### Grade 8 Reading
+
+```{r}
+ses_composition_chart("Reading", 8)
+```
+
+:::
+
+
+## Data
+
+All values in this report, as returned by the NAEP Data Service API. Use the buttons to copy or download the table. Blank cells are estimates NAEP did not report.
+
+```{r}
+naep_table()
+```
+
+## About the data
+
+**Source.** U.S. Department of Education, NCES, National Assessment of Educational Progress (NAEP), 2024 Mathematics and Reading Assessments, retrieved from the NAEP Data Service API (`GetAdhocData`). Data use the `SESCAT` variable (SES index, 3 components, categorized) for grades 4 and 8, with `MN:MN` (average score), `RP:RP` (percent of students), `ALC:AB` and `ALC:AP` (percent at or above Basic and Proficient).
+
+**The NAEP SES index.** The 3-component index combines the student's economically disadvantaged status, the percentage of students in the student's school classified as economically disadvantaged, and the number of books in the student's home (student-reported). NAEP groups index scores into Low, Middle, and High SES. See the [NAEP SES Index dashboard](https://www.nationsreportcard.gov/dashboards/sesindex/).
+
+**Districts.** The 26 TUDA districts assessed in 2024 are compared with **National public** (all public schools in the nation) and **Large city** (public schools in cities with populations of 250,000 or more).
+
+**Caveats.**
+
+- *Suppressed estimates.* Where NAEP reporting standards were not met, estimates are shown as missing. High SES results are suppressed in several districts, and Denver has no reportable SES results in 2024.
+- *No significance testing.* The API returns point estimates without standard errors, so differences shown here have not been tested for statistical significance. Use the [NAEP Data Explorer](https://www.nationsreportcard.gov/ndecore/xplore/NDE) for that.
+- *Scale comparisons.* Mathematics and reading are on separate scales, and grade 4 and grade 8 results are not directly comparable.

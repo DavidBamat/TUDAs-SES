@@ -1,0 +1,41 @@
+---
+title: "SES Composition of Districts"
+---
+
+```{r}
+#| include: false
+source(here::here("R/site_helpers.R"))
+```
+
+Share of each district's assessed students in the Low, Middle, and High SES groups.
+Districts are sorted by the share of Low SES students. Context matters when reading the achievement
+charts: in some districts, the High SES group is very small and its results could not be reported.
+
+::: {.panel-tabset}
+
+## Grade 4 Mathematics
+
+```{r}
+ses_composition_chart("Mathematics", 4)
+```
+
+## Grade 8 Mathematics
+
+```{r}
+ses_composition_chart("Mathematics", 8)
+```
+
+## Grade 4 Reading
+
+```{r}
+ses_composition_chart("Reading", 4)
+```
+
+## Grade 8 Reading
+
+```{r}
+ses_composition_chart("Reading", 8)
+```
+
+:::
+

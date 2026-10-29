@@ -1,0 +1,1793 @@
+year,subject,grade,jurisdiction,jurisLabel,variable,group,stattype,value,errorFlag
+2024,Mathematics,4,NL,Large city,SESCAT,Low SES,ALC:AB,59.5587732696209,0
+2024,Mathematics,4,NL,Large city,SESCAT,Middle SES,ALC:AB,71.2337943178575,0
+2024,Mathematics,4,NL,Large city,SESCAT,High SES,ALC:AB,91.2719039184885,0
+2024,Mathematics,4,NP,National public,SESCAT,Low SES,ALC:AB,60.595566763974396,0
+2024,Mathematics,4,NP,National public,SESCAT,Middle SES,ALC:AB,75.3344868528778,0
+2024,Mathematics,4,NP,National public,SESCAT,High SES,ALC:AB,92.4882207905851,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,Low SES,ALC:AB,49.9101529127824,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,Middle SES,ALC:AB,64.9648039814904,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,High SES,ALC:AB,97.5500273004926,0
+2024,Mathematics,4,XB,Boston,SESCAT,Low SES,ALC:AB,55.6105607115361,0
+2024,Mathematics,4,XB,Boston,SESCAT,Middle SES,ALC:AB,69.748834885516,0
+2024,Mathematics,4,XB,Boston,SESCAT,High SES,ALC:AB,96.5935789139197,0
+2024,Mathematics,4,XC,Chicago,SESCAT,Low SES,ALC:AB,51.0981358315816,0
+2024,Mathematics,4,XC,Chicago,SESCAT,Middle SES,ALC:AB,64.8655671160774,0
+2024,Mathematics,4,XC,Chicago,SESCAT,High SES,ALC:AB,91.53615345277,0
+2024,Mathematics,4,XD,San Diego,SESCAT,Low SES,ALC:AB,61.7914254809725,0
+2024,Mathematics,4,XD,San Diego,SESCAT,Middle SES,ALC:AB,76.6749560688881,0
+2024,Mathematics,4,XD,San Diego,SESCAT,High SES,ALC:AB,96.0379035021674,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,Low SES,ALC:AB,65.6136836453345,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,Middle SES,ALC:AB,76.8808346323792,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,High SES,ALC:AB,90.6222644906848,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,Low SES,ALC:AB,65.0479603935089,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,Middle SES,ALC:AB,71.7817752315875,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,High SES,ALC:AB,94.6727702541094,0
+2024,Mathematics,4,XH,Houston,SESCAT,Low SES,ALC:AB,66.8980509019725,0
+2024,Mathematics,4,XH,Houston,SESCAT,Middle SES,ALC:AB,71.9250546897303,0
+2024,Mathematics,4,XH,Houston,SESCAT,High SES,ALC:AB,98.0124884839771,258
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,Low SES,ALC:AB,81.8870476100312,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,Middle SES,ALC:AB,84.352085890101307,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,High SES,ALC:AB,95.0956699574105,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,Low SES,ALC:AB,53.3698912877523,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,Middle SES,ALC:AB,76.6419294480025,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,High SES,ALC:AB,92.8843893617949,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,Low SES,ALC:AB,34.4455150498181,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,Middle SES,ALC:AB,45.2577028963611,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,High SES,ALC:AB,NA,257
+2024,Mathematics,4,XL,Los Angeles,SESCAT,Low SES,ALC:AB,56.856660236036,0
+2024,Mathematics,4,XL,Los Angeles,SESCAT,Middle SES,ALC:AB,72.2416263553321,0
+2024,Mathematics,4,XL,Los Angeles,SESCAT,High SES,ALC:AB,95.8146023259152,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,Low SES,ALC:AB,40.2077653253063,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,Middle SES,ALC:AB,48.1577122722302,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,High SES,ALC:AB,NA,257
+2024,Mathematics,4,XN,New York City,SESCAT,Low SES,ALC:AB,56.1780659880412,0
+2024,Mathematics,4,XN,New York City,SESCAT,Middle SES,ALC:AB,73.5654145355067,0
+2024,Mathematics,4,XN,New York City,SESCAT,High SES,ALC:AB,94.7252454344968,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,Low SES,ALC:AB,68.75766654372,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,Middle SES,ALC:AB,80.2037264645361,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,High SES,ALC:AB,94.4227284360759,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,Low SES,ALC:AB,47.4951939311624,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,Middle SES,ALC:AB,55.3225204059885,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,High SES,ALC:AB,NA,257
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,Low SES,ALC:AB,43.9511884622278,0
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,Middle SES,ALC:AB,58.8350870009923,0
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,High SES,ALC:AB,91.5246791148679,0
+2024,Mathematics,4,XR,Detroit,SESCAT,Low SES,ALC:AB,31.0447469272178,0
+2024,Mathematics,4,XR,Detroit,SESCAT,Middle SES,ALC:AB,39.3330867731986,0
+2024,Mathematics,4,XR,Detroit,SESCAT,High SES,ALC:AB,NA,259
+2024,Mathematics,4,XS,Dallas,SESCAT,Low SES,ALC:AB,71.7175847109093,0
+2024,Mathematics,4,XS,Dallas,SESCAT,Middle SES,ALC:AB,77.9414937262529,0
+2024,Mathematics,4,XS,Dallas,SESCAT,High SES,ALC:AB,NA,259
+2024,Mathematics,4,XT,Charlotte,SESCAT,Low SES,ALC:AB,64.2185348221037,0
+2024,Mathematics,4,XT,Charlotte,SESCAT,Middle SES,ALC:AB,71.112388076587,0
+2024,Mathematics,4,XT,Charlotte,SESCAT,High SES,ALC:AB,93.9836293457912,0
+2024,Mathematics,4,XU,Austin,SESCAT,Low SES,ALC:AB,55.165580916633,0
+2024,Mathematics,4,XU,Austin,SESCAT,Middle SES,ALC:AB,73.3466046870947,0
+2024,Mathematics,4,XU,Austin,SESCAT,High SES,ALC:AB,94.7064659695793,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,Low SES,ALC:AB,39.9041142080783,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,Middle SES,ALC:AB,49.6772438802438,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,High SES,ALC:AB,NA,259
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,Low SES,ALC:AB,40.6304318425308,131072
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,Middle SES,ALC:AB,56.4002622186555,131072
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,High SES,ALC:AB,92.4600677428574,131072
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,Low SES,ALC:AB,69.4598853013589,0
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,Middle SES,ALC:AB,74.0117361920685,0
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,High SES,ALC:AB,NA,257
+2024,Mathematics,4,XY,Denver,SESCAT,Low SES,ALC:AB,NA,259
+2024,Mathematics,4,XY,Denver,SESCAT,Middle SES,ALC:AB,NA,259
+2024,Mathematics,4,XY,Denver,SESCAT,High SES,ALC:AB,NA,259
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,Low SES,ALC:AB,62.5221007828354,0
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,Middle SES,ALC:AB,66.2690891990801,0
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,High SES,ALC:AB,NA,259
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,Low SES,ALC:AB,71.9558346806895,0
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,Middle SES,ALC:AB,76.9188577148783,0
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,High SES,ALC:AB,92.3550191441421,0
+2024,Mathematics,4,NL,Large city,TOTAL,All students,ALC:AB,68.5900465837195,0
+2024,Mathematics,4,NP,National public,TOTAL,All students,ALC:AB,75.5786425930485,0
+2024,Mathematics,4,XA,Atlanta,TOTAL,All students,ALC:AB,65.6146094749708,0
+2024,Mathematics,4,XB,Boston,TOTAL,All students,ALC:AB,66.8885439627498,0
+2024,Mathematics,4,XC,Chicago,TOTAL,All students,ALC:AB,59.8462095712348,0
+2024,Mathematics,4,XD,San Diego,TOTAL,All students,ALC:AB,76.4390663832161,0
+2024,Mathematics,4,XE,Duval County (FL),TOTAL,All students,ALC:AB,76.2564119944217,0
+2024,Mathematics,4,XG,Guilford County (NC),TOTAL,All students,ALC:AB,75.1610339812325,0
+2024,Mathematics,4,XH,Houston,TOTAL,All students,ALC:AB,71.0315317481252,0
+2024,Mathematics,4,XI,Miami-Dade,TOTAL,All students,ALC:AB,85.0994862547421,0
+2024,Mathematics,4,XJ,Jefferson County (KY),TOTAL,All students,ALC:AB,66.5224523435061,0
+2024,Mathematics,4,XK,Milwaukee,TOTAL,All students,ALC:AB,39.6642769503934,0
+2024,Mathematics,4,XL,Los Angeles,TOTAL,All students,ALC:AB,64.6665745891247,0
+2024,Mathematics,4,XM,Baltimore City,TOTAL,All students,ALC:AB,45.0581589746879,0
+2024,Mathematics,4,XN,New York City,TOTAL,All students,ALC:AB,66.7878343644076,0
+2024,Mathematics,4,XO,Hillsborough County (FL),TOTAL,All students,ALC:AB,79.153726566503,0
+2024,Mathematics,4,XP,Philadelphia,TOTAL,All students,ALC:AB,51.7238631310163,0
+2024,Mathematics,4,XQ,Albuquerque,TOTAL,All students,ALC:AB,59.8229212247963,0
+2024,Mathematics,4,XR,Detroit,TOTAL,All students,ALC:AB,32.08137218161,0
+2024,Mathematics,4,XS,Dallas,TOTAL,All students,ALC:AB,74.3303504383568,0
+2024,Mathematics,4,XT,Charlotte,TOTAL,All students,ALC:AB,75.2558712981807,0
+2024,Mathematics,4,XU,Austin,TOTAL,All students,ALC:AB,75.8762484360284,0
+2024,Mathematics,4,XV,Cleveland,TOTAL,All students,ALC:AB,40.6611707447091,0
+2024,Mathematics,4,XW,District of Columbia (DCPS),TOTAL,All students,ALC:AB,66.7531156152934,131072
+2024,Mathematics,4,XX,Clark County (NV),TOTAL,All students,ALC:AB,70.0805445553059,0
+2024,Mathematics,4,XY,Denver,TOTAL,All students,ALC:AB,66.6853846008817,0
+2024,Mathematics,4,XZ,Fort Worth (TX),TOTAL,All students,ALC:AB,64.5610052979919,0
+2024,Mathematics,4,YB,Orange County (FL),TOTAL,All students,ALC:AB,79.4452610137133,0
+2024,Mathematics,4,NL,Large city,SESCAT,Low SES,ALC:AP,19.9055437660299,0
+2024,Mathematics,4,NL,Large city,SESCAT,Middle SES,ALC:AP,33.4851086895828,0
+2024,Mathematics,4,NL,Large city,SESCAT,High SES,ALC:AP,67.6703447733069,0
+2024,Mathematics,4,NP,National public,SESCAT,Low SES,ALC:AP,20.1799614936188,0
+2024,Mathematics,4,NP,National public,SESCAT,Middle SES,ALC:AP,35.5227118994317,0
+2024,Mathematics,4,NP,National public,SESCAT,High SES,ALC:AP,64.9092217183672,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,Low SES,ALC:AP,13.7384935403781,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,Middle SES,ALC:AP,23.7010697653905,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,High SES,ALC:AP,78.0935277233384,0
+2024,Mathematics,4,XB,Boston,SESCAT,Low SES,ALC:AP,15.7227348466569,0
+2024,Mathematics,4,XB,Boston,SESCAT,Middle SES,ALC:AP,33.3792551033946,0
+2024,Mathematics,4,XB,Boston,SESCAT,High SES,ALC:AP,79.642562922051,0
+2024,Mathematics,4,XC,Chicago,SESCAT,Low SES,ALC:AP,13.1435895757305,0
+2024,Mathematics,4,XC,Chicago,SESCAT,Middle SES,ALC:AP,25.9465031538094,0
+2024,Mathematics,4,XC,Chicago,SESCAT,High SES,ALC:AP,67.9804639720685,0
+2024,Mathematics,4,XD,San Diego,SESCAT,Low SES,ALC:AP,18.7291089480742,0
+2024,Mathematics,4,XD,San Diego,SESCAT,Middle SES,ALC:AP,39.9725222636072,0
+2024,Mathematics,4,XD,San Diego,SESCAT,High SES,ALC:AP,71.8581334339765,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,Low SES,ALC:AP,19.6292588914943,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,Middle SES,ALC:AP,32.7141278050703,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,High SES,ALC:AP,63.2044050204383,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,Low SES,ALC:AP,24.367090896655,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,Middle SES,ALC:AP,34.41407879156,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,High SES,ALC:AP,70.360418065585,0
+2024,Mathematics,4,XH,Houston,SESCAT,Low SES,ALC:AP,22.818539917592,0
+2024,Mathematics,4,XH,Houston,SESCAT,Middle SES,ALC:AP,35.4971533701499,0
+2024,Mathematics,4,XH,Houston,SESCAT,High SES,ALC:AP,86.8352377122349,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,Low SES,ALC:AP,37.937535683682,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,Middle SES,ALC:AP,52.2138657733798,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,High SES,ALC:AP,70.6119806752751,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,Low SES,ALC:AP,12.6884072220327,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,Middle SES,ALC:AP,33.1358366589425,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,High SES,ALC:AP,66.6178779899067,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,Low SES,ALC:AP,7.64829560021286,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,Middle SES,ALC:AP,14.7560951116909,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,4,XL,Los Angeles,SESCAT,Low SES,ALC:AP,17.2109898820619,0
+2024,Mathematics,4,XL,Los Angeles,SESCAT,Middle SES,ALC:AP,33.4333727423997,0
+2024,Mathematics,4,XL,Los Angeles,SESCAT,High SES,ALC:AP,70.210351041358,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,Low SES,ALC:AP,7.40860741378096,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,Middle SES,ALC:AP,14.4278377010548,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,4,XN,New York City,SESCAT,Low SES,ALC:AP,21.1807909083883,0
+2024,Mathematics,4,XN,New York City,SESCAT,Middle SES,ALC:AP,37.7077611575361,0
+2024,Mathematics,4,XN,New York City,SESCAT,High SES,ALC:AP,70.7961577143697,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,Low SES,ALC:AP,23.6305364561278,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,Middle SES,ALC:AP,33.8135931826533,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,High SES,ALC:AP,68.5766878171458,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,Low SES,ALC:AP,12.4852420420412,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,Middle SES,ALC:AP,22.3523895908052,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,Low SES,ALC:AP,9.44405114053389,0
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,Middle SES,ALC:AP,22.2607726215729,0
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,High SES,ALC:AP,59.7688279877434,0
+2024,Mathematics,4,XR,Detroit,SESCAT,Low SES,ALC:AP,5.52862885841227,0
+2024,Mathematics,4,XR,Detroit,SESCAT,Middle SES,ALC:AP,10.8540880765222,0
+2024,Mathematics,4,XR,Detroit,SESCAT,High SES,ALC:AP,NA,259
+2024,Mathematics,4,XS,Dallas,SESCAT,Low SES,ALC:AP,27.7572499039233,0
+2024,Mathematics,4,XS,Dallas,SESCAT,Middle SES,ALC:AP,36.0465290005551,0
+2024,Mathematics,4,XS,Dallas,SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,4,XT,Charlotte,SESCAT,Low SES,ALC:AP,23.7750008914539,0
+2024,Mathematics,4,XT,Charlotte,SESCAT,Middle SES,ALC:AP,31.7233441944221,0
+2024,Mathematics,4,XT,Charlotte,SESCAT,High SES,ALC:AP,78.3716981992461,0
+2024,Mathematics,4,XU,Austin,SESCAT,Low SES,ALC:AP,16.7569134309468,0
+2024,Mathematics,4,XU,Austin,SESCAT,Middle SES,ALC:AP,34.5908592333822,0
+2024,Mathematics,4,XU,Austin,SESCAT,High SES,ALC:AP,76.6461732081533,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,Low SES,ALC:AP,8.28020800605432,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,Middle SES,ALC:AP,15.3168873880635,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,High SES,ALC:AP,NA,259
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,Low SES,ALC:AP,7.85056963441999,131072
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,Middle SES,ALC:AP,19.9464721499242,131072
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,High SES,ALC:AP,73.2760424168548,131072
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,Low SES,ALC:AP,32.4593789892358,0
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,Middle SES,ALC:AP,39.0151388166988,0
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,4,XY,Denver,SESCAT,Low SES,ALC:AP,NA,259
+2024,Mathematics,4,XY,Denver,SESCAT,Middle SES,ALC:AP,NA,259
+2024,Mathematics,4,XY,Denver,SESCAT,High SES,ALC:AP,NA,259
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,Low SES,ALC:AP,20.9107690169464,0
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,Middle SES,ALC:AP,29.4658839023265,0
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,Low SES,ALC:AP,27.4134130570327,0
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,Middle SES,ALC:AP,38.3902269479792,0
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,High SES,ALC:AP,63.0815669833301,0
+2024,Mathematics,4,NL,Large city,TOTAL,All students,ALC:AP,32.8257075648227,0
+2024,Mathematics,4,NP,National public,TOTAL,All students,ALC:AP,39.4239679672017,0
+2024,Mathematics,4,XA,Atlanta,TOTAL,All students,ALC:AP,32.4654792946199,0
+2024,Mathematics,4,XB,Boston,TOTAL,All students,ALC:AP,32.515737517389,0
+2024,Mathematics,4,XC,Chicago,TOTAL,All students,ALC:AP,23.9954394783368,0
+2024,Mathematics,4,XD,San Diego,TOTAL,All students,ALC:AP,41.3822932240424,0
+2024,Mathematics,4,XE,Duval County (FL),TOTAL,All students,ALC:AP,35.4045006589987,0
+2024,Mathematics,4,XG,Guilford County (NC),TOTAL,All students,ALC:AP,39.9745965584959,0
+2024,Mathematics,4,XH,Houston,TOTAL,All students,ALC:AP,32.4472877773501,0
+2024,Mathematics,4,XI,Miami-Dade,TOTAL,All students,ALC:AP,49.3745846681388,0
+2024,Mathematics,4,XJ,Jefferson County (KY),TOTAL,All students,ALC:AP,26.8315609959098,0
+2024,Mathematics,4,XK,Milwaukee,TOTAL,All students,ALC:AP,12.3119492094759,0
+2024,Mathematics,4,XL,Los Angeles,TOTAL,All students,ALC:AP,27.1689655195301,0
+2024,Mathematics,4,XM,Baltimore City,TOTAL,All students,ALC:AP,12.4302740560297,0
+2024,Mathematics,4,XN,New York City,TOTAL,All students,ALC:AP,33.3942986437834,0
+2024,Mathematics,4,XO,Hillsborough County (FL),TOTAL,All students,ALC:AP,39.2922314433583,0
+2024,Mathematics,4,XP,Philadelphia,TOTAL,All students,ALC:AP,18.8328237097301,0
+2024,Mathematics,4,XQ,Albuquerque,TOTAL,All students,ALC:AP,25.6156447555158,0
+2024,Mathematics,4,XR,Detroit,TOTAL,All students,ALC:AP,6.53058142636089,0
+2024,Mathematics,4,XS,Dallas,TOTAL,All students,ALC:AP,32.6065027959186,0
+2024,Mathematics,4,XT,Charlotte,TOTAL,All students,ALC:AP,42.6948471575875,0
+2024,Mathematics,4,XU,Austin,TOTAL,All students,ALC:AP,46.0583852978127,0
+2024,Mathematics,4,XV,Cleveland,TOTAL,All students,ALC:AP,9.26737537308683,0
+2024,Mathematics,4,XW,District of Columbia (DCPS),TOTAL,All students,ALC:AP,38.4717283440405,131072
+2024,Mathematics,4,XX,Clark County (NV),TOTAL,All students,ALC:AP,33.6220341135306,0
+2024,Mathematics,4,XY,Denver,TOTAL,All students,ALC:AP,35.9065028055791,0
+2024,Mathematics,4,XZ,Fort Worth (TX),TOTAL,All students,ALC:AP,24.5167718141982,0
+2024,Mathematics,4,YB,Orange County (FL),TOTAL,All students,ALC:AP,41.623883216195,0
+2024,Mathematics,4,NL,Large city,SESCAT,Low SES,MN:MN,220.666031761842,0
+2024,Mathematics,4,NL,Large city,SESCAT,Middle SES,MN:MN,232.112996799884,0
+2024,Mathematics,4,NL,Large city,SESCAT,High SES,MN:MN,259.420117756163,0
+2024,Mathematics,4,NP,National public,SESCAT,Low SES,MN:MN,221.396954269604,0
+2024,Mathematics,4,NP,National public,SESCAT,Middle SES,MN:MN,234.985289573509,0
+2024,Mathematics,4,NP,National public,SESCAT,High SES,MN:MN,257.606803941332,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,Low SES,MN:MN,213.994492068886,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,Middle SES,MN:MN,225.084889080583,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,High SES,MN:MN,267.064091063969,0
+2024,Mathematics,4,XB,Boston,SESCAT,Low SES,MN:MN,217.655488218738,0
+2024,Mathematics,4,XB,Boston,SESCAT,Middle SES,MN:MN,234.073044557398,0
+2024,Mathematics,4,XB,Boston,SESCAT,High SES,MN:MN,270.388191037455,0
+2024,Mathematics,4,XC,Chicago,SESCAT,Low SES,MN:MN,214.319016986523,0
+2024,Mathematics,4,XC,Chicago,SESCAT,Middle SES,MN:MN,226.362800881676,0
+2024,Mathematics,4,XC,Chicago,SESCAT,High SES,MN:MN,259.693628219054,0
+2024,Mathematics,4,XD,San Diego,SESCAT,Low SES,MN:MN,221.024682268999,0
+2024,Mathematics,4,XD,San Diego,SESCAT,Middle SES,MN:MN,237.092269916122,0
+2024,Mathematics,4,XD,San Diego,SESCAT,High SES,MN:MN,263.373377371954,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,Low SES,MN:MN,224.689236112144,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,Middle SES,MN:MN,234.973916626456,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,High SES,MN:MN,254.956116734127,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,Low SES,MN:MN,225.11444269890401,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,Middle SES,MN:MN,233.207685458778,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,High SES,MN:MN,261.285081727472,0
+2024,Mathematics,4,XH,Houston,SESCAT,Low SES,MN:MN,226.363340211718,0
+2024,Mathematics,4,XH,Houston,SESCAT,Middle SES,MN:MN,233.991854715319,0
+2024,Mathematics,4,XH,Houston,SESCAT,High SES,MN:MN,274.576535922788,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,Low SES,MN:MN,239.800452569039,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,Middle SES,MN:MN,247.393853449612,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,High SES,MN:MN,260.824159039018,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,Low SES,MN:MN,215.775300863074,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,Middle SES,MN:MN,234.294618429929,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,High SES,MN:MN,257.551101178099,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,Low SES,MN:MN,201.161593188896,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,Middle SES,MN:MN,208.243268132421,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,4,XL,Los Angeles,SESCAT,Low SES,MN:MN,217.598756268232,0
+2024,Mathematics,4,XL,Los Angeles,SESCAT,Middle SES,MN:MN,232.094282564252,0
+2024,Mathematics,4,XL,Los Angeles,SESCAT,High SES,MN:MN,261.993100199444,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,Low SES,MN:MN,205.327486972418,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,Middle SES,MN:MN,210.232225071753,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,4,XN,New York City,SESCAT,Low SES,MN:MN,218.93009168836,0
+2024,Mathematics,4,XN,New York City,SESCAT,Middle SES,MN:MN,235.134071983317,0
+2024,Mathematics,4,XN,New York City,SESCAT,High SES,MN:MN,262.874020575979,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,Low SES,MN:MN,227.753824059508,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,Middle SES,MN:MN,237.544151511076,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,High SES,MN:MN,260.77610799925,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,Low SES,MN:MN,212.009040460425,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,Middle SES,MN:MN,219.499755117856,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,Low SES,MN:MN,208.234363340677,0
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,Middle SES,MN:MN,221.925579432767,0
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,High SES,MN:MN,253.012061433518,0
+2024,Mathematics,4,XR,Detroit,SESCAT,Low SES,MN:MN,199.063227886542,0
+2024,Mathematics,4,XR,Detroit,SESCAT,Middle SES,MN:MN,205.800329366588,0
+2024,Mathematics,4,XR,Detroit,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,4,XS,Dallas,SESCAT,Low SES,MN:MN,229.79540693913,0
+2024,Mathematics,4,XS,Dallas,SESCAT,Middle SES,MN:MN,236.031994375298,0
+2024,Mathematics,4,XS,Dallas,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,4,XT,Charlotte,SESCAT,Low SES,MN:MN,223.796271179351,0
+2024,Mathematics,4,XT,Charlotte,SESCAT,Middle SES,MN:MN,232.160042281646,0
+2024,Mathematics,4,XT,Charlotte,SESCAT,High SES,MN:MN,269.136763658315,0
+2024,Mathematics,4,XU,Austin,SESCAT,Low SES,MN:MN,218.985761752817,0
+2024,Mathematics,4,XU,Austin,SESCAT,Middle SES,MN:MN,233.730776093992,0
+2024,Mathematics,4,XU,Austin,SESCAT,High SES,MN:MN,266.358289235448,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,Low SES,MN:MN,206.034259072838,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,Middle SES,MN:MN,211.634634511044,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,Low SES,MN:MN,204.607047515009,131072
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,Middle SES,MN:MN,219.449668492548,131072
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,High SES,MN:MN,266.678432195578,131072
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,Low SES,MN:MN,229.741977160364,0
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,Middle SES,MN:MN,236.423241127614,0
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,4,XY,Denver,SESCAT,Low SES,MN:MN,NA,257
+2024,Mathematics,4,XY,Denver,SESCAT,Middle SES,MN:MN,NA,257
+2024,Mathematics,4,XY,Denver,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,Low SES,MN:MN,223.324236066809,0
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,Middle SES,MN:MN,227.837729773914,0
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,Low SES,MN:MN,229.47572271335,0
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,Middle SES,MN:MN,238.149761539312,0
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,High SES,MN:MN,257.30967504157,0
+2024,Mathematics,4,NL,Large city,TOTAL,All students,MN:MN,231.052841307383,0
+2024,Mathematics,4,NP,National public,TOTAL,All students,MN:MN,237.304735709431,0
+2024,Mathematics,4,XA,Atlanta,TOTAL,All students,MN:MN,230.014572104268,0
+2024,Mathematics,4,XB,Boston,TOTAL,All students,MN:MN,232.011243040806,0
+2024,Mathematics,4,XC,Chicago,TOTAL,All students,MN:MN,223.363087264493,0
+2024,Mathematics,4,XD,San Diego,TOTAL,All students,MN:MN,238.636495844332,0
+2024,Mathematics,4,XE,Duval County (FL),TOTAL,All students,MN:MN,236.168433868837,0
+2024,Mathematics,4,XG,Guilford County (NC),TOTAL,All students,MN:MN,237.43252426552,0
+2024,Mathematics,4,XH,Houston,TOTAL,All students,MN:MN,233.078474846002,0
+2024,Mathematics,4,XI,Miami-Dade,TOTAL,All students,MN:MN,246.47270637371,0
+2024,Mathematics,4,XJ,Jefferson County (KY),TOTAL,All students,MN:MN,227.636046194557,0
+2024,Mathematics,4,XK,Milwaukee,TOTAL,All students,MN:MN,205.258755315221,0
+2024,Mathematics,4,XL,Los Angeles,TOTAL,All students,MN:MN,225.948539111187,0
+2024,Mathematics,4,XM,Baltimore City,TOTAL,All students,MN:MN,209.432416754337,0
+2024,Mathematics,4,XN,New York City,TOTAL,All students,MN:MN,230.06960392695,0
+2024,Mathematics,4,XO,Hillsborough County (FL),TOTAL,All students,MN:MN,239.885354830132,0
+2024,Mathematics,4,XP,Philadelphia,TOTAL,All students,MN:MN,216.356648709969,0
+2024,Mathematics,4,XQ,Albuquerque,TOTAL,All students,MN:MN,223.196600973552,0
+2024,Mathematics,4,XR,Detroit,TOTAL,All students,MN:MN,199.760753288185,0
+2024,Mathematics,4,XS,Dallas,TOTAL,All students,MN:MN,233.08140681268,0
+2024,Mathematics,4,XT,Charlotte,TOTAL,All students,MN:MN,240.13833500905,0
+2024,Mathematics,4,XU,Austin,TOTAL,All students,MN:MN,242.141913574724,0
+2024,Mathematics,4,XV,Cleveland,TOTAL,All students,MN:MN,206.330641537626,0
+2024,Mathematics,4,XW,District of Columbia (DCPS),TOTAL,All students,MN:MN,234.487863487987,131072
+2024,Mathematics,4,XX,Clark County (NV),TOTAL,All students,MN:MN,230.924023975658,0
+2024,Mathematics,4,XY,Denver,TOTAL,All students,MN:MN,232.3797719398,0
+2024,Mathematics,4,XZ,Fort Worth (TX),TOTAL,All students,MN:MN,225.728919438292,0
+2024,Mathematics,4,YB,Orange County (FL),TOTAL,All students,MN:MN,240.643664553095,0
+2024,Mathematics,4,NL,Large city,SESCAT,Low SES,RP:RP,47.9462987716435,0
+2024,Mathematics,4,NL,Large city,SESCAT,Middle SES,RP:RP,33.5792786721681,0
+2024,Mathematics,4,NL,Large city,SESCAT,High SES,RP:RP,18.4744225561883,0
+2024,Mathematics,4,NP,National public,SESCAT,Low SES,RP:RP,31.0755045719316,0
+2024,Mathematics,4,NP,National public,SESCAT,Middle SES,RP:RP,37.9896948652794,0
+2024,Mathematics,4,NP,National public,SESCAT,High SES,RP:RP,30.934800562789,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,Low SES,RP:RP,50.1025516766461,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,Middle SES,RP:RP,23.8949032336405,0
+2024,Mathematics,4,XA,Atlanta,SESCAT,High SES,RP:RP,26.0025450897134,0
+2024,Mathematics,4,XB,Boston,SESCAT,Low SES,RP:RP,47.7961312005501,0
+2024,Mathematics,4,XB,Boston,SESCAT,Middle SES,RP:RP,34.0390821403665,0
+2024,Mathematics,4,XB,Boston,SESCAT,High SES,RP:RP,18.1647866590835,0
+2024,Mathematics,4,XC,Chicago,SESCAT,Low SES,RP:RP,56.6924250754438,0
+2024,Mathematics,4,XC,Chicago,SESCAT,Middle SES,RP:RP,29.4208453835636,0
+2024,Mathematics,4,XC,Chicago,SESCAT,High SES,RP:RP,13.8867295409925,0
+2024,Mathematics,4,XD,San Diego,SESCAT,Low SES,RP:RP,34.6493992533625,0
+2024,Mathematics,4,XD,San Diego,SESCAT,Middle SES,RP:RP,36.2785856990003,0
+2024,Mathematics,4,XD,San Diego,SESCAT,High SES,RP:RP,29.0720150476373,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,Low SES,RP:RP,30.3012206028154,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,Middle SES,RP:RP,46.5109693083199,0
+2024,Mathematics,4,XE,Duval County (FL),SESCAT,High SES,RP:RP,23.1878100888648,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,Low SES,RP:RP,28.4585348756593,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,Middle SES,RP:RP,46.9749442325486,0
+2024,Mathematics,4,XG,Guilford County (NC),SESCAT,High SES,RP:RP,24.5665208917921,0
+2024,Mathematics,4,XH,Houston,SESCAT,Low SES,RP:RP,65.6814809914134,0
+2024,Mathematics,4,XH,Houston,SESCAT,Middle SES,RP:RP,23.2620421236816,0
+2024,Mathematics,4,XH,Houston,SESCAT,High SES,RP:RP,11.056476884905,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,Low SES,RP:RP,38.8658342602726,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,Middle SES,RP:RP,45.3419276373195,0
+2024,Mathematics,4,XI,Miami-Dade,SESCAT,High SES,RP:RP,15.7922381024079,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,Low SES,RP:RP,49.8885080271293,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,Middle SES,RP:RP,37.3617091209824,0
+2024,Mathematics,4,XJ,Jefferson County (KY),SESCAT,High SES,RP:RP,12.7497828518883,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,Low SES,RP:RP,63.3286606949788,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,Middle SES,RP:RP,29.3824212626551,0
+2024,Mathematics,4,XK,Milwaukee,SESCAT,High SES,RP:RP,7.28891804236604,0
+2024,Mathematics,4,XL,Los Angeles,SESCAT,Low SES,RP:RP,61.7894657317958,0
+2024,Mathematics,4,XL,Los Angeles,SESCAT,Middle SES,RP:RP,26.6612896898818,0
+2024,Mathematics,4,XL,Los Angeles,SESCAT,High SES,RP:RP,11.5492445783224,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,Low SES,RP:RP,57.5747730706546,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,Middle SES,RP:RP,36.3394664904132,0
+2024,Mathematics,4,XM,Baltimore City,SESCAT,High SES,RP:RP,6.08576043893215,0
+2024,Mathematics,4,XN,New York City,SESCAT,Low SES,RP:RP,51.464249820199,0
+2024,Mathematics,4,XN,New York City,SESCAT,Middle SES,RP:RP,33.4663227460719,0
+2024,Mathematics,4,XN,New York City,SESCAT,High SES,RP:RP,15.0694274337292,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,Low SES,RP:RP,38.0396384719684,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,Middle SES,RP:RP,33.4702507475799,0
+2024,Mathematics,4,XO,Hillsborough County (FL),SESCAT,High SES,RP:RP,28.4901107804517,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,Low SES,RP:RP,56.5920761062295,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,Middle SES,RP:RP,37.6260197235432,0
+2024,Mathematics,4,XP,Philadelphia,SESCAT,High SES,RP:RP,5.78190417022729,0
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,Low SES,RP:RP,36.4308819637538,0
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,Middle SES,RP:RP,40.71041621899,0
+2024,Mathematics,4,XQ,Albuquerque,SESCAT,High SES,RP:RP,22.8587018172562,0
+2024,Mathematics,4,XR,Detroit,SESCAT,Low SES,RP:RP,76.6660429341243,0
+2024,Mathematics,4,XR,Detroit,SESCAT,Middle SES,RP:RP,23.0089704067156,0
+2024,Mathematics,4,XR,Detroit,SESCAT,High SES,RP:RP,NA,386
+2024,Mathematics,4,XS,Dallas,SESCAT,Low SES,RP:RP,70.9201156874959,0
+2024,Mathematics,4,XS,Dallas,SESCAT,Middle SES,RP:RP,22.8574679882344,0
+2024,Mathematics,4,XS,Dallas,SESCAT,High SES,RP:RP,6.22241632426972,0
+2024,Mathematics,4,XT,Charlotte,SESCAT,Low SES,RP:RP,23.7518117956011,0
+2024,Mathematics,4,XT,Charlotte,SESCAT,Middle SES,RP:RP,47.343197158798,0
+2024,Mathematics,4,XT,Charlotte,SESCAT,High SES,RP:RP,28.9049910456009,0
+2024,Mathematics,4,XU,Austin,SESCAT,Low SES,RP:RP,30.8205052133076,0
+2024,Mathematics,4,XU,Austin,SESCAT,Middle SES,RP:RP,26.529499893554,0
+2024,Mathematics,4,XU,Austin,SESCAT,High SES,RP:RP,42.6499948931384,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,Low SES,RP:RP,81.3753310337474,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,Middle SES,RP:RP,18.6246689662526,0
+2024,Mathematics,4,XV,Cleveland,SESCAT,High SES,RP:RP,NA,386
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,Low SES,RP:RP,24.515411821799,131072
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,Middle SES,RP:RP,33.8345632898635,131072
+2024,Mathematics,4,XW,District of Columbia (DCPS),SESCAT,High SES,RP:RP,41.6500248883375,131072
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,Low SES,RP:RP,73.2162098454112,0
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,Middle SES,RP:RP,25.3312786728298,0
+2024,Mathematics,4,XX,Clark County (NV),SESCAT,High SES,RP:RP,1.45251148175901,258
+2024,Mathematics,4,XY,Denver,SESCAT,Low SES,RP:RP,NA,259
+2024,Mathematics,4,XY,Denver,SESCAT,Middle SES,RP:RP,NA,259
+2024,Mathematics,4,XY,Denver,SESCAT,High SES,RP:RP,NA,259
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,Low SES,RP:RP,74.8421320670631,0
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,Middle SES,RP:RP,21.3433962434598,0
+2024,Mathematics,4,XZ,Fort Worth (TX),SESCAT,High SES,RP:RP,3.81447168947713,0
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,Low SES,RP:RP,27.0695964160199,0
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,Middle SES,RP:RP,44.7498458947762,0
+2024,Mathematics,4,YB,Orange County (FL),SESCAT,High SES,RP:RP,28.1805576892039,0
+2024,Mathematics,4,NL,Large city,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,NP,National public,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XA,Atlanta,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XB,Boston,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XC,Chicago,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XD,San Diego,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XE,Duval County (FL),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XG,Guilford County (NC),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XH,Houston,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XI,Miami-Dade,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XJ,Jefferson County (KY),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XK,Milwaukee,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XL,Los Angeles,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XM,Baltimore City,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XN,New York City,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XO,Hillsborough County (FL),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XP,Philadelphia,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XQ,Albuquerque,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XR,Detroit,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XS,Dallas,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XT,Charlotte,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XU,Austin,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XV,Cleveland,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XW,District of Columbia (DCPS),TOTAL,All students,RP:RP,100,131330
+2024,Mathematics,4,XX,Clark County (NV),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XY,Denver,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,XZ,Fort Worth (TX),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,4,YB,Orange County (FL),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,NL,Large city,SESCAT,Low SES,ALC:AB,37.6645947596905,0
+2024,Mathematics,8,NL,Large city,SESCAT,Middle SES,ALC:AB,58.4035069456358,0
+2024,Mathematics,8,NL,Large city,SESCAT,High SES,ALC:AB,84.9057295238922,0
+2024,Mathematics,8,NP,National public,SESCAT,Low SES,ALC:AB,36.9167725319351,0
+2024,Mathematics,8,NP,National public,SESCAT,Middle SES,ALC:AB,58.5027922581127,0
+2024,Mathematics,8,NP,National public,SESCAT,High SES,ALC:AB,84.4431447224957,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,Low SES,ALC:AB,26.7145833022464,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,Middle SES,ALC:AB,38.5590397652564,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,High SES,ALC:AB,88.3933638258063,0
+2024,Mathematics,8,XB,Boston,SESCAT,Low SES,ALC:AB,33.552935789758,0
+2024,Mathematics,8,XB,Boston,SESCAT,Middle SES,ALC:AB,60.5343536892754,0
+2024,Mathematics,8,XB,Boston,SESCAT,High SES,ALC:AB,97.1435751007587,258
+2024,Mathematics,8,XC,Chicago,SESCAT,Low SES,ALC:AB,38.6059126623405,0
+2024,Mathematics,8,XC,Chicago,SESCAT,Middle SES,ALC:AB,61.8232332780703,0
+2024,Mathematics,8,XC,Chicago,SESCAT,High SES,ALC:AB,91.2329622509987,0
+2024,Mathematics,8,XD,San Diego,SESCAT,Low SES,ALC:AB,33.3754935573869,0
+2024,Mathematics,8,XD,San Diego,SESCAT,Middle SES,ALC:AB,68.9889546047969,0
+2024,Mathematics,8,XD,San Diego,SESCAT,High SES,ALC:AB,90.9540184761747,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,Low SES,ALC:AB,27.6427726229897,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,Middle SES,ALC:AB,43.4723077059713,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,High SES,ALC:AB,77.4033008772163,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,Low SES,ALC:AB,32.9177924826935,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,Middle SES,ALC:AB,55.7153103975512,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,High SES,ALC:AB,87.5865296288313,0
+2024,Mathematics,8,XH,Houston,SESCAT,Low SES,ALC:AB,38.598970259665,0
+2024,Mathematics,8,XH,Houston,SESCAT,Middle SES,ALC:AB,62.4828409478754,0
+2024,Mathematics,8,XH,Houston,SESCAT,High SES,ALC:AB,92.993309460824,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,Low SES,ALC:AB,45.6847683489147,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,Middle SES,ALC:AB,58.4907401842783,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,High SES,ALC:AB,81.1307043795408,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,Low SES,ALC:AB,27.1591172678677,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,Middle SES,ALC:AB,46.2445884885736,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,High SES,ALC:AB,87.2625496557733,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,Low SES,ALC:AB,23.0642441978448,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,Middle SES,ALC:AB,38.1552503178665,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,High SES,ALC:AB,NA,257
+2024,Mathematics,8,XL,Los Angeles,SESCAT,Low SES,ALC:AB,33.7305517624271,0
+2024,Mathematics,8,XL,Los Angeles,SESCAT,Middle SES,ALC:AB,69.2126229394902,0
+2024,Mathematics,8,XL,Los Angeles,SESCAT,High SES,ALC:AB,94.4816341963389,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,Low SES,ALC:AB,20.7728157235418,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,Middle SES,ALC:AB,38.7945107686394,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,High SES,ALC:AB,NA,257
+2024,Mathematics,8,XN,New York City,SESCAT,Low SES,ALC:AB,43.0157290537704,0
+2024,Mathematics,8,XN,New York City,SESCAT,Middle SES,ALC:AB,61.8678511484659,0
+2024,Mathematics,8,XN,New York City,SESCAT,High SES,ALC:AB,88.1455114838964,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,Low SES,ALC:AB,34.531739762759,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,Middle SES,ALC:AB,52.293583209126,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,High SES,ALC:AB,82.3942035840099,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,Low SES,ALC:AB,29.0626921907427,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,Middle SES,ALC:AB,47.4551771067579,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,High SES,ALC:AB,NA,257
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,Low SES,ALC:AB,22.9955187921601,0
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,Middle SES,ALC:AB,47.4909957552738,0
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,High SES,ALC:AB,77.7971837082492,0
+2024,Mathematics,8,XR,Detroit,SESCAT,Low SES,ALC:AB,16.9096216675105,0
+2024,Mathematics,8,XR,Detroit,SESCAT,Middle SES,ALC:AB,32.0356120062604,0
+2024,Mathematics,8,XR,Detroit,SESCAT,High SES,ALC:AB,NA,259
+2024,Mathematics,8,XS,Dallas,SESCAT,Low SES,ALC:AB,43.7897936137671,0
+2024,Mathematics,8,XS,Dallas,SESCAT,Middle SES,ALC:AB,57.3910616631401,0
+2024,Mathematics,8,XS,Dallas,SESCAT,High SES,ALC:AB,NA,257
+2024,Mathematics,8,XT,Charlotte,SESCAT,Low SES,ALC:AB,38.3202790620821,0
+2024,Mathematics,8,XT,Charlotte,SESCAT,Middle SES,ALC:AB,53.5849170794394,0
+2024,Mathematics,8,XT,Charlotte,SESCAT,High SES,ALC:AB,89.9724062363159,0
+2024,Mathematics,8,XU,Austin,SESCAT,Low SES,ALC:AB,27.8600643166235,0
+2024,Mathematics,8,XU,Austin,SESCAT,Middle SES,ALC:AB,51.9592064232563,0
+2024,Mathematics,8,XU,Austin,SESCAT,High SES,ALC:AB,87.1479363167069,0
+2024,Mathematics,8,XV,Cleveland,SESCAT,Low SES,ALC:AB,25.6518149440984,0
+2024,Mathematics,8,XV,Cleveland,SESCAT,Middle SES,ALC:AB,NA,257
+2024,Mathematics,8,XV,Cleveland,SESCAT,High SES,ALC:AB,NA,259
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,Low SES,ALC:AB,16.7890185974675,131072
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,Middle SES,ALC:AB,30.4104175650618,131072
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,High SES,ALC:AB,77.0053354170981,131072
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,Low SES,ALC:AB,45.6910634538887,0
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,Middle SES,ALC:AB,69.594569297297,0
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,High SES,ALC:AB,NA,259
+2024,Mathematics,8,XY,Denver,SESCAT,Low SES,ALC:AB,NA,259
+2024,Mathematics,8,XY,Denver,SESCAT,Middle SES,ALC:AB,NA,259
+2024,Mathematics,8,XY,Denver,SESCAT,High SES,ALC:AB,NA,259
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,Low SES,ALC:AB,28.8461153362713,0
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,Middle SES,ALC:AB,52.1214917941068,0
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,High SES,ALC:AB,NA,257
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,Low SES,ALC:AB,32.8811835477118,0
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,Middle SES,ALC:AB,50.1771935847254,0
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,High SES,ALC:AB,82.4426762997592,0
+2024,Mathematics,8,NL,Large city,TOTAL,All students,ALC:AB,51.7388458000157,0
+2024,Mathematics,8,NP,National public,TOTAL,All students,ALC:AB,58.9660350787943,0
+2024,Mathematics,8,XA,Atlanta,TOTAL,All students,ALC:AB,41.0332444635917,0
+2024,Mathematics,8,XB,Boston,TOTAL,All students,ALC:AB,48.0409211295571,0
+2024,Mathematics,8,XC,Chicago,TOTAL,All students,ALC:AB,49.4699684885176,0
+2024,Mathematics,8,XD,San Diego,TOTAL,All students,ALC:AB,60.9031200249854,0
+2024,Mathematics,8,XE,Duval County (FL),TOTAL,All students,ALC:AB,46.656498113038,0
+2024,Mathematics,8,XG,Guilford County (NC),TOTAL,All students,ALC:AB,54.0177705088928,0
+2024,Mathematics,8,XH,Houston,TOTAL,All students,ALC:AB,49.3605053951472,0
+2024,Mathematics,8,XI,Miami-Dade,TOTAL,All students,ALC:AB,54.2098791957783,0
+2024,Mathematics,8,XJ,Jefferson County (KY),TOTAL,All students,ALC:AB,42.2593265536503,0
+2024,Mathematics,8,XK,Milwaukee,TOTAL,All students,ALC:AB,29.7697448568797,0
+2024,Mathematics,8,XL,Los Angeles,TOTAL,All students,ALC:AB,46.3909282396928,0
+2024,Mathematics,8,XM,Baltimore City,TOTAL,All students,ALC:AB,29.0602785487522,0
+2024,Mathematics,8,XN,New York City,TOTAL,All students,ALC:AB,51.3589439668407,0
+2024,Mathematics,8,XO,Hillsborough County (FL),TOTAL,All students,ALC:AB,53.4918396705377,0
+2024,Mathematics,8,XP,Philadelphia,TOTAL,All students,ALC:AB,37.7470096718795,0
+2024,Mathematics,8,XQ,Albuquerque,TOTAL,All students,ALC:AB,42.0851056282026,0
+2024,Mathematics,8,XR,Detroit,TOTAL,All students,ALC:AB,19.7356144020022,0
+2024,Mathematics,8,XS,Dallas,TOTAL,All students,ALC:AB,47.4538537507448,0
+2024,Mathematics,8,XT,Charlotte,TOTAL,All students,ALC:AB,58.5088939802863,0
+2024,Mathematics,8,XU,Austin,TOTAL,All students,ALC:AB,57.8896567726503,0
+2024,Mathematics,8,XV,Cleveland,TOTAL,All students,ALC:AB,27.0657883548046,0
+2024,Mathematics,8,XW,District of Columbia (DCPS),TOTAL,All students,ALC:AB,41.7250643707467,131072
+2024,Mathematics,8,XX,Clark County (NV),TOTAL,All students,ALC:AB,48.1519409302665,0
+2024,Mathematics,8,XY,Denver,TOTAL,All students,ALC:AB,49.3508747750998,0
+2024,Mathematics,8,XZ,Fort Worth (TX),TOTAL,All students,ALC:AB,37.0851613310935,0
+2024,Mathematics,8,YB,Orange County (FL),TOTAL,All students,ALC:AB,53.2066871274739,0
+2024,Mathematics,8,NL,Large city,SESCAT,Low SES,ALC:AP,10.9392524897482,0
+2024,Mathematics,8,NL,Large city,SESCAT,Middle SES,ALC:AP,24.6776201185681,0
+2024,Mathematics,8,NL,Large city,SESCAT,High SES,ALC:AP,56.5931796523293,0
+2024,Mathematics,8,NP,National public,SESCAT,Low SES,ALC:AP,9.33737147444138,0
+2024,Mathematics,8,NP,National public,SESCAT,Middle SES,ALC:AP,22.4276191259614,0
+2024,Mathematics,8,NP,National public,SESCAT,High SES,ALC:AP,52.3646598651359,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,Low SES,ALC:AP,4.30317390997758,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,Middle SES,ALC:AP,12.8717153886525,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,High SES,ALC:AP,55.6541902936107,0
+2024,Mathematics,8,XB,Boston,SESCAT,Low SES,ALC:AP,8.06831576926905,0
+2024,Mathematics,8,XB,Boston,SESCAT,Middle SES,ALC:AP,34.062178064913,0
+2024,Mathematics,8,XB,Boston,SESCAT,High SES,ALC:AP,82.6364261208383,0
+2024,Mathematics,8,XC,Chicago,SESCAT,Low SES,ALC:AP,11.5275760012557,0
+2024,Mathematics,8,XC,Chicago,SESCAT,Middle SES,ALC:AP,27.4903628154992,0
+2024,Mathematics,8,XC,Chicago,SESCAT,High SES,ALC:AP,68.8271008154467,0
+2024,Mathematics,8,XD,San Diego,SESCAT,Low SES,ALC:AP,8.55606130589859,0
+2024,Mathematics,8,XD,San Diego,SESCAT,Middle SES,ALC:AP,30.5061627213164,0
+2024,Mathematics,8,XD,San Diego,SESCAT,High SES,ALC:AP,65.5432494596715,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,Low SES,ALC:AP,4.60064823319166,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,Middle SES,ALC:AP,13.1825639160798,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,High SES,ALC:AP,45.2279735938816,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,Low SES,ALC:AP,6.76293579198328,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,Middle SES,ALC:AP,23.3009401289787,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,High SES,ALC:AP,61.7030356982134,0
+2024,Mathematics,8,XH,Houston,SESCAT,Low SES,ALC:AP,10.1295693102699,0
+2024,Mathematics,8,XH,Houston,SESCAT,Middle SES,ALC:AP,26.0850955027242,0
+2024,Mathematics,8,XH,Houston,SESCAT,High SES,ALC:AP,72.746904381009,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,Low SES,ALC:AP,14.14454075003,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,Middle SES,ALC:AP,25.6244228004034,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,High SES,ALC:AP,48.1343713839733,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,Low SES,ALC:AP,4.29091019534729,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,Middle SES,ALC:AP,16.1591393953267,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,High SES,ALC:AP,54.7504909999037,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,Low SES,ALC:AP,4.59086077210111,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,Middle SES,ALC:AP,8.45757794305781,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,8,XL,Los Angeles,SESCAT,Low SES,ALC:AP,8.32583868705111,0
+2024,Mathematics,8,XL,Los Angeles,SESCAT,Middle SES,ALC:AP,33.5752601221774,0
+2024,Mathematics,8,XL,Los Angeles,SESCAT,High SES,ALC:AP,66.0567491859645,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,Low SES,ALC:AP,3.70547121908465,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,Middle SES,ALC:AP,10.7385131037369,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,8,XN,New York City,SESCAT,Low SES,ALC:AP,15.5004115700566,0
+2024,Mathematics,8,XN,New York City,SESCAT,Middle SES,ALC:AP,31.5825203150606,0
+2024,Mathematics,8,XN,New York City,SESCAT,High SES,ALC:AP,62.3076068747785,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,Low SES,ALC:AP,5.56579560511814,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,Middle SES,ALC:AP,16.5434311435367,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,High SES,ALC:AP,47.0169601172963,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,Low SES,ALC:AP,7.76711156831272,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,Middle SES,ALC:AP,18.8709620195935,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,Low SES,ALC:AP,3.27470121073132,0
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,Middle SES,ALC:AP,16.6524117173046,0
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,High SES,ALC:AP,50.464031578644,0
+2024,Mathematics,8,XR,Detroit,SESCAT,Low SES,ALC:AP,2.9583141177756,0
+2024,Mathematics,8,XR,Detroit,SESCAT,Middle SES,ALC:AP,7.24918981284942,0
+2024,Mathematics,8,XR,Detroit,SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,8,XS,Dallas,SESCAT,Low SES,ALC:AP,10.4616276030722,0
+2024,Mathematics,8,XS,Dallas,SESCAT,Middle SES,ALC:AP,22.8349080927985,0
+2024,Mathematics,8,XS,Dallas,SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,8,XT,Charlotte,SESCAT,Low SES,ALC:AP,11.456873838853,0
+2024,Mathematics,8,XT,Charlotte,SESCAT,Middle SES,ALC:AP,23.094289999184902,0
+2024,Mathematics,8,XT,Charlotte,SESCAT,High SES,ALC:AP,69.3709857112124,0
+2024,Mathematics,8,XU,Austin,SESCAT,Low SES,ALC:AP,4.51273982970558,0
+2024,Mathematics,8,XU,Austin,SESCAT,Middle SES,ALC:AP,16.6898024509475,0
+2024,Mathematics,8,XU,Austin,SESCAT,High SES,ALC:AP,57.8363678690944,0
+2024,Mathematics,8,XV,Cleveland,SESCAT,Low SES,ALC:AP,5.20541166105706,0
+2024,Mathematics,8,XV,Cleveland,SESCAT,Middle SES,ALC:AP,NA,257
+2024,Mathematics,8,XV,Cleveland,SESCAT,High SES,ALC:AP,NA,259
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,Low SES,ALC:AP,2.15744043324587,131072
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,Middle SES,ALC:AP,8.71010993701316,131072
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,High SES,ALC:AP,54.0344343195387,131072
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,Low SES,ALC:AP,16.0577114292965,0
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,Middle SES,ALC:AP,42.5908882870689,0
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,High SES,ALC:AP,NA,259
+2024,Mathematics,8,XY,Denver,SESCAT,Low SES,ALC:AP,NA,259
+2024,Mathematics,8,XY,Denver,SESCAT,Middle SES,ALC:AP,NA,259
+2024,Mathematics,8,XY,Denver,SESCAT,High SES,ALC:AP,NA,259
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,Low SES,ALC:AP,5.05872340782611,0
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,Middle SES,ALC:AP,20.4004776966924,0
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,High SES,ALC:AP,NA,257
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,Low SES,ALC:AP,7.61044889529733,0
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,Middle SES,ALC:AP,16.7144952207678,0
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,High SES,ALC:AP,41.9498039340403,0
+2024,Mathematics,8,NL,Large city,TOTAL,All students,ALC:AP,22.6657396705533,0
+2024,Mathematics,8,NP,National public,TOTAL,All students,ALC:AP,26.8754979401982,0
+2024,Mathematics,8,XA,Atlanta,TOTAL,All students,ALC:AP,16.0088921580368,0
+2024,Mathematics,8,XB,Boston,TOTAL,All students,ALC:AP,23.7440863872467,0
+2024,Mathematics,8,XC,Chicago,TOTAL,All students,ALC:AP,20.6308589688105,0
+2024,Mathematics,8,XD,San Diego,TOTAL,All students,ALC:AP,31.0029380042428,0
+2024,Mathematics,8,XE,Duval County (FL),TOTAL,All students,ALC:AP,18.211528655527,0
+2024,Mathematics,8,XG,Guilford County (NC),TOTAL,All students,ALC:AP,25.0994692818933,0
+2024,Mathematics,8,XH,Houston,TOTAL,All students,ALC:AP,20.3088356945043,0
+2024,Mathematics,8,XI,Miami-Dade,TOTAL,All students,ALC:AP,22.1704377611851,0
+2024,Mathematics,8,XJ,Jefferson County (KY),TOTAL,All students,ALC:AP,15.4904776986049,0
+2024,Mathematics,8,XK,Milwaukee,TOTAL,All students,ALC:AP,7.57720044361039,0
+2024,Mathematics,8,XL,Los Angeles,TOTAL,All students,ALC:AP,18.3514448024804,0
+2024,Mathematics,8,XM,Baltimore City,TOTAL,All students,ALC:AP,9.04940868426539,0
+2024,Mathematics,8,XN,New York City,TOTAL,All students,ALC:AP,23.2782782305207,0
+2024,Mathematics,8,XO,Hillsborough County (FL),TOTAL,All students,ALC:AP,20.2970808640655,0
+2024,Mathematics,8,XP,Philadelphia,TOTAL,All students,ALC:AP,14.8957774825953,0
+2024,Mathematics,8,XQ,Albuquerque,TOTAL,All students,ALC:AP,16.6018924299497,0
+2024,Mathematics,8,XR,Detroit,TOTAL,All students,ALC:AP,3.87349463524617,0
+2024,Mathematics,8,XS,Dallas,TOTAL,All students,ALC:AP,14.5356171822023,0
+2024,Mathematics,8,XT,Charlotte,TOTAL,All students,ALC:AP,31.9532799903546,0
+2024,Mathematics,8,XU,Austin,TOTAL,All students,ALC:AP,28.9695752436319,0
+2024,Mathematics,8,XV,Cleveland,TOTAL,All students,ALC:AP,5.84083182437399,0
+2024,Mathematics,8,XW,District of Columbia (DCPS),TOTAL,All students,ALC:AP,21.5794369623714,131072
+2024,Mathematics,8,XX,Clark County (NV),TOTAL,All students,ALC:AP,19.0040439893202,0
+2024,Mathematics,8,XY,Denver,TOTAL,All students,ALC:AP,24.0090397185089,0
+2024,Mathematics,8,XZ,Fort Worth (TX),TOTAL,All students,ALC:AP,11.4093546229358,0
+2024,Mathematics,8,YB,Orange County (FL),TOTAL,All students,ALC:AP,20.3831821968704,0
+2024,Mathematics,8,NL,Large city,SESCAT,Low SES,MN:MN,251.762372485611,0
+2024,Mathematics,8,NL,Large city,SESCAT,Middle SES,MN:MN,270.794315157401,0
+2024,Mathematics,8,NL,Large city,SESCAT,High SES,MN:MN,301.923429789054,0
+2024,Mathematics,8,NP,National public,SESCAT,Low SES,MN:MN,250.47619956267,0
+2024,Mathematics,8,NP,National public,SESCAT,Middle SES,MN:MN,269.94687739835,0
+2024,Mathematics,8,NP,National public,SESCAT,High SES,MN:MN,299.871558111705,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,Low SES,MN:MN,242.678334577409,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,Middle SES,MN:MN,253.798102394159,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,High SES,MN:MN,301.685681451789,0
+2024,Mathematics,8,XB,Boston,SESCAT,Low SES,MN:MN,246.908043304034,0
+2024,Mathematics,8,XB,Boston,SESCAT,Middle SES,MN:MN,275.745097639761,0
+2024,Mathematics,8,XB,Boston,SESCAT,High SES,MN:MN,324.681266532886,0
+2024,Mathematics,8,XC,Chicago,SESCAT,Low SES,MN:MN,253.754929089132,0
+2024,Mathematics,8,XC,Chicago,SESCAT,Middle SES,MN:MN,275.987681392318,0
+2024,Mathematics,8,XC,Chicago,SESCAT,High SES,MN:MN,316.828744844972,0
+2024,Mathematics,8,XD,San Diego,SESCAT,Low SES,MN:MN,245.257867123131,0
+2024,Mathematics,8,XD,San Diego,SESCAT,Middle SES,MN:MN,280.31620315233,0
+2024,Mathematics,8,XD,San Diego,SESCAT,High SES,MN:MN,311.085711206994,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,Low SES,MN:MN,243.692937586436,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,Middle SES,MN:MN,257.508798491157,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,High SES,MN:MN,289.991979010055,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,Low SES,MN:MN,246.452615779797,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,Middle SES,MN:MN,269.233775604318,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,High SES,MN:MN,308.08076508276,0
+2024,Mathematics,8,XH,Houston,SESCAT,Low SES,MN:MN,253.030826359267,0
+2024,Mathematics,8,XH,Houston,SESCAT,Middle SES,MN:MN,274.440874144208,0
+2024,Mathematics,8,XH,Houston,SESCAT,High SES,MN:MN,316.321523753834,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,Low SES,MN:MN,259.708746166839,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,Middle SES,MN:MN,270.957534412734,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,High SES,MN:MN,295.110685088906,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,Low SES,MN:MN,240.55274669108601,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,Middle SES,MN:MN,260.134297167033,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,High SES,MN:MN,301.895155404049,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,Low SES,MN:MN,238.65560788975,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,Middle SES,MN:MN,251.424589325768,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,8,XL,Los Angeles,SESCAT,Low SES,MN:MN,247.232861525524,0
+2024,Mathematics,8,XL,Los Angeles,SESCAT,Middle SES,MN:MN,279.955807392989,0
+2024,Mathematics,8,XL,Los Angeles,SESCAT,High SES,MN:MN,313.150658655312,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,Low SES,MN:MN,237.367834562413,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,Middle SES,MN:MN,252.005727122708,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,8,XN,New York City,SESCAT,Low SES,MN:MN,257.575604024608,0
+2024,Mathematics,8,XN,New York City,SESCAT,Middle SES,MN:MN,277.943051494007,0
+2024,Mathematics,8,XN,New York City,SESCAT,High SES,MN:MN,312.872967691935,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,Low SES,MN:MN,249.234658598458,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,Middle SES,MN:MN,263.837705642776,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,High SES,MN:MN,295.22167004197,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,Low SES,MN:MN,243.07416001606,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,Middle SES,MN:MN,259.627447049389,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,Low SES,MN:MN,236.694313286623,0
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,Middle SES,MN:MN,260.943651028102,0
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,High SES,MN:MN,295.312417618455,0
+2024,Mathematics,8,XR,Detroit,SESCAT,Low SES,MN:MN,234.747490920203,0
+2024,Mathematics,8,XR,Detroit,SESCAT,Middle SES,MN:MN,244.153604484474,0
+2024,Mathematics,8,XR,Detroit,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,8,XS,Dallas,SESCAT,Low SES,MN:MN,255.572782747002,0
+2024,Mathematics,8,XS,Dallas,SESCAT,Middle SES,MN:MN,267.219187704366,0
+2024,Mathematics,8,XS,Dallas,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,8,XT,Charlotte,SESCAT,Low SES,MN:MN,252.936811906699,0
+2024,Mathematics,8,XT,Charlotte,SESCAT,Middle SES,MN:MN,267.167633335253,0
+2024,Mathematics,8,XT,Charlotte,SESCAT,High SES,MN:MN,313.359005081998,0
+2024,Mathematics,8,XU,Austin,SESCAT,Low SES,MN:MN,242.674261945957,0
+2024,Mathematics,8,XU,Austin,SESCAT,Middle SES,MN:MN,264.681461175163,0
+2024,Mathematics,8,XU,Austin,SESCAT,High SES,MN:MN,303.154522199728,0
+2024,Mathematics,8,XV,Cleveland,SESCAT,Low SES,MN:MN,240.316122455202,0
+2024,Mathematics,8,XV,Cleveland,SESCAT,Middle SES,MN:MN,NA,257
+2024,Mathematics,8,XV,Cleveland,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,Low SES,MN:MN,231.837096022225,131072
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,Middle SES,MN:MN,246.810012455152,131072
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,High SES,MN:MN,299.064704404362,131072
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,Low SES,MN:MN,258.984690303274,0
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,Middle SES,MN:MN,284.806178909914,0
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,8,XY,Denver,SESCAT,Low SES,MN:MN,NA,257
+2024,Mathematics,8,XY,Denver,SESCAT,Middle SES,MN:MN,NA,257
+2024,Mathematics,8,XY,Denver,SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,Low SES,MN:MN,245.096925768495,0
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,Middle SES,MN:MN,263.909010396159,0
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,High SES,MN:MN,NA,257
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,Low SES,MN:MN,248.833908657277,0
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,Middle SES,MN:MN,262.905705702626,0
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,High SES,MN:MN,292.021825090589,0
+2024,Mathematics,8,NL,Large city,TOTAL,All students,MN:MN,265.780407343181,0
+2024,Mathematics,8,NP,National public,TOTAL,All students,MN:MN,272.232647011559,0
+2024,Mathematics,8,XA,Atlanta,TOTAL,All students,MN:MN,256.261095910216,0
+2024,Mathematics,8,XB,Boston,TOTAL,All students,MN:MN,263.576845319221,0
+2024,Mathematics,8,XC,Chicago,TOTAL,All students,MN:MN,265.201542849598,0
+2024,Mathematics,8,XD,San Diego,TOTAL,All students,MN:MN,274.785600936398,0
+2024,Mathematics,8,XE,Duval County (FL),TOTAL,All students,MN:MN,261.055840536211,0
+2024,Mathematics,8,XG,Guilford County (NC),TOTAL,All students,MN:MN,269.006870647669,0
+2024,Mathematics,8,XH,Houston,TOTAL,All students,MN:MN,264.297003362779,0
+2024,Mathematics,8,XI,Miami-Dade,TOTAL,All students,MN:MN,267.760675698427,0
+2024,Mathematics,8,XJ,Jefferson County (KY),TOTAL,All students,MN:MN,256.122594052406,0
+2024,Mathematics,8,XK,Milwaukee,TOTAL,All students,MN:MN,244.419583176557,0
+2024,Mathematics,8,XL,Los Angeles,TOTAL,All students,MN:MN,259.670588127803,0
+2024,Mathematics,8,XM,Baltimore City,TOTAL,All students,MN:MN,245.098920665655,0
+2024,Mathematics,8,XN,New York City,TOTAL,All students,MN:MN,267.059559292147,0
+2024,Mathematics,8,XO,Hillsborough County (FL),TOTAL,All students,MN:MN,266.566983812029,0
+2024,Mathematics,8,XP,Philadelphia,TOTAL,All students,MN:MN,252.203658300312,0
+2024,Mathematics,8,XQ,Albuquerque,TOTAL,All students,MN:MN,256.285526561125,0
+2024,Mathematics,8,XR,Detroit,TOTAL,All students,MN:MN,236.50415010754801,0
+2024,Mathematics,8,XS,Dallas,TOTAL,All students,MN:MN,259.336808302336,0
+2024,Mathematics,8,XT,Charlotte,TOTAL,All students,MN:MN,275.170662718731,0
+2024,Mathematics,8,XU,Austin,TOTAL,All students,MN:MN,272.57056235475,0
+2024,Mathematics,8,XV,Cleveland,TOTAL,All students,MN:MN,241.71634940093,0
+2024,Mathematics,8,XW,District of Columbia (DCPS),TOTAL,All students,MN:MN,259.615234763744,131072
+2024,Mathematics,8,XX,Clark County (NV),TOTAL,All students,MN:MN,261.706155295911,0
+2024,Mathematics,8,XY,Denver,TOTAL,All students,MN:MN,263.848582827493,0
+2024,Mathematics,8,XZ,Fort Worth (TX),TOTAL,All students,MN:MN,252.212704583684,0
+2024,Mathematics,8,YB,Orange County (FL),TOTAL,All students,MN:MN,266.072533518617,0
+2024,Mathematics,8,NL,Large city,SESCAT,Low SES,RP:RP,51.6148577040879,0
+2024,Mathematics,8,NL,Large city,SESCAT,Middle SES,RP:RP,32.120704365384,0
+2024,Mathematics,8,NL,Large city,SESCAT,High SES,RP:RP,16.2644379305281,0
+2024,Mathematics,8,NP,National public,SESCAT,Low SES,RP:RP,32.7289054030746,0
+2024,Mathematics,8,NP,National public,SESCAT,Middle SES,RP:RP,37.9560461393449,0
+2024,Mathematics,8,NP,National public,SESCAT,High SES,RP:RP,29.3150484575805,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,Low SES,RP:RP,60.799924458198,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,Middle SES,RP:RP,19.1512914736801,0
+2024,Mathematics,8,XA,Atlanta,SESCAT,High SES,RP:RP,20.0487840681219,0
+2024,Mathematics,8,XB,Boston,SESCAT,Low SES,RP:RP,58.5668970583034,0
+2024,Mathematics,8,XB,Boston,SESCAT,Middle SES,RP:RP,30.1318423791758,0
+2024,Mathematics,8,XB,Boston,SESCAT,High SES,RP:RP,11.3012605625208,0
+2024,Mathematics,8,XC,Chicago,SESCAT,Low SES,RP:RP,64.4704087394518,0
+2024,Mathematics,8,XC,Chicago,SESCAT,Middle SES,RP:RP,25.5468761950957,0
+2024,Mathematics,8,XC,Chicago,SESCAT,High SES,RP:RP,9.98271506545253,0
+2024,Mathematics,8,XD,San Diego,SESCAT,Low SES,RP:RP,37.722420303759,0
+2024,Mathematics,8,XD,San Diego,SESCAT,Middle SES,RP:RP,36.2274402140083,0
+2024,Mathematics,8,XD,San Diego,SESCAT,High SES,RP:RP,26.0501394822327,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,Low SES,RP:RP,28.9789158893711,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,Middle SES,RP:RP,47.0273138095714,0
+2024,Mathematics,8,XE,Duval County (FL),SESCAT,High SES,RP:RP,23.9937703010575,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,Low SES,RP:RP,33.9923363620539,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,Middle SES,RP:RP,46.2471590572199,0
+2024,Mathematics,8,XG,Guilford County (NC),SESCAT,High SES,RP:RP,19.7605045807262,0
+2024,Mathematics,8,XH,Houston,SESCAT,Low SES,RP:RP,69.2597765559202,0
+2024,Mathematics,8,XH,Houston,SESCAT,Middle SES,RP:RP,19.7008230435978,0
+2024,Mathematics,8,XH,Houston,SESCAT,High SES,RP:RP,11.039400400482,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,Low SES,RP:RP,51.1863788668374,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,Middle SES,RP:RP,37.7552621986846,0
+2024,Mathematics,8,XI,Miami-Dade,SESCAT,High SES,RP:RP,11.058358934478,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,Low SES,RP:RP,46.8329285601677,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,Middle SES,RP:RP,40.0687112188399,0
+2024,Mathematics,8,XJ,Jefferson County (KY),SESCAT,High SES,RP:RP,13.0983602209924,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,Low SES,RP:RP,68.5686339906614,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,Middle SES,RP:RP,25.2507071198269,0
+2024,Mathematics,8,XK,Milwaukee,SESCAT,High SES,RP:RP,6.18065888951179,0
+2024,Mathematics,8,XL,Los Angeles,SESCAT,Low SES,RP:RP,69.1897300899416,0
+2024,Mathematics,8,XL,Los Angeles,SESCAT,Middle SES,RP:RP,22.8755574796302,0
+2024,Mathematics,8,XL,Los Angeles,SESCAT,High SES,RP:RP,7.93471243042819,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,Low SES,RP:RP,65.2042582860899,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,Middle SES,RP:RP,29.5897958312498,0
+2024,Mathematics,8,XM,Baltimore City,SESCAT,High SES,RP:RP,5.2059458826603,0
+2024,Mathematics,8,XN,New York City,SESCAT,Low SES,RP:RP,64.2648532313089,0
+2024,Mathematics,8,XN,New York City,SESCAT,Middle SES,RP:RP,29.1264867589344,0
+2024,Mathematics,8,XN,New York City,SESCAT,High SES,RP:RP,6.60866000975675,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,Low SES,RP:RP,33.5733164840699,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,Middle SES,RP:RP,41.4495342131579,0
+2024,Mathematics,8,XO,Hillsborough County (FL),SESCAT,High SES,RP:RP,24.9771493027722,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,Low SES,RP:RP,64.98344971648,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,Middle SES,RP:RP,27.8671085292196,0
+2024,Mathematics,8,XP,Philadelphia,SESCAT,High SES,RP:RP,7.1494417543004,0
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,Low SES,RP:RP,40.9261981371223,0
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,Middle SES,RP:RP,42.3960826919283,0
+2024,Mathematics,8,XQ,Albuquerque,SESCAT,High SES,RP:RP,16.6777191709494,0
+2024,Mathematics,8,XR,Detroit,SESCAT,Low SES,RP:RP,80.8642935460308,0
+2024,Mathematics,8,XR,Detroit,SESCAT,Middle SES,RP:RP,18.6490176563446,0
+2024,Mathematics,8,XR,Detroit,SESCAT,High SES,RP:RP,NA,128
+2024,Mathematics,8,XS,Dallas,SESCAT,Low SES,RP:RP,78.1096486688869,0
+2024,Mathematics,8,XS,Dallas,SESCAT,Middle SES,RP:RP,18.3010140835558,0
+2024,Mathematics,8,XS,Dallas,SESCAT,High SES,RP:RP,3.58933724755726,0
+2024,Mathematics,8,XT,Charlotte,SESCAT,Low SES,RP:RP,27.1257818141804,0
+2024,Mathematics,8,XT,Charlotte,SESCAT,Middle SES,RP:RP,46.1772590599906,0
+2024,Mathematics,8,XT,Charlotte,SESCAT,High SES,RP:RP,26.6969591258289,0
+2024,Mathematics,8,XU,Austin,SESCAT,Low SES,RP:RP,32.2964186429468,0
+2024,Mathematics,8,XU,Austin,SESCAT,Middle SES,RP:RP,27.0673991635516,0
+2024,Mathematics,8,XU,Austin,SESCAT,High SES,RP:RP,40.6361821935016,0
+2024,Mathematics,8,XV,Cleveland,SESCAT,Low SES,RP:RP,92.691172451588,0
+2024,Mathematics,8,XV,Cleveland,SESCAT,Middle SES,RP:RP,7.308827548412,0
+2024,Mathematics,8,XV,Cleveland,SESCAT,High SES,RP:RP,NA,386
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,Low SES,RP:RP,28.6205529059755,131072
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,Middle SES,RP:RP,38.2488396049137,131072
+2024,Mathematics,8,XW,District of Columbia (DCPS),SESCAT,High SES,RP:RP,33.1306074891108,131072
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,Low SES,RP:RP,87.9206787446626,0
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,Middle SES,RP:RP,12.0793212553374,0
+2024,Mathematics,8,XX,Clark County (NV),SESCAT,High SES,RP:RP,NA,386
+2024,Mathematics,8,XY,Denver,SESCAT,Low SES,RP:RP,NA,259
+2024,Mathematics,8,XY,Denver,SESCAT,Middle SES,RP:RP,NA,259
+2024,Mathematics,8,XY,Denver,SESCAT,High SES,RP:RP,NA,259
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,Low SES,RP:RP,74.9296999829474,0
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,Middle SES,RP:RP,19.2280350021033,0
+2024,Mathematics,8,XZ,Fort Worth (TX),SESCAT,High SES,RP:RP,5.84226501494931,0
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,Low SES,RP:RP,29.0076054905322,0
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,Middle SES,RP:RP,45.0427687245664,0
+2024,Mathematics,8,YB,Orange County (FL),SESCAT,High SES,RP:RP,25.9496257849014,0
+2024,Mathematics,8,NL,Large city,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,NP,National public,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XA,Atlanta,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XB,Boston,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XC,Chicago,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XD,San Diego,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XE,Duval County (FL),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XG,Guilford County (NC),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XH,Houston,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XI,Miami-Dade,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XJ,Jefferson County (KY),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XK,Milwaukee,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XL,Los Angeles,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XM,Baltimore City,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XN,New York City,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XO,Hillsborough County (FL),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XP,Philadelphia,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XQ,Albuquerque,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XR,Detroit,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XS,Dallas,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XT,Charlotte,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XU,Austin,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XV,Cleveland,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XW,District of Columbia (DCPS),TOTAL,All students,RP:RP,100,131330
+2024,Mathematics,8,XX,Clark County (NV),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XY,Denver,TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,XZ,Fort Worth (TX),TOTAL,All students,RP:RP,100,258
+2024,Mathematics,8,YB,Orange County (FL),TOTAL,All students,RP:RP,100,258
+2024,Reading,4,NL,Large city,SESCAT,Low SES,ALC:AB,41.8152799196724,0
+2024,Reading,4,NL,Large city,SESCAT,Middle SES,ALC:AB,54.6747550943114,0
+2024,Reading,4,NL,Large city,SESCAT,High SES,ALC:AB,84.0296464289691,0
+2024,Reading,4,NP,National public,SESCAT,Low SES,ALC:AB,42.0874194052448,0
+2024,Reading,4,NP,National public,SESCAT,Middle SES,ALC:AB,57.3692158486646,0
+2024,Reading,4,NP,National public,SESCAT,High SES,ALC:AB,80.901458541811,0
+2024,Reading,4,XA,Atlanta,SESCAT,Low SES,ALC:AB,38.6986269835861,0
+2024,Reading,4,XA,Atlanta,SESCAT,Middle SES,ALC:AB,46.4213765856241,0
+2024,Reading,4,XA,Atlanta,SESCAT,High SES,ALC:AB,94.6814894382823,0
+2024,Reading,4,XB,Boston,SESCAT,Low SES,ALC:AB,41.1428430153218,0
+2024,Reading,4,XB,Boston,SESCAT,Middle SES,ALC:AB,59.2760900090645,0
+2024,Reading,4,XB,Boston,SESCAT,High SES,ALC:AB,91.781168459244,0
+2024,Reading,4,XC,Chicago,SESCAT,Low SES,ALC:AB,36.9868702742446,0
+2024,Reading,4,XC,Chicago,SESCAT,Middle SES,ALC:AB,50.3841854341064,0
+2024,Reading,4,XC,Chicago,SESCAT,High SES,ALC:AB,88.5734835709693,0
+2024,Reading,4,XD,San Diego,SESCAT,Low SES,ALC:AB,49.8206465168454,0
+2024,Reading,4,XD,San Diego,SESCAT,Middle SES,ALC:AB,63.8863843418907,0
+2024,Reading,4,XD,San Diego,SESCAT,High SES,ALC:AB,91.9728021615043,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,Low SES,ALC:AB,38.3336036214552,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,Middle SES,ALC:AB,52.8730486995998,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,High SES,ALC:AB,76.615566921707,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,Low SES,ALC:AB,37.7729190433857,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,Middle SES,ALC:AB,55.6018495139249,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,High SES,ALC:AB,81.7441077002433,0
+2024,Reading,4,XH,Houston,SESCAT,Low SES,ALC:AB,39.4108782956932,0
+2024,Reading,4,XH,Houston,SESCAT,Middle SES,ALC:AB,56.085723655848,0
+2024,Reading,4,XH,Houston,SESCAT,High SES,ALC:AB,89.2320244449458,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,Low SES,ALC:AB,54.2092614682179,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,Middle SES,ALC:AB,66.0214158645006,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,High SES,ALC:AB,81.9097614353274,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,Low SES,ALC:AB,42.6929202457903,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,Middle SES,ALC:AB,60.3896210578302,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,High SES,ALC:AB,88.3154840959092,0
+2024,Reading,4,XK,Milwaukee,SESCAT,Low SES,ALC:AB,20.9815261683646,0
+2024,Reading,4,XK,Milwaukee,SESCAT,Middle SES,ALC:AB,32.5093635278713,0
+2024,Reading,4,XK,Milwaukee,SESCAT,High SES,ALC:AB,69.0195876925354,0
+2024,Reading,4,XL,Los Angeles,SESCAT,Low SES,ALC:AB,39.0431420399346,0
+2024,Reading,4,XL,Los Angeles,SESCAT,Middle SES,ALC:AB,58.5449979272246,0
+2024,Reading,4,XL,Los Angeles,SESCAT,High SES,ALC:AB,94.7432273266812,0
+2024,Reading,4,XM,Baltimore City,SESCAT,Low SES,ALC:AB,26.4412206494294,0
+2024,Reading,4,XM,Baltimore City,SESCAT,Middle SES,ALC:AB,29.6281953387406,0
+2024,Reading,4,XM,Baltimore City,SESCAT,High SES,ALC:AB,73.7785604921282,0
+2024,Reading,4,XN,New York City,SESCAT,Low SES,ALC:AB,40.5979887548313,0
+2024,Reading,4,XN,New York City,SESCAT,Middle SES,ALC:AB,61.0692906026147,0
+2024,Reading,4,XN,New York City,SESCAT,High SES,ALC:AB,87.0208998299638,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,Low SES,ALC:AB,45.0825535619348,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,Middle SES,ALC:AB,57.7263553935945,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,High SES,ALC:AB,88.6111674361564,0
+2024,Reading,4,XP,Philadelphia,SESCAT,Low SES,ALC:AB,33.603623192044,0
+2024,Reading,4,XP,Philadelphia,SESCAT,Middle SES,ALC:AB,41.8640411691163,0
+2024,Reading,4,XP,Philadelphia,SESCAT,High SES,ALC:AB,NA,259
+2024,Reading,4,XQ,Albuquerque,SESCAT,Low SES,ALC:AB,26.8804421708963,0
+2024,Reading,4,XQ,Albuquerque,SESCAT,Middle SES,ALC:AB,49.5291417302794,0
+2024,Reading,4,XQ,Albuquerque,SESCAT,High SES,ALC:AB,83.8478835995657,0
+2024,Reading,4,XR,Detroit,SESCAT,Low SES,ALC:AB,19.6598232991022,0
+2024,Reading,4,XR,Detroit,SESCAT,Middle SES,ALC:AB,22.5816255972706,0
+2024,Reading,4,XR,Detroit,SESCAT,High SES,ALC:AB,NA,259
+2024,Reading,4,XS,Dallas,SESCAT,Low SES,ALC:AB,40.5660383167028,0
+2024,Reading,4,XS,Dallas,SESCAT,Middle SES,ALC:AB,55.7332005699401,0
+2024,Reading,4,XS,Dallas,SESCAT,High SES,ALC:AB,NA,257
+2024,Reading,4,XT,Charlotte,SESCAT,Low SES,ALC:AB,34.4086088198664,0
+2024,Reading,4,XT,Charlotte,SESCAT,Middle SES,ALC:AB,54.8367329296749,0
+2024,Reading,4,XT,Charlotte,SESCAT,High SES,ALC:AB,84.3167417286374,0
+2024,Reading,4,XU,Austin,SESCAT,Low SES,ALC:AB,29.4249121500314,0
+2024,Reading,4,XU,Austin,SESCAT,Middle SES,ALC:AB,49.7024192306607,0
+2024,Reading,4,XU,Austin,SESCAT,High SES,ALC:AB,86.4688773261821,0
+2024,Reading,4,XV,Cleveland,SESCAT,Low SES,ALC:AB,29.4131649139017,0
+2024,Reading,4,XV,Cleveland,SESCAT,Middle SES,ALC:AB,28.0042686048837,0
+2024,Reading,4,XV,Cleveland,SESCAT,High SES,ALC:AB,NA,259
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,Low SES,ALC:AB,28.1030133763967,131072
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,Middle SES,ALC:AB,44.839641115326,131072
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,High SES,ALC:AB,86.9134520051616,131072
+2024,Reading,4,XX,Clark County (NV),SESCAT,Low SES,ALC:AB,55.4207146674494,0
+2024,Reading,4,XX,Clark County (NV),SESCAT,Middle SES,ALC:AB,61.1059524997393,0
+2024,Reading,4,XX,Clark County (NV),SESCAT,High SES,ALC:AB,NA,257
+2024,Reading,4,XY,Denver,SESCAT,Low SES,ALC:AB,NA,259
+2024,Reading,4,XY,Denver,SESCAT,Middle SES,ALC:AB,NA,259
+2024,Reading,4,XY,Denver,SESCAT,High SES,ALC:AB,NA,259
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,Low SES,ALC:AB,38.9903765710792,0
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,Middle SES,ALC:AB,44.4706437513329,0
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,High SES,ALC:AB,NA,257
+2024,Reading,4,YB,Orange County (FL),SESCAT,Low SES,ALC:AB,44.8669918212295,0
+2024,Reading,4,YB,Orange County (FL),SESCAT,Middle SES,ALC:AB,60.5945358053072,0
+2024,Reading,4,YB,Orange County (FL),SESCAT,High SES,ALC:AB,78.0262306597625,0
+2024,Reading,4,NL,Large city,TOTAL,All students,ALC:AB,53.2090816362609,0
+2024,Reading,4,NP,National public,TOTAL,All students,ALC:AB,59.3265530761389,0
+2024,Reading,4,XA,Atlanta,TOTAL,All students,ALC:AB,54.990240647079,0
+2024,Reading,4,XB,Boston,TOTAL,All students,ALC:AB,55.9296993984019,0
+2024,Reading,4,XC,Chicago,TOTAL,All students,ALC:AB,47.276486260942,0
+2024,Reading,4,XD,San Diego,TOTAL,All students,ALC:AB,67.0580563585952,0
+2024,Reading,4,XE,Duval County (FL),TOTAL,All students,ALC:AB,54.4365795740869,0
+2024,Reading,4,XG,Guilford County (NC),TOTAL,All students,ALC:AB,56.4930442192945,0
+2024,Reading,4,XH,Houston,TOTAL,All students,ALC:AB,49.134626508726,0
+2024,Reading,4,XI,Miami-Dade,TOTAL,All students,ALC:AB,63.2844432180998,0
+2024,Reading,4,XJ,Jefferson County (KY),TOTAL,All students,ALC:AB,54.4705895188272,0
+2024,Reading,4,XK,Milwaukee,TOTAL,All students,ALC:AB,27.105842300785,0
+2024,Reading,4,XL,Los Angeles,TOTAL,All students,ALC:AB,50.1396579613712,0
+2024,Reading,4,XM,Baltimore City,TOTAL,All students,ALC:AB,30.6667378081497,0
+2024,Reading,4,XN,New York City,TOTAL,All students,ALC:AB,53.8003201482451,0
+2024,Reading,4,XO,Hillsborough County (FL),TOTAL,All students,ALC:AB,62.2299226182664,0
+2024,Reading,4,XP,Philadelphia,TOTAL,All students,ALC:AB,39.2025124758116,0
+2024,Reading,4,XQ,Albuquerque,TOTAL,All students,ALC:AB,47.1115248979092,0
+2024,Reading,4,XR,Detroit,TOTAL,All students,ALC:AB,19.9383801214102,0
+2024,Reading,4,XS,Dallas,TOTAL,All students,ALC:AB,46.4903397666906,0
+2024,Reading,4,XT,Charlotte,TOTAL,All students,ALC:AB,57.8276163737393,0
+2024,Reading,4,XU,Austin,TOTAL,All students,ALC:AB,56.8859233787019,0
+2024,Reading,4,XV,Cleveland,TOTAL,All students,ALC:AB,28.1692301617236,0
+2024,Reading,4,XW,District of Columbia (DCPS),TOTAL,All students,ALC:AB,57.6688314827036,131072
+2024,Reading,4,XX,Clark County (NV),TOTAL,All students,ALC:AB,55.8032548942896,0
+2024,Reading,4,XY,Denver,TOTAL,All students,ALC:AB,58.0145945106247,0
+2024,Reading,4,XZ,Fort Worth (TX),TOTAL,All students,ALC:AB,41.6507841261141,0
+2024,Reading,4,YB,Orange County (FL),TOTAL,All students,ALC:AB,60.2991559003036,0
+2024,Reading,4,NL,Large city,SESCAT,Low SES,ALC:AP,15.529408130367,0
+2024,Reading,4,NL,Large city,SESCAT,Middle SES,ALC:AP,26.2922660006477,0
+2024,Reading,4,NL,Large city,SESCAT,High SES,ALC:AP,57.9241134673875,0
+2024,Reading,4,NP,National public,SESCAT,Low SES,ALC:AP,15.4092219367413,0
+2024,Reading,4,NP,National public,SESCAT,Middle SES,ALC:AP,26.8030536611129,0
+2024,Reading,4,NP,National public,SESCAT,High SES,ALC:AP,51.3554074253209,0
+2024,Reading,4,XA,Atlanta,SESCAT,Low SES,ALC:AP,14.8269271758877,0
+2024,Reading,4,XA,Atlanta,SESCAT,Middle SES,ALC:AP,21.2086827774678,0
+2024,Reading,4,XA,Atlanta,SESCAT,High SES,ALC:AP,78.9001316097599,0
+2024,Reading,4,XB,Boston,SESCAT,Low SES,ALC:AP,16.9937756396953,0
+2024,Reading,4,XB,Boston,SESCAT,Middle SES,ALC:AP,29.4611207682454,0
+2024,Reading,4,XB,Boston,SESCAT,High SES,ALC:AP,73.8143664282492,0
+2024,Reading,4,XC,Chicago,SESCAT,Low SES,ALC:AP,12.7006349827972,0
+2024,Reading,4,XC,Chicago,SESCAT,Middle SES,ALC:AP,26.1762464700507,0
+2024,Reading,4,XC,Chicago,SESCAT,High SES,ALC:AP,65.2416426115523,0
+2024,Reading,4,XD,San Diego,SESCAT,Low SES,ALC:AP,18.6209970950556,0
+2024,Reading,4,XD,San Diego,SESCAT,Middle SES,ALC:AP,34.9384157839084,0
+2024,Reading,4,XD,San Diego,SESCAT,High SES,ALC:AP,69.4048000295571,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,Low SES,ALC:AP,13.187433611104,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,Middle SES,ALC:AP,23.2420197084537,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,High SES,ALC:AP,51.2840934586522,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,Low SES,ALC:AP,13.7371238935791,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,Middle SES,ALC:AP,25.2052341285749,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,High SES,ALC:AP,57.6125678018303,0
+2024,Reading,4,XH,Houston,SESCAT,Low SES,ALC:AP,13.0849653677866,0
+2024,Reading,4,XH,Houston,SESCAT,Middle SES,ALC:AP,26.5965073803317,0
+2024,Reading,4,XH,Houston,SESCAT,High SES,ALC:AP,69.0444380485072,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,Low SES,ALC:AP,25.475505318595,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,Middle SES,ALC:AP,37.489936324033,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,High SES,ALC:AP,56.2478589682375,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,Low SES,ALC:AP,15.623309205814,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,Middle SES,ALC:AP,30.7623288080576,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,High SES,ALC:AP,60.3232009797653,0
+2024,Reading,4,XK,Milwaukee,SESCAT,Low SES,ALC:AP,5.78813890477192,0
+2024,Reading,4,XK,Milwaukee,SESCAT,Middle SES,ALC:AP,10.6026754371553,0
+2024,Reading,4,XK,Milwaukee,SESCAT,High SES,ALC:AP,34.5828492781797,0
+2024,Reading,4,XL,Los Angeles,SESCAT,Low SES,ALC:AP,13.0888640243659,0
+2024,Reading,4,XL,Los Angeles,SESCAT,Middle SES,ALC:AP,30.6783227050268,0
+2024,Reading,4,XL,Los Angeles,SESCAT,High SES,ALC:AP,75.2638405355249,0
+2024,Reading,4,XM,Baltimore City,SESCAT,Low SES,ALC:AP,7.46325873192531,0
+2024,Reading,4,XM,Baltimore City,SESCAT,Middle SES,ALC:AP,12.1083956072404,0
+2024,Reading,4,XM,Baltimore City,SESCAT,High SES,ALC:AP,57.8764307898755,0
+2024,Reading,4,XN,New York City,SESCAT,Low SES,ALC:AP,15.7598054439626,0
+2024,Reading,4,XN,New York City,SESCAT,Middle SES,ALC:AP,32.5554395230929,0
+2024,Reading,4,XN,New York City,SESCAT,High SES,ALC:AP,62.1255840605718,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,Low SES,ALC:AP,18.8329130551091,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,Middle SES,ALC:AP,28.6973284625328,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,High SES,ALC:AP,62.2203085274508,0
+2024,Reading,4,XP,Philadelphia,SESCAT,Low SES,ALC:AP,11.1418047958685,0
+2024,Reading,4,XP,Philadelphia,SESCAT,Middle SES,ALC:AP,19.6392435015713,0
+2024,Reading,4,XP,Philadelphia,SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,4,XQ,Albuquerque,SESCAT,Low SES,ALC:AP,7.97665466316773,0
+2024,Reading,4,XQ,Albuquerque,SESCAT,Middle SES,ALC:AP,23.2895670282296,0
+2024,Reading,4,XQ,Albuquerque,SESCAT,High SES,ALC:AP,55.0096168643249,0
+2024,Reading,4,XR,Detroit,SESCAT,Low SES,ALC:AP,4.40766236207445,0
+2024,Reading,4,XR,Detroit,SESCAT,Middle SES,ALC:AP,5.94736061186661,0
+2024,Reading,4,XR,Detroit,SESCAT,High SES,ALC:AP,NA,259
+2024,Reading,4,XS,Dallas,SESCAT,Low SES,ALC:AP,13.0709122674789,0
+2024,Reading,4,XS,Dallas,SESCAT,Middle SES,ALC:AP,30.1922004718952,0
+2024,Reading,4,XS,Dallas,SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,4,XT,Charlotte,SESCAT,Low SES,ALC:AP,10.4276395035601,0
+2024,Reading,4,XT,Charlotte,SESCAT,Middle SES,ALC:AP,24.8257569220928,0
+2024,Reading,4,XT,Charlotte,SESCAT,High SES,ALC:AP,60.5305321927538,0
+2024,Reading,4,XU,Austin,SESCAT,Low SES,ALC:AP,9.40778206825326,0
+2024,Reading,4,XU,Austin,SESCAT,Middle SES,ALC:AP,24.471216180943,0
+2024,Reading,4,XU,Austin,SESCAT,High SES,ALC:AP,62.4717525722007,0
+2024,Reading,4,XV,Cleveland,SESCAT,Low SES,ALC:AP,8.24739178950428,0
+2024,Reading,4,XV,Cleveland,SESCAT,Middle SES,ALC:AP,10.7551342496359,0
+2024,Reading,4,XV,Cleveland,SESCAT,High SES,ALC:AP,NA,259
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,Low SES,ALC:AP,8.5449525206604,131072
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,Middle SES,ALC:AP,18.5385443133077,131072
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,High SES,ALC:AP,65.8963814829464,131072
+2024,Reading,4,XX,Clark County (NV),SESCAT,Low SES,ALC:AP,26.8389111429258,0
+2024,Reading,4,XX,Clark County (NV),SESCAT,Middle SES,ALC:AP,34.3500103157569,0
+2024,Reading,4,XX,Clark County (NV),SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,4,XY,Denver,SESCAT,Low SES,ALC:AP,NA,259
+2024,Reading,4,XY,Denver,SESCAT,Middle SES,ALC:AP,NA,259
+2024,Reading,4,XY,Denver,SESCAT,High SES,ALC:AP,NA,259
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,Low SES,ALC:AP,13.651258071742,0
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,Middle SES,ALC:AP,19.0306204165794,0
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,4,YB,Orange County (FL),SESCAT,Low SES,ALC:AP,17.0944540767627,0
+2024,Reading,4,YB,Orange County (FL),SESCAT,Middle SES,ALC:AP,34.7228838723792,0
+2024,Reading,4,YB,Orange County (FL),SESCAT,High SES,ALC:AP,54.8163048421121,0
+2024,Reading,4,NL,Large city,TOTAL,All students,ALC:AP,26.4832425471043,0
+2024,Reading,4,NP,National public,TOTAL,All students,ALC:AP,30.4982324120589,0
+2024,Reading,4,XA,Atlanta,TOTAL,All students,ALC:AP,33.2901745758494,0
+2024,Reading,4,XB,Boston,TOTAL,All students,ALC:AP,30.9123845119054,0
+2024,Reading,4,XC,Chicago,TOTAL,All students,ALC:AP,23.2703010338059,0
+2024,Reading,4,XD,San Diego,TOTAL,All students,ALC:AP,39.3830264788953,0
+2024,Reading,4,XE,Duval County (FL),TOTAL,All students,ALC:AP,27.2843792107949,0
+2024,Reading,4,XG,Guilford County (NC),TOTAL,All students,ALC:AP,29.7836425069742,0
+2024,Reading,4,XH,Houston,TOTAL,All students,ALC:AP,22.8840225414326,0
+2024,Reading,4,XI,Miami-Dade,TOTAL,All students,ALC:AP,35.2553922463016,0
+2024,Reading,4,XJ,Jefferson County (KY),TOTAL,All students,ALC:AP,26.2942189321592,0
+2024,Reading,4,XK,Milwaukee,TOTAL,All students,ALC:AP,8.9989220403138,0
+2024,Reading,4,XL,Los Angeles,TOTAL,All students,ALC:AP,24.8088602447841,0
+2024,Reading,4,XM,Baltimore City,TOTAL,All students,ALC:AP,12.6956624293739,0
+2024,Reading,4,XN,New York City,TOTAL,All students,ALC:AP,28.1157646587901,0
+2024,Reading,4,XO,Hillsborough County (FL),TOTAL,All students,ALC:AP,34.944380850601,0
+2024,Reading,4,XP,Philadelphia,TOTAL,All students,ALC:AP,17.1825982863954,0
+2024,Reading,4,XQ,Albuquerque,TOTAL,All students,ALC:AP,23.3379469423879,0
+2024,Reading,4,XR,Detroit,TOTAL,All students,ALC:AP,4.74120379040708,0
+2024,Reading,4,XS,Dallas,TOTAL,All students,ALC:AP,19.7121252484218,0
+2024,Reading,4,XT,Charlotte,TOTAL,All students,ALC:AP,31.1422743410657,0
+2024,Reading,4,XU,Austin,TOTAL,All students,ALC:AP,34.0904442341967,0
+2024,Reading,4,XV,Cleveland,TOTAL,All students,ALC:AP,8.2341917507177,0
+2024,Reading,4,XW,District of Columbia (DCPS),TOTAL,All students,ALC:AP,35.5368176883826,131072
+2024,Reading,4,XX,Clark County (NV),TOTAL,All students,ALC:AP,28.005289341955802,0
+2024,Reading,4,XY,Denver,TOTAL,All students,ALC:AP,33.1779479212211,0
+2024,Reading,4,XZ,Fort Worth (TX),TOTAL,All students,ALC:AP,16.026309758115,0
+2024,Reading,4,YB,Orange County (FL),TOTAL,All students,ALC:AP,34.8450559615637,0
+2024,Reading,4,NL,Large city,SESCAT,Low SES,MN:MN,197.009254858781,0
+2024,Reading,4,NL,Large city,SESCAT,Middle SES,MN:MN,208.864612617517,0
+2024,Reading,4,NL,Large city,SESCAT,High SES,MN:MN,241.085337994054,0
+2024,Reading,4,NP,National public,SESCAT,Low SES,MN:MN,197.364085782967,0
+2024,Reading,4,NP,National public,SESCAT,Middle SES,MN:MN,211.546792256474,0
+2024,Reading,4,NP,National public,SESCAT,High SES,MN:MN,236.216391435936,0
+2024,Reading,4,XA,Atlanta,SESCAT,Low SES,MN:MN,193.805547119121,0
+2024,Reading,4,XA,Atlanta,SESCAT,Middle SES,MN:MN,201.733500025233,0
+2024,Reading,4,XA,Atlanta,SESCAT,High SES,MN:MN,258.463736930346,0
+2024,Reading,4,XB,Boston,SESCAT,Low SES,MN:MN,198.726153241078,0
+2024,Reading,4,XB,Boston,SESCAT,Middle SES,MN:MN,214.599979707847,0
+2024,Reading,4,XB,Boston,SESCAT,High SES,MN:MN,255.018652966356,0
+2024,Reading,4,XC,Chicago,SESCAT,Low SES,MN:MN,192.406421804046,0
+2024,Reading,4,XC,Chicago,SESCAT,Middle SES,MN:MN,205.144720572043,0
+2024,Reading,4,XC,Chicago,SESCAT,High SES,MN:MN,247.507832507623,0
+2024,Reading,4,XD,San Diego,SESCAT,Low SES,MN:MN,205.235080812124,0
+2024,Reading,4,XD,San Diego,SESCAT,Middle SES,MN:MN,220.120159200192,0
+2024,Reading,4,XD,San Diego,SESCAT,High SES,MN:MN,249.574510106658,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,Low SES,MN:MN,196.034088116321,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,Middle SES,MN:MN,208.353590802286,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,High SES,MN:MN,233.837298490621,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,Low SES,MN:MN,193.041749079873,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,Middle SES,MN:MN,208.94395157606,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,High SES,MN:MN,239.131303331913,0
+2024,Reading,4,XH,Houston,SESCAT,Low SES,MN:MN,196.272533368818,0
+2024,Reading,4,XH,Houston,SESCAT,Middle SES,MN:MN,210.678967795743,0
+2024,Reading,4,XH,Houston,SESCAT,High SES,MN:MN,249.202254249265,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,Low SES,MN:MN,209.554607631996,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,Middle SES,MN:MN,220.457971634091,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,High SES,MN:MN,238.677546427495,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,Low SES,MN:MN,196.415476919256,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,Middle SES,MN:MN,215.769098022792,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,High SES,MN:MN,245.483218177292,0
+2024,Reading,4,XK,Milwaukee,SESCAT,Low SES,MN:MN,173.218548813135,0
+2024,Reading,4,XK,Milwaukee,SESCAT,Middle SES,MN:MN,183.801280687608,0
+2024,Reading,4,XK,Milwaukee,SESCAT,High SES,MN:MN,224.719332589529,0
+2024,Reading,4,XL,Los Angeles,SESCAT,Low SES,MN:MN,195.088318510388,0
+2024,Reading,4,XL,Los Angeles,SESCAT,Middle SES,MN:MN,214.22328887177,0
+2024,Reading,4,XL,Los Angeles,SESCAT,High SES,MN:MN,254.072981935556,0
+2024,Reading,4,XM,Baltimore City,SESCAT,Low SES,MN:MN,181.912401985889,0
+2024,Reading,4,XM,Baltimore City,SESCAT,Middle SES,MN:MN,183.517205640718,0
+2024,Reading,4,XM,Baltimore City,SESCAT,High SES,MN:MN,236.197020256589,0
+2024,Reading,4,XN,New York City,SESCAT,Low SES,MN:MN,194.636984246881,0
+2024,Reading,4,XN,New York City,SESCAT,Middle SES,MN:MN,216.787562189218,0
+2024,Reading,4,XN,New York City,SESCAT,High SES,MN:MN,246.211127643035,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,Low SES,MN:MN,202.401825007793,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,Middle SES,MN:MN,212.700823239701,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,High SES,MN:MN,245.264507093173,0
+2024,Reading,4,XP,Philadelphia,SESCAT,Low SES,MN:MN,189.196721610841,0
+2024,Reading,4,XP,Philadelphia,SESCAT,Middle SES,MN:MN,196.892727141371,0
+2024,Reading,4,XP,Philadelphia,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,4,XQ,Albuquerque,SESCAT,Low SES,MN:MN,178.459901687768,0
+2024,Reading,4,XQ,Albuquerque,SESCAT,Middle SES,MN:MN,204.760503425709,0
+2024,Reading,4,XQ,Albuquerque,SESCAT,High SES,MN:MN,238.97791561541,0
+2024,Reading,4,XR,Detroit,SESCAT,Low SES,MN:MN,174.893508119543,0
+2024,Reading,4,XR,Detroit,SESCAT,Middle SES,MN:MN,174.655275882142,0
+2024,Reading,4,XR,Detroit,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,4,XS,Dallas,SESCAT,Low SES,MN:MN,196.49092978498,0
+2024,Reading,4,XS,Dallas,SESCAT,Middle SES,MN:MN,209.944749491154,0
+2024,Reading,4,XS,Dallas,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,4,XT,Charlotte,SESCAT,Low SES,MN:MN,191.741276446151,0
+2024,Reading,4,XT,Charlotte,SESCAT,Middle SES,MN:MN,208.497462594263,0
+2024,Reading,4,XT,Charlotte,SESCAT,High SES,MN:MN,241.466118182169,0
+2024,Reading,4,XU,Austin,SESCAT,Low SES,MN:MN,185.581141879675,0
+2024,Reading,4,XU,Austin,SESCAT,Middle SES,MN:MN,206.406876016662,0
+2024,Reading,4,XU,Austin,SESCAT,High SES,MN:MN,245.285793325863,0
+2024,Reading,4,XV,Cleveland,SESCAT,Low SES,MN:MN,184.452707409337,0
+2024,Reading,4,XV,Cleveland,SESCAT,Middle SES,MN:MN,183.660778548266,0
+2024,Reading,4,XV,Cleveland,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,Low SES,MN:MN,184.082463159776,131072
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,Middle SES,MN:MN,200.545628784238,131072
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,High SES,MN:MN,248.558419503743,131072
+2024,Reading,4,XX,Clark County (NV),SESCAT,Low SES,MN:MN,208.927077843917,0
+2024,Reading,4,XX,Clark County (NV),SESCAT,Middle SES,MN:MN,216.895103394468,0
+2024,Reading,4,XX,Clark County (NV),SESCAT,High SES,MN:MN,NA,257
+2024,Reading,4,XY,Denver,SESCAT,Low SES,MN:MN,NA,257
+2024,Reading,4,XY,Denver,SESCAT,Middle SES,MN:MN,NA,257
+2024,Reading,4,XY,Denver,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,Low SES,MN:MN,196.205530492774,0
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,Middle SES,MN:MN,199.093319635038,0
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,High SES,MN:MN,NA,257
+2024,Reading,4,YB,Orange County (FL),SESCAT,Low SES,MN:MN,201.250700906252,0
+2024,Reading,4,YB,Orange County (FL),SESCAT,Middle SES,MN:MN,217.722304990932,0
+2024,Reading,4,YB,Orange County (FL),SESCAT,High SES,MN:MN,236.596319310529,0
+2024,Reading,4,NL,Large city,TOTAL,All students,MN:MN,208.451742434973,0
+2024,Reading,4,NP,National public,TOTAL,All students,MN:MN,214.274883563924,0
+2024,Reading,4,XA,Atlanta,TOTAL,All students,MN:MN,212.405534276189,0
+2024,Reading,4,XB,Boston,TOTAL,All students,MN:MN,213.585287736026,0
+2024,Reading,4,XC,Chicago,TOTAL,All students,MN:MN,202.940495440165,0
+2024,Reading,4,XD,San Diego,TOTAL,All students,MN:MN,223.376212558279,0
+2024,Reading,4,XE,Duval County (FL),TOTAL,All students,MN:MN,211.064836098694,0
+2024,Reading,4,XG,Guilford County (NC),TOTAL,All students,MN:MN,211.547691684116,0
+2024,Reading,4,XH,Houston,TOTAL,All students,MN:MN,205.907237564458,0
+2024,Reading,4,XI,Miami-Dade,TOTAL,All students,MN:MN,218.48765951306,0
+2024,Reading,4,XJ,Jefferson County (KY),TOTAL,All students,MN:MN,209.242015476675,0
+2024,Reading,4,XK,Milwaukee,TOTAL,All students,MN:MN,179.005810208273,0
+2024,Reading,4,XL,Los Angeles,TOTAL,All students,MN:MN,206.475883940139,0
+2024,Reading,4,XM,Baltimore City,TOTAL,All students,MN:MN,186.220462806873,0
+2024,Reading,4,XN,New York City,TOTAL,All students,MN:MN,209.131526643502,0
+2024,Reading,4,XO,Hillsborough County (FL),TOTAL,All students,MN:MN,218.62169322117,0
+2024,Reading,4,XP,Philadelphia,TOTAL,All students,MN:MN,194.525252823823,0
+2024,Reading,4,XQ,Albuquerque,TOTAL,All students,MN:MN,200.847558807118,0
+2024,Reading,4,XR,Detroit,TOTAL,All students,MN:MN,174.44572634066,0
+2024,Reading,4,XS,Dallas,TOTAL,All students,MN:MN,201.999590912489,0
+2024,Reading,4,XT,Charlotte,TOTAL,All students,MN:MN,213.534294766291,0
+2024,Reading,4,XU,Austin,TOTAL,All students,MN:MN,214.323613225904,0
+2024,Reading,4,XV,Cleveland,TOTAL,All students,MN:MN,183.583701228248,0
+2024,Reading,4,XW,District of Columbia (DCPS),TOTAL,All students,MN:MN,215.736401656734,131072
+2024,Reading,4,XX,Clark County (NV),TOTAL,All students,MN:MN,209.901913161295,0
+2024,Reading,4,XY,Denver,TOTAL,All students,MN:MN,215.636971167785,0
+2024,Reading,4,XZ,Fort Worth (TX),TOTAL,All students,MN:MN,198.199710306537,0
+2024,Reading,4,YB,Orange County (FL),TOTAL,All students,MN:MN,217.694636933451,0
+2024,Reading,4,NL,Large city,SESCAT,Low SES,RP:RP,48.3633868288609,0
+2024,Reading,4,NL,Large city,SESCAT,Middle SES,RP:RP,33.3456025428608,0
+2024,Reading,4,NL,Large city,SESCAT,High SES,RP:RP,18.2910106282783,0
+2024,Reading,4,NP,National public,SESCAT,Low SES,RP:RP,30.7455431095168,0
+2024,Reading,4,NP,National public,SESCAT,Middle SES,RP:RP,38.4412413953364,0
+2024,Reading,4,NP,National public,SESCAT,High SES,RP:RP,30.8132154951468,0
+2024,Reading,4,XA,Atlanta,SESCAT,Low SES,RP:RP,48.7452569323738,0
+2024,Reading,4,XA,Atlanta,SESCAT,Middle SES,RP:RP,23.8028299439851,0
+2024,Reading,4,XA,Atlanta,SESCAT,High SES,RP:RP,27.4519131236411,0
+2024,Reading,4,XB,Boston,SESCAT,Low SES,RP:RP,44.9285707878888,0
+2024,Reading,4,XB,Boston,SESCAT,Middle SES,RP:RP,38.1479899601394,0
+2024,Reading,4,XB,Boston,SESCAT,High SES,RP:RP,16.9234392519718,0
+2024,Reading,4,XC,Chicago,SESCAT,Low SES,RP:RP,58.1705734886537,0
+2024,Reading,4,XC,Chicago,SESCAT,Middle SES,RP:RP,27.2269530914992,0
+2024,Reading,4,XC,Chicago,SESCAT,High SES,RP:RP,14.6024734198471,0
+2024,Reading,4,XD,San Diego,SESCAT,Low SES,RP:RP,33.0894642602185,0
+2024,Reading,4,XD,San Diego,SESCAT,Middle SES,RP:RP,36.8643430630599,0
+2024,Reading,4,XD,San Diego,SESCAT,High SES,RP:RP,30.0461926767216,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,Low SES,RP:RP,28.3385001707964,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,Middle SES,RP:RP,46.2844020110338,0
+2024,Reading,4,XE,Duval County (FL),SESCAT,High SES,RP:RP,25.3770978181698,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,Low SES,RP:RP,29.352967775674,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,Middle SES,RP:RP,44.9442276428486,0
+2024,Reading,4,XG,Guilford County (NC),SESCAT,High SES,RP:RP,25.702804581477402,0
+2024,Reading,4,XH,Houston,SESCAT,Low SES,RP:RP,63.4590740141956,0
+2024,Reading,4,XH,Houston,SESCAT,Middle SES,RP:RP,24.5740272577294,0
+2024,Reading,4,XH,Houston,SESCAT,High SES,RP:RP,11.966898728075,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,Low SES,RP:RP,40.3633241181941,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,Middle SES,RP:RP,44.3972815488737,0
+2024,Reading,4,XI,Miami-Dade,SESCAT,High SES,RP:RP,15.2393943329322,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,Low SES,RP:RP,50.0702414106435,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,Middle SES,RP:RP,38.4661434927203,0
+2024,Reading,4,XJ,Jefferson County (KY),SESCAT,High SES,RP:RP,11.4636150966362,0
+2024,Reading,4,XK,Milwaukee,SESCAT,Low SES,RP:RP,60.3137829536329,0
+2024,Reading,4,XK,Milwaukee,SESCAT,Middle SES,RP:RP,32.528833490099,0
+2024,Reading,4,XK,Milwaukee,SESCAT,High SES,RP:RP,7.15738355626804,0
+2024,Reading,4,XL,Los Angeles,SESCAT,Low SES,RP:RP,61.5224586879024,0
+2024,Reading,4,XL,Los Angeles,SESCAT,Middle SES,RP:RP,26.3891922324303,0
+2024,Reading,4,XL,Los Angeles,SESCAT,High SES,RP:RP,12.0883490796673,0
+2024,Reading,4,XM,Baltimore City,SESCAT,Low SES,RP:RP,55.0205619015444,0
+2024,Reading,4,XM,Baltimore City,SESCAT,Middle SES,RP:RP,36.959436625604,0
+2024,Reading,4,XM,Baltimore City,SESCAT,High SES,RP:RP,8.02000147285168,0
+2024,Reading,4,XN,New York City,SESCAT,Low SES,RP:RP,50.4010102592728,0
+2024,Reading,4,XN,New York City,SESCAT,Middle SES,RP:RP,33.2564624800565,0
+2024,Reading,4,XN,New York City,SESCAT,High SES,RP:RP,16.3425272606707,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,Low SES,RP:RP,34.3114509457691,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,Middle SES,RP:RP,36.2323705189526,0
+2024,Reading,4,XO,Hillsborough County (FL),SESCAT,High SES,RP:RP,29.4561785352782,0
+2024,Reading,4,XP,Philadelphia,SESCAT,Low SES,RP:RP,55.9055848463596,0
+2024,Reading,4,XP,Philadelphia,SESCAT,Middle SES,RP:RP,38.2255296173711,0
+2024,Reading,4,XP,Philadelphia,SESCAT,High SES,RP:RP,5.86888553626937,0
+2024,Reading,4,XQ,Albuquerque,SESCAT,Low SES,RP:RP,38.8446070410527,0
+2024,Reading,4,XQ,Albuquerque,SESCAT,Middle SES,RP:RP,40.5419127131267,0
+2024,Reading,4,XQ,Albuquerque,SESCAT,High SES,RP:RP,20.6134802458206,0
+2024,Reading,4,XR,Detroit,SESCAT,Low SES,RP:RP,78.1105906724334,0
+2024,Reading,4,XR,Detroit,SESCAT,Middle SES,RP:RP,21.5712013910198,0
+2024,Reading,4,XR,Detroit,SESCAT,High SES,RP:RP,NA,386
+2024,Reading,4,XS,Dallas,SESCAT,Low SES,RP:RP,71.9106396559292,0
+2024,Reading,4,XS,Dallas,SESCAT,Middle SES,RP:RP,22.4635771793991,0
+2024,Reading,4,XS,Dallas,SESCAT,High SES,RP:RP,5.62578316467171,0
+2024,Reading,4,XT,Charlotte,SESCAT,Low SES,RP:RP,24.8617470042263,0
+2024,Reading,4,XT,Charlotte,SESCAT,Middle SES,RP:RP,46.171885882133,0
+2024,Reading,4,XT,Charlotte,SESCAT,High SES,RP:RP,28.9663671136407,0
+2024,Reading,4,XU,Austin,SESCAT,Low SES,RP:RP,32.2883278952262,0
+2024,Reading,4,XU,Austin,SESCAT,Middle SES,RP:RP,27.9444740260617,0
+2024,Reading,4,XU,Austin,SESCAT,High SES,RP:RP,39.7671980787121,0
+2024,Reading,4,XV,Cleveland,SESCAT,Low SES,RP:RP,82.5942882099882,0
+2024,Reading,4,XV,Cleveland,SESCAT,Middle SES,RP:RP,17.4057117900118,0
+2024,Reading,4,XV,Cleveland,SESCAT,High SES,RP:RP,NA,386
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,Low SES,RP:RP,22.7806469556247,131072
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,Middle SES,RP:RP,34.4644654735162,131072
+2024,Reading,4,XW,District of Columbia (DCPS),SESCAT,High SES,RP:RP,42.7548875708591,131072
+2024,Reading,4,XX,Clark County (NV),SESCAT,Low SES,RP:RP,75.179561224985,0
+2024,Reading,4,XX,Clark County (NV),SESCAT,Middle SES,RP:RP,23.3714931991721,0
+2024,Reading,4,XX,Clark County (NV),SESCAT,High SES,RP:RP,1.44894557584293,258
+2024,Reading,4,XY,Denver,SESCAT,Low SES,RP:RP,NA,259
+2024,Reading,4,XY,Denver,SESCAT,Middle SES,RP:RP,NA,259
+2024,Reading,4,XY,Denver,SESCAT,High SES,RP:RP,NA,259
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,Low SES,RP:RP,70.797163951558,0
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,Middle SES,RP:RP,24.9432891967594,0
+2024,Reading,4,XZ,Fort Worth (TX),SESCAT,High SES,RP:RP,4.25954685168259,0
+2024,Reading,4,YB,Orange County (FL),SESCAT,Low SES,RP:RP,28.5071647412796,0
+2024,Reading,4,YB,Orange County (FL),SESCAT,Middle SES,RP:RP,43.5700918310417,0
+2024,Reading,4,YB,Orange County (FL),SESCAT,High SES,RP:RP,27.9227434276787,0
+2024,Reading,4,NL,Large city,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,NP,National public,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XA,Atlanta,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XB,Boston,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XC,Chicago,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XD,San Diego,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XE,Duval County (FL),TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XG,Guilford County (NC),TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XH,Houston,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XI,Miami-Dade,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XJ,Jefferson County (KY),TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XK,Milwaukee,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XL,Los Angeles,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XM,Baltimore City,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XN,New York City,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XO,Hillsborough County (FL),TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XP,Philadelphia,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XQ,Albuquerque,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XR,Detroit,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XS,Dallas,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XT,Charlotte,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XU,Austin,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XV,Cleveland,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XW,District of Columbia (DCPS),TOTAL,All students,RP:RP,100,131330
+2024,Reading,4,XX,Clark County (NV),TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XY,Denver,TOTAL,All students,RP:RP,100,258
+2024,Reading,4,XZ,Fort Worth (TX),TOTAL,All students,RP:RP,100,258
+2024,Reading,4,YB,Orange County (FL),TOTAL,All students,RP:RP,100,258
+2024,Reading,8,NL,Large city,SESCAT,Low SES,ALC:AB,49.8041661778986,0
+2024,Reading,8,NL,Large city,SESCAT,Middle SES,ALC:AB,67.3085545787342,0
+2024,Reading,8,NL,Large city,SESCAT,High SES,ALC:AB,86.5815374520315,0
+2024,Reading,8,NP,National public,SESCAT,Low SES,ALC:AB,48.2143875005575,0
+2024,Reading,8,NP,National public,SESCAT,Middle SES,ALC:AB,65.6158174014104,0
+2024,Reading,8,NP,National public,SESCAT,High SES,ALC:AB,86.277048095683,0
+2024,Reading,8,XA,Atlanta,SESCAT,Low SES,ALC:AB,45.7954045221982,0
+2024,Reading,8,XA,Atlanta,SESCAT,Middle SES,ALC:AB,64.7341916595084,0
+2024,Reading,8,XA,Atlanta,SESCAT,High SES,ALC:AB,94.9550399668562,0
+2024,Reading,8,XB,Boston,SESCAT,Low SES,ALC:AB,44.160226275932,0
+2024,Reading,8,XB,Boston,SESCAT,Middle SES,ALC:AB,71.7775908443106,0
+2024,Reading,8,XB,Boston,SESCAT,High SES,ALC:AB,96.5872354229712,258
+2024,Reading,8,XC,Chicago,SESCAT,Low SES,ALC:AB,56.0670265110344,0
+2024,Reading,8,XC,Chicago,SESCAT,Middle SES,ALC:AB,70.9745307481978,0
+2024,Reading,8,XC,Chicago,SESCAT,High SES,ALC:AB,92.6955740448959,0
+2024,Reading,8,XD,San Diego,SESCAT,Low SES,ALC:AB,50.3839209647212,0
+2024,Reading,8,XD,San Diego,SESCAT,Middle SES,ALC:AB,77.0781247281795,0
+2024,Reading,8,XD,San Diego,SESCAT,High SES,ALC:AB,93.6187764047538,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,Low SES,ALC:AB,47.564290410982,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,Middle SES,ALC:AB,56.5582020533725,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,High SES,ALC:AB,78.3819176412739,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,Low SES,ALC:AB,43.2215087392809,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,Middle SES,ALC:AB,64.0002394491562,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,High SES,ALC:AB,87.143398473946,0
+2024,Reading,8,XH,Houston,SESCAT,Low SES,ALC:AB,46.9129118539524,0
+2024,Reading,8,XH,Houston,SESCAT,Middle SES,ALC:AB,66.6298608701255,0
+2024,Reading,8,XH,Houston,SESCAT,High SES,ALC:AB,91.6628141014241,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,Low SES,ALC:AB,61.8471352098114,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,Middle SES,ALC:AB,65.9138938120941,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,High SES,ALC:AB,85.1486965661006,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,Low SES,ALC:AB,42.0151785167686,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,Middle SES,ALC:AB,65.7250002281711,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,High SES,ALC:AB,92.9626868448521,0
+2024,Reading,8,XK,Milwaukee,SESCAT,Low SES,ALC:AB,41.2447054851526,0
+2024,Reading,8,XK,Milwaukee,SESCAT,Middle SES,ALC:AB,60.2097504424277,0
+2024,Reading,8,XK,Milwaukee,SESCAT,High SES,ALC:AB,NA,257
+2024,Reading,8,XL,Los Angeles,SESCAT,Low SES,ALC:AB,49.7635155321021,0
+2024,Reading,8,XL,Los Angeles,SESCAT,Middle SES,ALC:AB,71.9526874279283,0
+2024,Reading,8,XL,Los Angeles,SESCAT,High SES,ALC:AB,94.6829090830114,0
+2024,Reading,8,XM,Baltimore City,SESCAT,Low SES,ALC:AB,43.5983638010822,0
+2024,Reading,8,XM,Baltimore City,SESCAT,Middle SES,ALC:AB,55.3183686660736,0
+2024,Reading,8,XM,Baltimore City,SESCAT,High SES,ALC:AB,NA,257
+2024,Reading,8,XN,New York City,SESCAT,Low SES,ALC:AB,53.3559532253321,0
+2024,Reading,8,XN,New York City,SESCAT,Middle SES,ALC:AB,73.5544280393886,0
+2024,Reading,8,XN,New York City,SESCAT,High SES,ALC:AB,91.968084005814,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,Low SES,ALC:AB,48.8562506258256,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,Middle SES,ALC:AB,63.4801304421303,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,High SES,ALC:AB,85.7139555362945,0
+2024,Reading,8,XP,Philadelphia,SESCAT,Low SES,ALC:AB,42.9995029858704,0
+2024,Reading,8,XP,Philadelphia,SESCAT,Middle SES,ALC:AB,57.7186022131686,0
+2024,Reading,8,XP,Philadelphia,SESCAT,High SES,ALC:AB,NA,259
+2024,Reading,8,XQ,Albuquerque,SESCAT,Low SES,ALC:AB,36.9187610234546,0
+2024,Reading,8,XQ,Albuquerque,SESCAT,Middle SES,ALC:AB,57.8676930163501,0
+2024,Reading,8,XQ,Albuquerque,SESCAT,High SES,ALC:AB,86.0129310835173,0
+2024,Reading,8,XR,Detroit,SESCAT,Low SES,ALC:AB,32.8970082906504,0
+2024,Reading,8,XR,Detroit,SESCAT,Middle SES,ALC:AB,40.8220557548553,0
+2024,Reading,8,XR,Detroit,SESCAT,High SES,ALC:AB,NA,259
+2024,Reading,8,XS,Dallas,SESCAT,Low SES,ALC:AB,48.7942504273899,0
+2024,Reading,8,XS,Dallas,SESCAT,Middle SES,ALC:AB,63.9312525037572,0
+2024,Reading,8,XS,Dallas,SESCAT,High SES,ALC:AB,NA,257
+2024,Reading,8,XT,Charlotte,SESCAT,Low SES,ALC:AB,46.5716287305733,0
+2024,Reading,8,XT,Charlotte,SESCAT,Middle SES,ALC:AB,59.4725508564804,0
+2024,Reading,8,XT,Charlotte,SESCAT,High SES,ALC:AB,89.5868278193216,0
+2024,Reading,8,XU,Austin,SESCAT,Low SES,ALC:AB,28.2533861744391,0
+2024,Reading,8,XU,Austin,SESCAT,Middle SES,ALC:AB,59.5741046962187,0
+2024,Reading,8,XU,Austin,SESCAT,High SES,ALC:AB,89.3611620358295,0
+2024,Reading,8,XV,Cleveland,SESCAT,Low SES,ALC:AB,40.3292600173177,0
+2024,Reading,8,XV,Cleveland,SESCAT,Middle SES,ALC:AB,NA,257
+2024,Reading,8,XV,Cleveland,SESCAT,High SES,ALC:AB,NA,259
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,Low SES,ALC:AB,36.1437895209337,131072
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,Middle SES,ALC:AB,48.8390142671051,131072
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,High SES,ALC:AB,85.9359448587831,131072
+2024,Reading,8,XX,Clark County (NV),SESCAT,Low SES,ALC:AB,56.9207011738045,0
+2024,Reading,8,XX,Clark County (NV),SESCAT,Middle SES,ALC:AB,76.8445440527807,0
+2024,Reading,8,XX,Clark County (NV),SESCAT,High SES,ALC:AB,NA,259
+2024,Reading,8,XY,Denver,SESCAT,Low SES,ALC:AB,NA,259
+2024,Reading,8,XY,Denver,SESCAT,Middle SES,ALC:AB,NA,259
+2024,Reading,8,XY,Denver,SESCAT,High SES,ALC:AB,NA,259
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,Low SES,ALC:AB,41.5979306272935,0
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,Middle SES,ALC:AB,55.1741017272401,0
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,High SES,ALC:AB,NA,257
+2024,Reading,8,YB,Orange County (FL),SESCAT,Low SES,ALC:AB,42.3054777590948,0
+2024,Reading,8,YB,Orange County (FL),SESCAT,Middle SES,ALC:AB,58.9059835912382,0
+2024,Reading,8,YB,Orange County (FL),SESCAT,High SES,ALC:AB,81.8111177090626,0
+2024,Reading,8,NL,Large city,TOTAL,All students,ALC:AB,61.1634653232047,0
+2024,Reading,8,NP,National public,TOTAL,All students,ALC:AB,65.7985945843408,0
+2024,Reading,8,XA,Atlanta,TOTAL,All students,ALC:AB,58.9599015652973,0
+2024,Reading,8,XB,Boston,TOTAL,All students,ALC:AB,57.5196384255432,0
+2024,Reading,8,XC,Chicago,TOTAL,All students,ALC:AB,62.7729532422387,0
+2024,Reading,8,XD,San Diego,TOTAL,All students,ALC:AB,70.892820039927,0
+2024,Reading,8,XE,Duval County (FL),TOTAL,All students,ALC:AB,59.0536445228852,0
+2024,Reading,8,XG,Guilford County (NC),TOTAL,All students,ALC:AB,62.4861940547067,0
+2024,Reading,8,XH,Houston,TOTAL,All students,ALC:AB,55.6316683108629,0
+2024,Reading,8,XI,Miami-Dade,TOTAL,All students,ALC:AB,65.4205808238879,0
+2024,Reading,8,XJ,Jefferson County (KY),TOTAL,All students,ALC:AB,57.0957359947656,0
+2024,Reading,8,XK,Milwaukee,TOTAL,All students,ALC:AB,48.172367402515,0
+2024,Reading,8,XL,Los Angeles,TOTAL,All students,ALC:AB,58.0746311198493,0
+2024,Reading,8,XM,Baltimore City,TOTAL,All students,ALC:AB,49.3939742596491,0
+2024,Reading,8,XN,New York City,TOTAL,All students,ALC:AB,61.7220952923502,0
+2024,Reading,8,XO,Hillsborough County (FL),TOTAL,All students,ALC:AB,63.5374368834005,0
+2024,Reading,8,XP,Philadelphia,TOTAL,All students,ALC:AB,50.2425871248766,0
+2024,Reading,8,XQ,Albuquerque,TOTAL,All students,ALC:AB,54.2008791078797,0
+2024,Reading,8,XR,Detroit,TOTAL,All students,ALC:AB,34.5886697712571,0
+2024,Reading,8,XS,Dallas,TOTAL,All students,ALC:AB,52.6968464355675,0
+2024,Reading,8,XT,Charlotte,TOTAL,All students,ALC:AB,62.9924265853418,0
+2024,Reading,8,XU,Austin,TOTAL,All students,ALC:AB,61.3306763616013,0
+2024,Reading,8,XV,Cleveland,TOTAL,All students,ALC:AB,40.4058286505906,0
+2024,Reading,8,XW,District of Columbia (DCPS),TOTAL,All students,ALC:AB,57.3003357920456,131072
+2024,Reading,8,XX,Clark County (NV),TOTAL,All students,ALC:AB,59.2760440514588,0
+2024,Reading,8,XY,Denver,TOTAL,All students,ALC:AB,65.4080363410835,0
+2024,Reading,8,XZ,Fort Worth (TX),TOTAL,All students,ALC:AB,46.9411942325904,0
+2024,Reading,8,YB,Orange County (FL),TOTAL,All students,ALC:AB,59.8826110646604,0
+2024,Reading,8,NL,Large city,SESCAT,Low SES,ALC:AP,14.4690256177792,0
+2024,Reading,8,NL,Large city,SESCAT,Middle SES,ALC:AP,29.0121469933843,0
+2024,Reading,8,NL,Large city,SESCAT,High SES,ALC:AP,55.3705314001145,0
+2024,Reading,8,NP,National public,SESCAT,Low SES,ALC:AP,12.8636179538696,0
+2024,Reading,8,NP,National public,SESCAT,Middle SES,ALC:AP,25.7971120049584,0
+2024,Reading,8,NP,National public,SESCAT,High SES,ALC:AP,50.763388755235,0
+2024,Reading,8,XA,Atlanta,SESCAT,Low SES,ALC:AP,10.8091510362342,0
+2024,Reading,8,XA,Atlanta,SESCAT,Middle SES,ALC:AP,27.4656037523186,0
+2024,Reading,8,XA,Atlanta,SESCAT,High SES,ALC:AP,65.5412579864781,0
+2024,Reading,8,XB,Boston,SESCAT,Low SES,ALC:AP,11.660884027004,0
+2024,Reading,8,XB,Boston,SESCAT,Middle SES,ALC:AP,34.3519037957218,0
+2024,Reading,8,XB,Boston,SESCAT,High SES,ALC:AP,79.1093014906827,0
+2024,Reading,8,XC,Chicago,SESCAT,Low SES,ALC:AP,18.2825804614684,0
+2024,Reading,8,XC,Chicago,SESCAT,Middle SES,ALC:AP,32.7921167634291,0
+2024,Reading,8,XC,Chicago,SESCAT,High SES,ALC:AP,71.7422528122359,0
+2024,Reading,8,XD,San Diego,SESCAT,Low SES,ALC:AP,16.7050034803038,0
+2024,Reading,8,XD,San Diego,SESCAT,Middle SES,ALC:AP,36.4781400808362,0
+2024,Reading,8,XD,San Diego,SESCAT,High SES,ALC:AP,68.7195176378221,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,Low SES,ALC:AP,9.88622721808917,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,Middle SES,ALC:AP,17.9068162326027,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,High SES,ALC:AP,37.7272340480029,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,Low SES,ALC:AP,10.5611679931783,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,Middle SES,ALC:AP,23.3268595320296,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,High SES,ALC:AP,51.5367399932536,0
+2024,Reading,8,XH,Houston,SESCAT,Low SES,ALC:AP,11.0620919204117,0
+2024,Reading,8,XH,Houston,SESCAT,Middle SES,ALC:AP,30.7518564719016,0
+2024,Reading,8,XH,Houston,SESCAT,High SES,ALC:AP,63.746490217653,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,Low SES,ALC:AP,22.4334028952038,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,Middle SES,ALC:AP,28.0122958502797,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,High SES,ALC:AP,52.9263267571207,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,Low SES,ALC:AP,9.58591251141644,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,Middle SES,ALC:AP,28.8785949802176,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,High SES,ALC:AP,59.5663486795254,0
+2024,Reading,8,XK,Milwaukee,SESCAT,Low SES,ALC:AP,10.2892794303691,0
+2024,Reading,8,XK,Milwaukee,SESCAT,Middle SES,ALC:AP,20.943987517293,0
+2024,Reading,8,XK,Milwaukee,SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,8,XL,Los Angeles,SESCAT,Low SES,ALC:AP,13.0027948953654,0
+2024,Reading,8,XL,Los Angeles,SESCAT,Middle SES,ALC:AP,31.5687819442683,0
+2024,Reading,8,XL,Los Angeles,SESCAT,High SES,ALC:AP,72.0378561051251,0
+2024,Reading,8,XM,Baltimore City,SESCAT,Low SES,ALC:AP,10.8481417272012,0
+2024,Reading,8,XM,Baltimore City,SESCAT,Middle SES,ALC:AP,20.6338381919589,0
+2024,Reading,8,XM,Baltimore City,SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,8,XN,New York City,SESCAT,Low SES,ALC:AP,19.8064091900797,0
+2024,Reading,8,XN,New York City,SESCAT,Middle SES,ALC:AP,39.8530508218443,0
+2024,Reading,8,XN,New York City,SESCAT,High SES,ALC:AP,67.1948573027312,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,Low SES,ALC:AP,13.0025965490355,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,Middle SES,ALC:AP,23.137318766817,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,High SES,ALC:AP,48.1430608995102,0
+2024,Reading,8,XP,Philadelphia,SESCAT,Low SES,ALC:AP,11.1884659682757,0
+2024,Reading,8,XP,Philadelphia,SESCAT,Middle SES,ALC:AP,23.1977861187806,0
+2024,Reading,8,XP,Philadelphia,SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,8,XQ,Albuquerque,SESCAT,Low SES,ALC:AP,6.3144425953098,0
+2024,Reading,8,XQ,Albuquerque,SESCAT,Middle SES,ALC:AP,20.7343262264888,0
+2024,Reading,8,XQ,Albuquerque,SESCAT,High SES,ALC:AP,49.758168529845,0
+2024,Reading,8,XR,Detroit,SESCAT,Low SES,ALC:AP,4.91285714556057,0
+2024,Reading,8,XR,Detroit,SESCAT,Middle SES,ALC:AP,8.99823485522775,0
+2024,Reading,8,XR,Detroit,SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,8,XS,Dallas,SESCAT,Low SES,ALC:AP,11.6976990180185,0
+2024,Reading,8,XS,Dallas,SESCAT,Middle SES,ALC:AP,34.7815652837371,0
+2024,Reading,8,XS,Dallas,SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,8,XT,Charlotte,SESCAT,Low SES,ALC:AP,10.8606884776612,0
+2024,Reading,8,XT,Charlotte,SESCAT,Middle SES,ALC:AP,21.3479498830387,0
+2024,Reading,8,XT,Charlotte,SESCAT,High SES,ALC:AP,55.5150063181028,0
+2024,Reading,8,XU,Austin,SESCAT,Low SES,ALC:AP,4.33451907011758,0
+2024,Reading,8,XU,Austin,SESCAT,Middle SES,ALC:AP,22.81987396174,0
+2024,Reading,8,XU,Austin,SESCAT,High SES,ALC:AP,57.8001086649753,0
+2024,Reading,8,XV,Cleveland,SESCAT,Low SES,ALC:AP,7.84426695293209,0
+2024,Reading,8,XV,Cleveland,SESCAT,Middle SES,ALC:AP,NA,257
+2024,Reading,8,XV,Cleveland,SESCAT,High SES,ALC:AP,NA,259
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,Low SES,ALC:AP,6.96864030566424,131072
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,Middle SES,ALC:AP,14.4275802291073,131072
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,High SES,ALC:AP,58.7546919626684,131072
+2024,Reading,8,XX,Clark County (NV),SESCAT,Low SES,ALC:AP,20.5736379376045,0
+2024,Reading,8,XX,Clark County (NV),SESCAT,Middle SES,ALC:AP,44.0073395822748,0
+2024,Reading,8,XX,Clark County (NV),SESCAT,High SES,ALC:AP,NA,259
+2024,Reading,8,XY,Denver,SESCAT,Low SES,ALC:AP,NA,259
+2024,Reading,8,XY,Denver,SESCAT,Middle SES,ALC:AP,NA,259
+2024,Reading,8,XY,Denver,SESCAT,High SES,ALC:AP,NA,259
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,Low SES,ALC:AP,8.39986739952881,0
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,Middle SES,ALC:AP,15.9165066934074,0
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,High SES,ALC:AP,NA,257
+2024,Reading,8,YB,Orange County (FL),SESCAT,Low SES,ALC:AP,11.00211900088,0
+2024,Reading,8,YB,Orange County (FL),SESCAT,Middle SES,ALC:AP,21.6470681945771,0
+2024,Reading,8,YB,Orange County (FL),SESCAT,High SES,ALC:AP,43.1726992834596,0
+2024,Reading,8,NL,Large city,TOTAL,All students,ALC:AP,25.6079690359719,0
+2024,Reading,8,NP,National public,TOTAL,All students,ALC:AP,28.6857513505666,0
+2024,Reading,8,XA,Atlanta,TOTAL,All students,ALC:AP,24.6855087761875,0
+2024,Reading,8,XB,Boston,TOTAL,All students,ALC:AP,25.712059982507,0
+2024,Reading,8,XC,Chicago,TOTAL,All students,ALC:AP,26.8219056979961,0
+2024,Reading,8,XD,San Diego,TOTAL,All students,ALC:AP,36.7571344455255,0
+2024,Reading,8,XE,Duval County (FL),TOTAL,All students,ALC:AP,20.2845221539031,0
+2024,Reading,8,XG,Guilford County (NC),TOTAL,All students,ALC:AP,25.4736280294118,0
+2024,Reading,8,XH,Houston,TOTAL,All students,ALC:AP,20.5026084068839,0
+2024,Reading,8,XI,Miami-Dade,TOTAL,All students,ALC:AP,27.6616342824246,0
+2024,Reading,8,XJ,Jefferson County (KY),TOTAL,All students,ALC:AP,22.9033838122985,0
+2024,Reading,8,XK,Milwaukee,TOTAL,All students,ALC:AP,15.0025362463205,0
+2024,Reading,8,XL,Los Angeles,TOTAL,All students,ALC:AP,21.5187834963633,0
+2024,Reading,8,XM,Baltimore City,TOTAL,All students,ALC:AP,16.2647232217779,0
+2024,Reading,8,XN,New York City,TOTAL,All students,ALC:AP,28.8772875883382,0
+2024,Reading,8,XO,Hillsborough County (FL),TOTAL,All students,ALC:AP,25.5778652187395,0
+2024,Reading,8,XP,Philadelphia,TOTAL,All students,ALC:AP,18.4052652232307,0
+2024,Reading,8,XQ,Albuquerque,TOTAL,All students,ALC:AP,20.1348226591634,0
+2024,Reading,8,XR,Detroit,TOTAL,All students,ALC:AP,6.02389027899109,0
+2024,Reading,8,XS,Dallas,TOTAL,All students,ALC:AP,17.7675331230289,0
+2024,Reading,8,XT,Charlotte,TOTAL,All students,ALC:AP,26.8411652154716,0
+2024,Reading,8,XU,Austin,TOTAL,All students,ALC:AP,30.8380359511543,0
+2024,Reading,8,XV,Cleveland,TOTAL,All students,ALC:AP,8.28446680815297,0
+2024,Reading,8,XW,District of Columbia (DCPS),TOTAL,All students,ALC:AP,26.8238454343103,131072
+2024,Reading,8,XX,Clark County (NV),TOTAL,All students,ALC:AP,23.4584012486956,0
+2024,Reading,8,XY,Denver,TOTAL,All students,ALC:AP,30.708303705351,0
+2024,Reading,8,XZ,Fort Worth (TX),TOTAL,All students,ALC:AP,11.5469039204141,0
+2024,Reading,8,YB,Orange County (FL),TOTAL,All students,ALC:AP,24.0295386914976,0
+2024,Reading,8,NL,Large city,SESCAT,Low SES,MN:MN,240.374853273111,0
+2024,Reading,8,NL,Large city,SESCAT,Middle SES,MN:MN,257.33461234853,0
+2024,Reading,8,NL,Large city,SESCAT,High SES,MN:MN,282.516360031301,0
+2024,Reading,8,NP,National public,SESCAT,Low SES,MN:MN,238.665197587021,0
+2024,Reading,8,NP,National public,SESCAT,Middle SES,MN:MN,255.238799851416,0
+2024,Reading,8,NP,National public,SESCAT,High SES,MN:MN,279.386976587168,0
+2024,Reading,8,XA,Atlanta,SESCAT,Low SES,MN:MN,236.931457449859,0
+2024,Reading,8,XA,Atlanta,SESCAT,Middle SES,MN:MN,256.535083649881,0
+2024,Reading,8,XA,Atlanta,SESCAT,High SES,MN:MN,293.166014570513,0
+2024,Reading,8,XB,Boston,SESCAT,Low SES,MN:MN,234.085593877976,0
+2024,Reading,8,XB,Boston,SESCAT,Middle SES,MN:MN,261.141200851994,0
+2024,Reading,8,XB,Boston,SESCAT,High SES,MN:MN,302.303504668081,0
+2024,Reading,8,XC,Chicago,SESCAT,Low SES,MN:MN,246.892961781532,0
+2024,Reading,8,XC,Chicago,SESCAT,Middle SES,MN:MN,261.759686105305,0
+2024,Reading,8,XC,Chicago,SESCAT,High SES,MN:MN,294.839287690657,0
+2024,Reading,8,XD,San Diego,SESCAT,Low SES,MN:MN,240.87228891609,0
+2024,Reading,8,XD,San Diego,SESCAT,Middle SES,MN:MN,267.315740612143,0
+2024,Reading,8,XD,San Diego,SESCAT,High SES,MN:MN,292.622309957169,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,Low SES,MN:MN,238.343867057742,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,Middle SES,MN:MN,244.537606247748,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,High SES,MN:MN,267.854917903938,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,Low SES,MN:MN,233.627444271431,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,Middle SES,MN:MN,253.38398413215,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,High SES,MN:MN,279.901140636566,0
+2024,Reading,8,XH,Houston,SESCAT,Low SES,MN:MN,237.261814263076,0
+2024,Reading,8,XH,Houston,SESCAT,Middle SES,MN:MN,258.502642189439,0
+2024,Reading,8,XH,Houston,SESCAT,High SES,MN:MN,288.49706809314,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,Low SES,MN:MN,250.960830665233,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,Middle SES,MN:MN,254.836936897465,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,High SES,MN:MN,278.619619930853,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,Low SES,MN:MN,235.354468657561,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,Middle SES,MN:MN,257.959264508291,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,High SES,MN:MN,288.090493688275,0
+2024,Reading,8,XK,Milwaukee,SESCAT,Low SES,MN:MN,232.287424346143,0
+2024,Reading,8,XK,Milwaukee,SESCAT,Middle SES,MN:MN,250.255873655335,0
+2024,Reading,8,XK,Milwaukee,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,8,XL,Los Angeles,SESCAT,Low SES,MN:MN,239.434593391809,0
+2024,Reading,8,XL,Los Angeles,SESCAT,Middle SES,MN:MN,261.391196072872,0
+2024,Reading,8,XL,Los Angeles,SESCAT,High SES,MN:MN,298.782814472348,0
+2024,Reading,8,XM,Baltimore City,SESCAT,Low SES,MN:MN,233.927467711466,0
+2024,Reading,8,XM,Baltimore City,SESCAT,Middle SES,MN:MN,245.386843237132,0
+2024,Reading,8,XM,Baltimore City,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,8,XN,New York City,SESCAT,Low SES,MN:MN,244.106026736885,0
+2024,Reading,8,XN,New York City,SESCAT,Middle SES,MN:MN,266.799134609932,0
+2024,Reading,8,XN,New York City,SESCAT,High SES,MN:MN,294.966874762596,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,Low SES,MN:MN,240.180867898388,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,Middle SES,MN:MN,252.247632890466,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,High SES,MN:MN,277.294588170756,0
+2024,Reading,8,XP,Philadelphia,SESCAT,Low SES,MN:MN,233.963791943559,0
+2024,Reading,8,XP,Philadelphia,SESCAT,Middle SES,MN:MN,248.180005616314,0
+2024,Reading,8,XP,Philadelphia,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,8,XQ,Albuquerque,SESCAT,Low SES,MN:MN,226.562799754958,0
+2024,Reading,8,XQ,Albuquerque,SESCAT,Middle SES,MN:MN,247.091243416956,0
+2024,Reading,8,XQ,Albuquerque,SESCAT,High SES,MN:MN,276.742596663513,0
+2024,Reading,8,XR,Detroit,SESCAT,Low SES,MN:MN,228.101182983562,0
+2024,Reading,8,XR,Detroit,SESCAT,Middle SES,MN:MN,234.674572252191,0
+2024,Reading,8,XR,Detroit,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,8,XS,Dallas,SESCAT,Low SES,MN:MN,239.111266226039,0
+2024,Reading,8,XS,Dallas,SESCAT,Middle SES,MN:MN,255.853281790734,0
+2024,Reading,8,XS,Dallas,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,8,XT,Charlotte,SESCAT,Low SES,MN:MN,238.490908089381,0
+2024,Reading,8,XT,Charlotte,SESCAT,Middle SES,MN:MN,248.019125843746,0
+2024,Reading,8,XT,Charlotte,SESCAT,High SES,MN:MN,282.573400105697,0
+2024,Reading,8,XU,Austin,SESCAT,Low SES,MN:MN,219.204812763678,0
+2024,Reading,8,XU,Austin,SESCAT,Middle SES,MN:MN,249.338577593668,0
+2024,Reading,8,XU,Austin,SESCAT,High SES,MN:MN,283.61943272367,0
+2024,Reading,8,XV,Cleveland,SESCAT,Low SES,MN:MN,231.559298732204,0
+2024,Reading,8,XV,Cleveland,SESCAT,Middle SES,MN:MN,NA,257
+2024,Reading,8,XV,Cleveland,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,Low SES,MN:MN,228.373180701376,131072
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,Middle SES,MN:MN,239.062709510381,131072
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,High SES,MN:MN,287.410346974807,131072
+2024,Reading,8,XX,Clark County (NV),SESCAT,Low SES,MN:MN,247.32616761171101,0
+2024,Reading,8,XX,Clark County (NV),SESCAT,Middle SES,MN:MN,269.869927253955,0
+2024,Reading,8,XX,Clark County (NV),SESCAT,High SES,MN:MN,NA,257
+2024,Reading,8,XY,Denver,SESCAT,Low SES,MN:MN,NA,257
+2024,Reading,8,XY,Denver,SESCAT,Middle SES,MN:MN,NA,257
+2024,Reading,8,XY,Denver,SESCAT,High SES,MN:MN,NA,257
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,Low SES,MN:MN,233.163872136365,0
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,Middle SES,MN:MN,245.364713407673,0
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,High SES,MN:MN,NA,257
+2024,Reading,8,YB,Orange County (FL),SESCAT,Low SES,MN:MN,233.809518424648,0
+2024,Reading,8,YB,Orange County (FL),SESCAT,Middle SES,MN:MN,249.260182452657,0
+2024,Reading,8,YB,Orange County (FL),SESCAT,High SES,MN:MN,271.925406149697,0
+2024,Reading,8,NL,Large city,TOTAL,All students,MN:MN,252.3731633448,0
+2024,Reading,8,NP,National public,TOTAL,All students,MN:MN,256.662789624352,0
+2024,Reading,8,XA,Atlanta,TOTAL,All students,MN:MN,251.635325383159,0
+2024,Reading,8,XB,Boston,TOTAL,All students,MN:MN,249.121311862429,0
+2024,Reading,8,XC,Chicago,TOTAL,All students,MN:MN,254.814671805368,0
+2024,Reading,8,XD,San Diego,TOTAL,All students,MN:MN,263.334767891807,0
+2024,Reading,8,XE,Duval County (FL),TOTAL,All students,MN:MN,248.263581360719,0
+2024,Reading,8,XG,Guilford County (NC),TOTAL,All students,MN:MN,252.930376674699,0
+2024,Reading,8,XH,Houston,TOTAL,All students,MN:MN,246.952070369118,0
+2024,Reading,8,XI,Miami-Dade,TOTAL,All students,MN:MN,255.038411626411,0
+2024,Reading,8,XJ,Jefferson County (KY),TOTAL,All students,MN:MN,250.266678997556,0
+2024,Reading,8,XK,Milwaukee,TOTAL,All students,MN:MN,239.028853306168,0
+2024,Reading,8,XL,Los Angeles,TOTAL,All students,MN:MN,248.714848472636,0
+2024,Reading,8,XM,Baltimore City,TOTAL,All students,MN:MN,240.140210230427,0
+2024,Reading,8,XN,New York City,TOTAL,All students,MN:MN,254.109276769462,0
+2024,Reading,8,XO,Hillsborough County (FL),TOTAL,All students,MN:MN,253.995598048956,0
+2024,Reading,8,XP,Philadelphia,TOTAL,All students,MN:MN,241.718225369083,0
+2024,Reading,8,XQ,Albuquerque,TOTAL,All students,MN:MN,243.874602256388,0
+2024,Reading,8,XR,Detroit,TOTAL,All students,MN:MN,229.471654217224,0
+2024,Reading,8,XS,Dallas,TOTAL,All students,MN:MN,244.167454147569,0
+2024,Reading,8,XT,Charlotte,TOTAL,All students,MN:MN,253.59531974894,0
+2024,Reading,8,XU,Austin,TOTAL,All students,MN:MN,253.33633205461,0
+2024,Reading,8,XV,Cleveland,TOTAL,All students,MN:MN,231.406731349969,0
+2024,Reading,8,XW,District of Columbia (DCPS),TOTAL,All students,MN:MN,251.748771955307,131072
+2024,Reading,8,XX,Clark County (NV),TOTAL,All students,MN:MN,249.97557301384,0
+2024,Reading,8,XY,Denver,TOTAL,All students,MN:MN,257.576289673354,0
+2024,Reading,8,XZ,Fort Worth (TX),TOTAL,All students,MN:MN,237.914516339065,0
+2024,Reading,8,YB,Orange County (FL),TOTAL,All students,MN:MN,250.543505765986,0
+2024,Reading,8,NL,Large city,SESCAT,Low SES,RP:RP,51.3335219413545,0
+2024,Reading,8,NL,Large city,SESCAT,Middle SES,RP:RP,33.1202992570653,0
+2024,Reading,8,NL,Large city,SESCAT,High SES,RP:RP,15.5461788015802,0
+2024,Reading,8,NP,National public,SESCAT,Low SES,RP:RP,32.5326358954956,0
+2024,Reading,8,NP,National public,SESCAT,Middle SES,RP:RP,38.4456597309469,0
+2024,Reading,8,NP,National public,SESCAT,High SES,RP:RP,29.0217043735575,0
+2024,Reading,8,XA,Atlanta,SESCAT,Low SES,RP:RP,60.0494895185706,0
+2024,Reading,8,XA,Atlanta,SESCAT,Middle SES,RP:RP,20.2612646005145,0
+2024,Reading,8,XA,Atlanta,SESCAT,High SES,RP:RP,19.689245880915,0
+2024,Reading,8,XB,Boston,SESCAT,Low SES,RP:RP,59.5886111489781,0
+2024,Reading,8,XB,Boston,SESCAT,Middle SES,RP:RP,28.3130444576778,0
+2024,Reading,8,XB,Boston,SESCAT,High SES,RP:RP,12.098344393344,0
+2024,Reading,8,XC,Chicago,SESCAT,Low SES,RP:RP,67.6324164223465,0
+2024,Reading,8,XC,Chicago,SESCAT,Middle SES,RP:RP,21.47428911211,0
+2024,Reading,8,XC,Chicago,SESCAT,High SES,RP:RP,10.8932944655435,0
+2024,Reading,8,XD,San Diego,SESCAT,Low SES,RP:RP,37.1082771176542,0
+2024,Reading,8,XD,San Diego,SESCAT,Middle SES,RP:RP,38.9336651088491,0
+2024,Reading,8,XD,San Diego,SESCAT,High SES,RP:RP,23.9580577734967,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,Low SES,RP:RP,29.7437001233036,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,Middle SES,RP:RP,45.4698660883372,0
+2024,Reading,8,XE,Duval County (FL),SESCAT,High SES,RP:RP,24.7864337883592,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,Low SES,RP:RP,30.5595977965625,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,Middle SES,RP:RP,47.2383678701385,0
+2024,Reading,8,XG,Guilford County (NC),SESCAT,High SES,RP:RP,22.202034333299,0
+2024,Reading,8,XH,Houston,SESCAT,Low SES,RP:RP,67.7247208328471,0
+2024,Reading,8,XH,Houston,SESCAT,Middle SES,RP:RP,22.7103485761927,0
+2024,Reading,8,XH,Houston,SESCAT,High SES,RP:RP,9.56493059096013,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,Low SES,RP:RP,49.9278383200642,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,Middle SES,RP:RP,39.1454416643014,0
+2024,Reading,8,XI,Miami-Dade,SESCAT,High SES,RP:RP,10.9267200156344,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,Low SES,RP:RP,47.527931908388,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,Middle SES,RP:RP,41.1858377666007,0
+2024,Reading,8,XJ,Jefferson County (KY),SESCAT,High SES,RP:RP,11.2862303250113,0
+2024,Reading,8,XK,Milwaukee,SESCAT,Low SES,RP:RP,69.2066062964873,0
+2024,Reading,8,XK,Milwaukee,SESCAT,Middle SES,RP:RP,23.8471853809189,0
+2024,Reading,8,XK,Milwaukee,SESCAT,High SES,RP:RP,6.94620832259373,0
+2024,Reading,8,XL,Los Angeles,SESCAT,Low SES,RP:RP,67.3382434581496,0
+2024,Reading,8,XL,Los Angeles,SESCAT,Middle SES,RP:RP,26.06430871209,0
+2024,Reading,8,XL,Los Angeles,SESCAT,High SES,RP:RP,6.59744782976034,0
+2024,Reading,8,XM,Baltimore City,SESCAT,Low SES,RP:RP,61.7204370828703,0
+2024,Reading,8,XM,Baltimore City,SESCAT,Middle SES,RP:RP,32.1895414495443,0
+2024,Reading,8,XM,Baltimore City,SESCAT,High SES,RP:RP,6.09002146758536,0
+2024,Reading,8,XN,New York City,SESCAT,Low SES,RP:RP,64.6019557204969,0
+2024,Reading,8,XN,New York City,SESCAT,Middle SES,RP:RP,27.954594945141,0
+2024,Reading,8,XN,New York City,SESCAT,High SES,RP:RP,7.44344933436203,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,Low SES,RP:RP,35.8745047318654,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,Middle SES,RP:RP,39.4504869803677,0
+2024,Reading,8,XO,Hillsborough County (FL),SESCAT,High SES,RP:RP,24.6750082877669,0
+2024,Reading,8,XP,Philadelphia,SESCAT,Low SES,RP:RP,64.8634643928099,0
+2024,Reading,8,XP,Philadelphia,SESCAT,Middle SES,RP:RP,28.4299961010421,0
+2024,Reading,8,XP,Philadelphia,SESCAT,High SES,RP:RP,6.70653950614803,0
+2024,Reading,8,XQ,Albuquerque,SESCAT,Low SES,RP:RP,39.375574104264,0
+2024,Reading,8,XQ,Albuquerque,SESCAT,Middle SES,RP:RP,42.1643376929904,0
+2024,Reading,8,XQ,Albuquerque,SESCAT,High SES,RP:RP,18.4600882027456,0
+2024,Reading,8,XR,Detroit,SESCAT,Low SES,RP:RP,81.7235313873741,0
+2024,Reading,8,XR,Detroit,SESCAT,Middle SES,RP:RP,16.742570612707,0
+2024,Reading,8,XR,Detroit,SESCAT,High SES,RP:RP,1.53389799991892,0
+2024,Reading,8,XS,Dallas,SESCAT,Low SES,RP:RP,80.7264712297113,0
+2024,Reading,8,XS,Dallas,SESCAT,Middle SES,RP:RP,15.5603864676151,0
+2024,Reading,8,XS,Dallas,SESCAT,High SES,RP:RP,3.71314230267361,0
+2024,Reading,8,XT,Charlotte,SESCAT,Low SES,RP:RP,26.8309015516093,0
+2024,Reading,8,XT,Charlotte,SESCAT,Middle SES,RP:RP,47.8809593780063,0
+2024,Reading,8,XT,Charlotte,SESCAT,High SES,RP:RP,25.2881390703844,0
+2024,Reading,8,XU,Austin,SESCAT,Low SES,RP:RP,32.2935125588002,0
+2024,Reading,8,XU,Austin,SESCAT,Middle SES,RP:RP,26.822423264481,0
+2024,Reading,8,XU,Austin,SESCAT,High SES,RP:RP,40.8840641767188,0
+2024,Reading,8,XV,Cleveland,SESCAT,Low SES,RP:RP,92.2321879323384,0
+2024,Reading,8,XV,Cleveland,SESCAT,Middle SES,RP:RP,7.76781206766159,0
+2024,Reading,8,XV,Cleveland,SESCAT,High SES,RP:RP,NA,386
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,Low SES,RP:RP,25.8527920500053,131072
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,Middle SES,RP:RP,41.088102924443,131072
+2024,Reading,8,XW,District of Columbia (DCPS),SESCAT,High SES,RP:RP,33.0591050255516,131072
+2024,Reading,8,XX,Clark County (NV),SESCAT,Low SES,RP:RP,86.9114350506375,0
+2024,Reading,8,XX,Clark County (NV),SESCAT,Middle SES,RP:RP,13.0885649493625,0
+2024,Reading,8,XX,Clark County (NV),SESCAT,High SES,RP:RP,NA,386
+2024,Reading,8,XY,Denver,SESCAT,Low SES,RP:RP,NA,259
+2024,Reading,8,XY,Denver,SESCAT,Middle SES,RP:RP,NA,259
+2024,Reading,8,XY,Denver,SESCAT,High SES,RP:RP,NA,259
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,Low SES,RP:RP,75.5056072565561,0
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,Middle SES,RP:RP,18.3552781780076,0
+2024,Reading,8,XZ,Fort Worth (TX),SESCAT,High SES,RP:RP,6.13911456543629,0
+2024,Reading,8,YB,Orange County (FL),SESCAT,Low SES,RP:RP,25.4795731924283,0
+2024,Reading,8,YB,Orange County (FL),SESCAT,Middle SES,RP:RP,49.4696788030721,0
+2024,Reading,8,YB,Orange County (FL),SESCAT,High SES,RP:RP,25.0507480044996,0
+2024,Reading,8,NL,Large city,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,NP,National public,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XA,Atlanta,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XB,Boston,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XC,Chicago,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XD,San Diego,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XE,Duval County (FL),TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XG,Guilford County (NC),TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XH,Houston,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XI,Miami-Dade,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XJ,Jefferson County (KY),TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XK,Milwaukee,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XL,Los Angeles,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XM,Baltimore City,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XN,New York City,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XO,Hillsborough County (FL),TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XP,Philadelphia,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XQ,Albuquerque,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XR,Detroit,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XS,Dallas,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XT,Charlotte,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XU,Austin,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XV,Cleveland,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XW,District of Columbia (DCPS),TOTAL,All students,RP:RP,100,131330
+2024,Reading,8,XX,Clark County (NV),TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XY,Denver,TOTAL,All students,RP:RP,100,258
+2024,Reading,8,XZ,Fort Worth (TX),TOTAL,All students,RP:RP,100,258
+2024,Reading,8,YB,Orange County (FL),TOTAL,All students,RP:RP,100,258

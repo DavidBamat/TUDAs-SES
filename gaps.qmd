@@ -1,0 +1,47 @@
+---
+title: "SES Achievement Gaps"
+---
+
+```{r}
+#| include: false
+source(here::here("R/site_helpers.R"))
+```
+
+The gap between the average scores of High SES and Low SES students in each district.
+Larger bars mean a wider achievement gap. Gray bars are the **National public** and **Large city** comparison groups.
+Districts where either estimate was not reported are omitted.
+
+::: {.panel-tabset}
+
+## Grade 4 Mathematics
+
+```{r}
+ses_gap_chart("Mathematics", 4)
+```
+
+## Grade 8 Mathematics
+
+```{r}
+ses_gap_chart("Mathematics", 8)
+```
+
+## Grade 4 Reading
+
+```{r}
+ses_gap_chart("Reading", 4)
+```
+
+## Grade 8 Reading
+
+```{r}
+ses_gap_chart("Reading", 8)
+```
+
+:::
+
+
+::: {.callout-warning appearance="simple"}
+The NAEP API returns point estimates only, without standard errors, so differences between
+districts shown here have not been tested for statistical significance. Use the
+[NAEP Data Explorer](https://www.nationsreportcard.gov/ndecore/xplore/NDE) for significance testing.
+:::

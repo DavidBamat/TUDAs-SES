@@ -1,0 +1,42 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!standalone/"
+  resources:
+    - data/naep_tuda_ses.csv
+
+website:
+  title: "NAEP TUDA Achievement by SES"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Scores by SES
+      - href: gaps.qmd
+        text: SES Gaps
+      - href: proficiency.qmd
+        text: Achievement Levels
+      - href: composition.qmd
+        text: SES Composition
+      - href: data.qmd
+        text: Data
+      - href: about.qmd
+        text: About
+  page-footer:
+    center: "Source: U.S. Department of Education, NCES, National Assessment of Educational Progress (NAEP), 2024 Mathematics and Reading Assessments, via the NAEP Data Service API."
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    page-layout: full
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+editor: visual

@@ -1,0 +1,60 @@
+---
+title: "About the Data"
+---
+
+## Source
+
+All results come from the [NAEP Data Service API](https://www.nationsreportcard.gov/api_documentation.aspx)
+(`GetAdhocData` endpoint) for the 2024 NAEP mathematics and reading assessments at grades 4 and 8.
+The script `R/fetch_naep.R` queries the API and caches results to
+`data/naep_tuda_ses.csv`; the site pages read that file. To refresh the data, run:
+
+```bash
+Rscript R/fetch_naep.R
+quarto render
+```
+
+Requests use these parameters:
+
+| Parameter | Values |
+|---|---|
+| `subject` / `subscale` | `mathematics` / `MRPCM` (composite), `reading` / `RRPCM` (composite) |
+| `grade` | 4, 8 |
+| `Year` | 2024 |
+| `variable` | `SESCAT` (SES index, 3 components, categorized); `TOTAL` (all students) |
+| `stattype` | `MN:MN` (average scale score), `RP:RP` (percent of students), `ALC:AB` (% at or above Basic), `ALC:AP` (% at or above Proficient) |
+| `jurisdiction` | `NP` (National public), `NL` (Large city), and the 26 TUDA district codes |
+
+## The NAEP SES index
+
+NAEP began reporting a socioeconomic status (SES) index with the 2024 assessments.
+This site uses the **3-component index** (`SESCAT`), which is available at both grades 4 and 8. It combines:
+
+1. the student's economically disadvantaged status,
+2. the percentage of students in the student's school classified as economically disadvantaged, and
+3. the number of books in the student's home (student-reported).
+
+A 4-component version (`SESCATP`) that adds the highest level of parental education is available only at grades 8 and 12,
+so it is not used here. Index scores are grouped into Low, Middle, and High SES categories by NAEP.
+See the [NAEP SES Index dashboard](https://www.nationsreportcard.gov/dashboards/sesindex/) and
+[NAGB's overview](https://nagb.gov/naep/the-2024-nations-report-card/ses-on-nations-report-card.html) for details.
+
+## Districts
+
+The Trial Urban District Assessment (TUDA) reports NAEP results for large urban school districts.
+The 26 districts assessed in 2024 are compared with **National public** (all public schools in the
+nation) and **Large city** (public schools in cities with populations of 250,000 or more).
+
+## Caveats
+
+- **Suppressed estimates.** Where NAEP reporting standards were not met, the API returns a
+  placeholder value (999) with `isStatDisplayable = 0`. These are shown as missing. High SES
+  results are suppressed in several districts with few High SES students, and Denver has no
+  reportable SES results in 2024.
+- **No significance testing.** The API returns point estimates without standard errors. Differences
+  shown here have not been tested for statistical significance; use the
+  [NAEP Data Explorer](https://www.nationsreportcard.gov/ndecore/xplore/NDE) for that.
+- **Scale comparisons.** Mathematics and reading are reported on separate scales, so score
+  differences should not be compared across subjects. Grade 4 and grade 8 results are not
+  directly comparable either.
+- **Rounding.** Values are rounded for display; gaps are computed from unrounded estimates.

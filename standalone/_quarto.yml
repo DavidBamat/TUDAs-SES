@@ -1,0 +1,3 @@
+# Separate project so the standalone report renders without the website navbar
+project:
+  type: default

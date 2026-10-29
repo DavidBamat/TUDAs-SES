@@ -1,0 +1,51 @@
+---
+title: "NAEP Achievement in Large Urban Districts by Socioeconomic Status"
+subtitle: "Trial Urban District Assessment (TUDA), 2024"
+---
+
+```{r}
+#| include: false
+source(here::here("R/site_helpers.R"))
+```
+
+Beginning with the 2024 assessments, the National Assessment of Educational Progress (NAEP) reports results by a **socioeconomic status (SES) index** built from student and school information. This site uses the [NAEP Data Service API](https://www.nationsreportcard.gov/api_documentation.aspx) to show how achievement varies by SES within each of the `r n_tuda` large urban districts that took part in the 2024 [Trial Urban District Assessment](https://www.nationsreportcard.gov/tuda/).
+
+::: {.callout-note appearance="simple"}
+## At a glance (grade 8 mathematics)
+
+- In large cities, `r low_share("Large city", "Mathematics", 8)`% of eighth-graders are in the Low SES group, compared with `r low_share("National public", "Mathematics", 8)`% in the nation's public schools.
+- High SES eighth-graders in large cities scored `r ref_gap("Large city", "Mathematics", 8)` points higher in mathematics than their Low SES peers (national public: `r ref_gap("National public", "Mathematics", 8)` points).
+- Across districts with reportable results, that gap ranges from `r gap_range("Mathematics", 8)[1]` to `r gap_range("Mathematics", 8)[2]` points.
+:::
+
+## Average scores by SES level
+
+Each row is a district; dots show the average scale score of its Low, Middle, and High SES students. Districts are sorted by the Low SES average. **National public** and **Large city** are shown in bold for reference. Hover over a dot for the score and the share of the district's students in that SES group.
+
+::: panel-tabset
+## Grade 4 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 4, "mean")
+```
+
+## Grade 8 Mathematics
+
+```{r}
+ses_dotplot("Mathematics", 8, "mean")
+```
+
+## Grade 4 Reading
+
+```{r}
+ses_dotplot("Reading", 4, "mean")
+```
+
+## Grade 8 Reading
+
+```{r}
+ses_dotplot("Reading", 8, "mean")
+```
+:::
+
+Missing dots mean NAEP did not report the estimate because reporting standards were not met (usually too few students in that SES group). See [About](about.qmd) for details.
