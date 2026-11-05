@@ -22,7 +22,7 @@ execute:
 source(here::here("R/site_helpers.R"))
 ```
 
-Beginning with the 2024 assessments, the National Assessment of Educational Progress (NAEP) reports results by a **socioeconomic status (SES) index** built from student and school information. This report uses the [NAEP Data Service API](https://www.nationsreportcard.gov/api_documentation.aspx) to show how achievement varies by SES within each of the `r n_tuda` large urban districts that took part in the 2024 [Trial Urban District Assessment](https://www.nationsreportcard.gov/tuda/).
+Beginning with the 2024 assessments, the National Assessment of Educational Progress (NAEP) reports results by a **socioeconomic status (SES) index** built from student and school information. This report uses the [NAEP Data Service API](https://www.nationsreportcard.gov/api_documentation.aspx) to show how achievement varies by SES within each of the `r n_tuda` large urban districts that took part in the 2024 [Trial Urban District Assessment](https://nces.ed.gov/nationsreportcard/tuda/).
 
 ::: {.callout-note appearance="simple"}
 ## At a glance (grade 8 mathematics)
@@ -205,9 +205,9 @@ naep_table()
 
 ## About the data
 
-**Source.** U.S. Department of Education, NCES, National Assessment of Educational Progress (NAEP), 2024 Mathematics and Reading Assessments, retrieved from the NAEP Data Service API (`GetAdhocData`). Data use the `SESCAT` variable (SES index, 3 components, categorized) for grades 4 and 8, with `MN:MN` (average score), `RP:RP` (percent of students), `ALC:AB` and `ALC:AP` (percent at or above Basic and Proficient).
+**Source.** U.S. Department of Education, NCES, National Assessment of Educational Progress (NAEP), 2024 Mathematics and Reading Assessments, retrieved from the NAEP Data Service API (`GetAdhocData`). Data use the `SESCAT` variable (SES index, 3 components, categorized) for grade 4 and the `SESCATP` variable (SES index, 4 components, categorized) for grade 8, with `MN:MN` (average score), `RP:RP` (percent of students), `ALC:AB` and `ALC:AP` (percent at or above Basic and Proficient).
 
-**The NAEP SES index.** The 3-component index combines the student's economically disadvantaged status, the percentage of students in the student's school classified as economically disadvantaged, and the number of books in the student's home (student-reported). NAEP groups index scores into Low, Middle, and High SES. See the [NAEP SES Index dashboard](https://www.nationsreportcard.gov/dashboards/sesindex/).
+**The NAEP SES index.** Grade 4 results use the 3-component index (9-point scale), which combines the student's economically disadvantaged status, the percentage of students in the student's school classified as economically disadvantaged, and the number of books in the student's home (student-reported). Grade 8 results use the 4-component index (12-point scale), which adds the highest level of parental education (student-reported); it is available only at grades 8 and 12. Because the two grades use different versions of the index, SES group results are not directly comparable across grades. NAEP groups index scores into Low, Middle, and High SES. See the [NAEP SES Index dashboard](https://www.nationsreportcard.gov/dashboards/sesindex/).
 
 **Districts.** The 26 TUDA districts assessed in 2024 are compared with **National public** (all public schools in the nation) and **Large city** (public schools in cities with populations of 250,000 or more).
 

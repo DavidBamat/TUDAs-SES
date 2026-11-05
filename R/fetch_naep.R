@@ -22,21 +22,22 @@ jurisdictions <- c(
   "XO", "XP", "XD", "YB"
 )
 
+# SES index variable by grade (NAEP reports these categorized as Low / Middle / High SES):
+#   SESCAT  = SES index, 3 components (9-point scale); used for grade 4
+#   SESCATP = SES index, 4 components incl. parental education (12-point scale);
+#             available only at grades 8 and 12, so used for grade 8
 assessments <- tribble(
-  ~subject,      ~grade, ~subscale,
-  "mathematics", 4,      "MRPCM",
-  "mathematics", 8,      "MRPCM",
-  "reading",     4,      "RRPCM",
-  "reading",     8,      "RRPCM"
+  ~subject,      ~grade, ~subscale, ~ses_var,
+  "mathematics", 4,      "MRPCM",   "SESCAT",
+  "mathematics", 8,      "MRPCM",   "SESCATP",
+  "reading",     4,      "RRPCM",   "SESCAT",
+  "reading",     8,      "RRPCM",   "SESCATP"
 )
 
 # MN = mean scale score; RP = row percent (share of students in each SES level);
 # ALC:AB / ALC:AP = percent at or above Basic / Proficient
 stattypes <- c("MN:MN", "RP:RP", "ALC:AB", "ALC:AP")
 
-# SESCAT = NAEP SES index (3 components), categorized: Low / Middle / High
-# TOTAL  = all students (used for the overall district result)
-variables <- c("SESCAT", "TOTAL")
 
 fetch_one <- function(subject, grade, subscale, stattype, variable) {
   message(sprintf("Fetching %s g%d %s %s", subject, grade, variable, stattype))
@@ -63,8 +64,11 @@ fetch_one <- function(subject, grade, subscale, stattype, variable) {
   as_tibble(parsed$result)
 }
 
+# For each assessment, fetch its SES variable plus TOTAL (all students)
 raw <- assessments |>
-  tidyr::crossing(stattype = stattypes, variable = variables) |>
+  tidyr::crossing(stattype = stattypes, which = c("ses", "total")) |>
+  mutate(variable = if_else(which == "ses", ses_var, "TOTAL")) |>
+  select(subject, grade, subscale, stattype, variable) |>
   pmap(fetch_one) |>
   list_rbind()
 

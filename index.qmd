@@ -8,7 +8,7 @@ subtitle: "Trial Urban District Assessment (TUDA), 2024"
 source(here::here("R/site_helpers.R"))
 ```
 
-Beginning with the 2024 assessments, the National Assessment of Educational Progress (NAEP) reports results by a **socioeconomic status (SES) index** built from student and school information. This site uses the [NAEP Data Service API](https://www.nationsreportcard.gov/api_documentation.aspx) to show how achievement varies by SES within each of the `r n_tuda` large urban districts that took part in the 2024 [Trial Urban District Assessment](https://www.nationsreportcard.gov/tuda/).
+Beginning with the 2024 assessments, the National Assessment of Educational Progress (NAEP) reports results by a **socioeconomic status (SES) index** built from student and school information. This site uses the [NAEP Data Service API](https://www.nationsreportcard.gov/api_documentation.aspx) to show how achievement varies by SES within each of the `r n_tuda` large urban districts that took part in the 2024 [Trial Urban District Assessment](https://nces.ed.gov/nationsreportcard/tuda/).
 
 ::: {.callout-note appearance="simple"}
 ## At a glance (grade 8 mathematics)

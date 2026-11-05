@@ -6,14 +6,6 @@ title: "About the Data"
 
 All results come from the [NAEP Data Service API](https://www.nationsreportcard.gov/api_documentation.aspx)
 (`GetAdhocData` endpoint) for the 2024 NAEP mathematics and reading assessments at grades 4 and 8.
-The script `R/fetch_naep.R` queries the API and caches results to
-`data/naep_tuda_ses.csv`; the site pages read that file. To refresh the data, run:
-
-```bash
-Rscript R/fetch_naep.R
-quarto render
-```
-
 Requests use these parameters:
 
 | Parameter | Values |
@@ -21,23 +13,26 @@ Requests use these parameters:
 | `subject` / `subscale` | `mathematics` / `MRPCM` (composite), `reading` / `RRPCM` (composite) |
 | `grade` | 4, 8 |
 | `Year` | 2024 |
-| `variable` | `SESCAT` (SES index, 3 components, categorized); `TOTAL` (all students) |
+| `variable` | `SESCAT` (SES index, 3 components, categorized) at grade 4; `SESCATP` (SES index, 4 components, categorized) at grade 8; `TOTAL` (all students) |
 | `stattype` | `MN:MN` (average scale score), `RP:RP` (percent of students), `ALC:AB` (% at or above Basic), `ALC:AP` (% at or above Proficient) |
 | `jurisdiction` | `NP` (National public), `NL` (Large city), and the 26 TUDA district codes |
 
 ## The NAEP SES index
 
 NAEP began reporting a socioeconomic status (SES) index with the 2024 assessments.
-This site uses the **3-component index** (`SESCAT`), which is available at both grades 4 and 8. It combines:
+This site uses two versions of the index:
 
-1. the student's economically disadvantaged status,
-2. the percentage of students in the student's school classified as economically disadvantaged, and
-3. the number of books in the student's home (student-reported).
+- **Grade 4:** the **3-component index** (`SESCAT`, 9-point scale), which combines:
+  1. the student's economically disadvantaged status,
+  2. the percentage of students in the student's school classified as economically disadvantaged, and
+  3. the number of books in the student's home (student-reported).
+- **Grade 8:** the **4-component index** (`SESCATP`, 12-point scale), which adds a fourth component,
+  the highest level of parental education (student-reported). This version is available only at grades 8 and 12.
 
-A 4-component version (`SESCATP`) that adds the highest level of parental education is available only at grades 8 and 12,
-so it is not used here. Index scores are grouped into Low, Middle, and High SES categories by NAEP.
+Because the two grades use different versions of the index, SES group results are not directly comparable across grades.
+Index scores are grouped into Low, Middle, and High SES categories by NAEP.
 See the [NAEP SES Index dashboard](https://www.nationsreportcard.gov/dashboards/sesindex/) and
-[NAGB's overview](https://nagb.gov/naep/the-2024-nations-report-card/ses-on-nations-report-card.html) for details.
+this [Focus on NAEP article](https://www.nationsreportcard.gov/focus_on_naep/articles/#/ses) for details.
 
 ## Districts
 
