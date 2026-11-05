@@ -26,41 +26,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -201,10 +166,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="source" class="level2">
 <h2 class="anchored" data-anchor-id="source">Source</h2>
-<p>All results come from the <a href="https://www.nationsreportcard.gov/api_documentation.aspx">NAEP Data Service API</a> (<code>GetAdhocData</code> endpoint) for the 2024 NAEP mathematics and reading assessments at grades 4 and 8. The script <code>R/fetch_naep.R</code> queries the API and caches results to <code>data/naep_tuda_ses.csv</code>; the site pages read that file. To refresh the data, run:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> R/fetch_naep.R</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Requests use these parameters:</p>
+<p>All results come from the <a href="https://www.nationsreportcard.gov/api_documentation.aspx">NAEP Data Service API</a> (<code>GetAdhocData</code> endpoint) for the 2024 NAEP mathematics and reading assessments at grades 4 and 8. Requests use these parameters:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -231,7 +193,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="even">
 <td><code>variable</code></td>
-<td><code>SESCAT</code> (SES index, 3 components, categorized); <code>TOTAL</code> (all students)</td>
+<td><code>SESCAT</code> (SES index, 3 components, categorized) at grade 4; <code>SESCATP</code> (SES index, 4 components, categorized) at grade 8; <code>TOTAL</code> (all students)</td>
 </tr>
 <tr class="odd">
 <td><code>stattype</code></td>
@@ -246,13 +208,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="the-naep-ses-index" class="level2">
 <h2 class="anchored" data-anchor-id="the-naep-ses-index">The NAEP SES index</h2>
-<p>NAEP began reporting a socioeconomic status (SES) index with the 2024 assessments. This site uses the <strong>3-component index</strong> (<code>SESCAT</code>), which is available at both grades 4 and 8. It combines:</p>
+<p>NAEP began reporting a socioeconomic status (SES) index with the 2024 assessments. This site uses two versions of the index:</p>
+<ul>
+<li><strong>Grade 4:</strong> the <strong>3-component index</strong> (<code>SESCAT</code>, 9-point scale), which combines:
 <ol type="1">
 <li>the student’s economically disadvantaged status,</li>
 <li>the percentage of students in the student’s school classified as economically disadvantaged, and</li>
 <li>the number of books in the student’s home (student-reported).</li>
-</ol>
-<p>A 4-component version (<code>SESCATP</code>) that adds the highest level of parental education is available only at grades 8 and 12, so it is not used here. Index scores are grouped into Low, Middle, and High SES categories by NAEP. See the <a href="https://www.nationsreportcard.gov/dashboards/sesindex/">NAEP SES Index dashboard</a> and <a href="https://nagb.gov/naep/the-2024-nations-report-card/ses-on-nations-report-card.html">NAGB’s overview</a> for details.</p>
+</ol></li>
+<li><strong>Grade 8:</strong> the <strong>4-component index</strong> (<code>SESCATP</code>, 12-point scale), which adds a fourth component, the highest level of parental education (student-reported). This version is available only at grades 8 and 12.</li>
+</ul>
+<p>Because the two grades use different versions of the index, SES group results are not directly comparable across grades. Index scores are grouped into Low, Middle, and High SES categories by NAEP. See the <a href="https://www.nationsreportcard.gov/dashboards/sesindex/">NAEP SES Index dashboard</a> and this <a href="https://www.nationsreportcard.gov/focus_on_naep/articles/#/ses">Focus on NAEP article</a> for details.</p>
 </section>
 <section id="districts" class="level2">
 <h2 class="anchored" data-anchor-id="districts">Districts</h2>
