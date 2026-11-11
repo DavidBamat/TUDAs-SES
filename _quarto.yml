@@ -19,6 +19,8 @@ website:
         text: Achievement Levels
       - href: composition.qmd
         text: SES Composition
+      - href: index-scores.qmd
+        text: SES Index Scores
       - href: data.qmd
         text: Data
       - href: about.qmd

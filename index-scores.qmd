@@ -1,0 +1,84 @@
+---
+title: "Results by SES Index Score"
+---
+
+```{r}
+#| include: false
+source(here::here("R/site_helpers.R"))
+```
+
+The Low, Middle, and High SES groups shown elsewhere on this site are built from an underlying **SES index score**.
+NAEP also reports results at each point of that scale: 0 to 9 for the 3-component index used at grade 4, and
+0 to 12 for the 4-component index used at grade 8. Higher scores mean higher SES. The point scale shows how
+achievement changes across the full SES range rather than across three broad groups.
+Because the two grades use different versions of the index, index scores are not comparable across grades.
+
+## Average scores by SES index score
+
+Each cell is the average scale score of a district's students at one SES index score. Darker cells mean higher scores.
+Districts are sorted by their overall average score, with the highest at the top. **National public** and
+**Large city** are shown in bold for reference. Blank cells are estimates NAEP did not report, which happens most
+often at the ends of the scale where few students are found. Hover over a cell to see the score and the share of the
+district's students at that index score.
+
+::: {.panel-tabset}
+
+### Grade 4 Mathematics
+
+```{r}
+ses_points_heatmap("Mathematics", 4, "mean")
+```
+
+### Grade 8 Mathematics
+
+```{r}
+ses_points_heatmap("Mathematics", 8, "mean")
+```
+
+### Grade 4 Reading
+
+```{r}
+ses_points_heatmap("Reading", 4, "mean")
+```
+
+### Grade 8 Reading
+
+```{r}
+ses_points_heatmap("Reading", 8, "mean")
+```
+
+:::
+
+## Distribution of students across the SES index
+
+Share of each district's assessed students at each SES index score. Darker cells hold more students.
+Districts are sorted by their average SES index score, with the highest at the top. Blank cells are estimates
+NAEP did not report. Hover over a cell to see the share and the average score of students at that index score.
+
+::: {.panel-tabset}
+
+### Grade 4 Mathematics
+
+```{r}
+ses_points_heatmap("Mathematics", 4, "pct")
+```
+
+### Grade 8 Mathematics
+
+```{r}
+ses_points_heatmap("Mathematics", 8, "pct")
+```
+
+### Grade 4 Reading
+
+```{r}
+ses_points_heatmap("Reading", 4, "pct")
+```
+
+### Grade 8 Reading
+
+```{r}
+ses_points_heatmap("Reading", 8, "pct")
+```
+
+:::
