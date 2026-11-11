@@ -207,14 +207,14 @@ naep_table <- function() {
 }
 
 
-# ---- Point-scale SES index (SESCMP: 0-9 at grade 4; SESCMPP: 0-12 at grade 8) ----
+# ---- Point-scale SES index (SESCMP: 3-component index, 0-9, at grades 4 and 8) ----
 
 naep_points <- read_csv(here::here("data/naep_tuda_ses_points.csv"), show_col_types = FALSE) |>
   select(subject, grade, jurisLabel, ses_points, stattype, value) |>
   pivot_wider(names_from = stattype, values_from = value) |>
   rename(mean = `MN:MN`, pct = `RP:RP`, basic = `ALC:AB`, proficient = `ALC:AP`)
 
-ses_points_max <- function(grd) if (grd == 4) 9 else 12
+ses_points_max <- function(grd) 9
 ses_points_title <- function(grd) sprintf("SES index score (0–%d)", ses_points_max(grd))
 
 # Sequential blue ramp (light -> dark = low -> high value)

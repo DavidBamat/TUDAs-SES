@@ -13,7 +13,7 @@ Requests use these parameters:
 | `subject` / `subscale` | `mathematics` / `MRPCM` (composite), `reading` / `RRPCM` (composite) |
 | `grade` | 4, 8 |
 | `Year` | 2024 |
-| `variable` | `SESCAT` (SES index, 3 components, categorized) at grade 4; `SESCATP` (SES index, 4 components, categorized) at grade 8; `SESCMP` (SES index, 3 components, scores 0–9) at grade 4; `SESCMPP` (SES index, 4 components, scores 0–12) at grade 8; `TOTAL` (all students) |
+| `variable` | `SESCAT` (SES index, 3 components, categorized) at grade 4; `SESCATP` (SES index, 4 components, categorized) at grade 8; `SESCMP` (SES index, 3 components, scores 0–9) at grades 4 and 8; `TOTAL` (all students) |
 | `stattype` | `MN:MN` (average scale score), `RP:RP` (percent of students), `ALC:AB` (% at or above Basic), `ALC:AP` (% at or above Proficient) |
 | `jurisdiction` | `NP` (National public), `NL` (Large city), and the 26 TUDA district codes |
 
@@ -31,9 +31,9 @@ This site uses two versions of the index:
 
 Because the two grades use different versions of the index, SES group results are not directly comparable across grades.
 Index scores are grouped into Low, Middle, and High SES categories by NAEP.
-The [SES Index Scores](index-scores.qmd) page instead reports results at each index score
-(`SESCMP` at grade 4, `SESCMPP` at grade 8). On NAEP data files these point-scale variables are named
-`SES3VAL` and `SES4VAL`.
+The [SES Index Scores](index-scores.qmd) page instead reports results at each index score, using the
+3-component index (`SESCMP`, 0–9) at both grades 4 and 8. On NAEP data files this point-scale variable is named
+`SES3VAL`.
 See the [NAEP SES Index dashboard](https://www.nationsreportcard.gov/dashboards/sesindex/) and
 this [Focus on NAEP article](https://www.nationsreportcard.gov/focus_on_naep/articles/#/ses) for details.
 

@@ -27,16 +27,16 @@ jurisdictions <- c(
 #   SESCAT  = SES index, 3 components (9-point scale); used for grade 4
 #   SESCATP = SES index, 4 components incl. parental education (12-point scale);
 #             available only at grades 8 and 12, so used for grade 8
-# The point-scale (uncategorized) versions of the same indexes, called SES3VAL and
-# SES4VAL on NAEP data files, are exposed by the API as:
-#   SESCMP  = SES index, 3 components, index points 0-9; used for grade 4
-#   SESCMPP = SES index, 4 components, index points 0-12; used for grade 8
+# Point-scale (uncategorized) results use the 3-component index at both grades, so
+# the scale is 0-9 throughout. The API calls this variable SESCMP (SES3VAL on NAEP
+# data files):
+#   SESCMP  = SES index, 3 components, index points 0-9; used for grades 4 and 8
 assessments <- tribble(
   ~subject,      ~grade, ~subscale, ~ses_var,   ~ses_pts_var,
   "mathematics", 4,      "MRPCM",   "SESCAT",   "SESCMP",
-  "mathematics", 8,      "MRPCM",   "SESCATP",  "SESCMPP",
+  "mathematics", 8,      "MRPCM",   "SESCATP",  "SESCMP",
   "reading",     4,      "RRPCM",   "SESCAT",   "SESCMP",
-  "reading",     8,      "RRPCM",   "SESCATP",  "SESCMPP"
+  "reading",     8,      "RRPCM",   "SESCATP",  "SESCMP"
 )
 
 # MN = mean scale score; RP = row percent (share of students in each SES level);
@@ -100,7 +100,7 @@ naep <- assessments |>
 write_csv(naep, "data/naep_tuda_ses.csv")
 message("Wrote ", nrow(naep), " rows to data/naep_tuda_ses.csv")
 
-# Point-scale index: one row per index point (varValueLabel is the point, 0-9 or 0-12)
+# Point-scale index: one row per index point (varValueLabel is the point, 0-9)
 naep_points <- assessments |>
   tidyr::crossing(stattype = stattypes) |>
   select(subject, grade, subscale, stattype, variable = ses_pts_var) |>

@@ -8,10 +8,10 @@ source(here::here("R/site_helpers.R"))
 ```
 
 The Low, Middle, and High SES groups shown elsewhere on this site are built from an underlying **SES index score**.
-NAEP also reports results at each point of that scale: 0 to 9 for the 3-component index used at grade 4, and
-0 to 12 for the 4-component index used at grade 8. Higher scores mean higher SES. The point scale shows how
-achievement changes across the full SES range rather than across three broad groups.
-Because the two grades use different versions of the index, index scores are not comparable across grades.
+NAEP also reports results at each point of the index. This page uses the 3-component index (0 to 9) at both
+grades, so grade 8 results here use a different index than the 4-component (12-point) index behind the grade 8
+SES groups elsewhere on this site. Higher scores mean higher SES. The point scale shows how achievement changes
+across the full SES range rather than across three broad groups.
 
 ## Average scores by SES index score
 

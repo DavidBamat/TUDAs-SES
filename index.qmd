@@ -16,7 +16,7 @@ Beginning with the 2024 assessments, the National Assessment of Educational Prog
 - In large cities, `r low_share("Large city", "Mathematics", 8)`% of eighth-graders are in the Low SES group, compared with `r low_share("National public", "Mathematics", 8)`% in the nation's public schools.
 - High SES eighth-graders in large cities scored `r ref_gap("Large city", "Mathematics", 8)` points higher in mathematics than their Low SES peers (national public: `r ref_gap("National public", "Mathematics", 8)` points).
 - Across districts with reportable results, that gap ranges from `r gap_range("Mathematics", 8)[1]` to `r gap_range("Mathematics", 8)[2]` points.
-- On the 12-point SES index scale, large-city eighth-graders with the highest index score (12) averaged `r point_mean("Large city", "Mathematics", 8, 12)` in mathematics, `r point_gap("Large city", "Mathematics", 8)` points above those with the lowest score (0) (national public: `r point_gap("National public", "Mathematics", 8)` points). See [SES Index Scores](index-scores.qmd).
+- On the 9-point (3-component) SES index scale, large-city eighth-graders with the highest index score (9) averaged `r point_mean("Large city", "Mathematics", 8, 9)` in mathematics, `r point_gap("Large city", "Mathematics", 8)` points above those with the lowest score (0) (national public: `r point_gap("National public", "Mathematics", 8)` points). See [SES Index Scores](index-scores.qmd).
 :::
 
 ## Average scores by SES level
