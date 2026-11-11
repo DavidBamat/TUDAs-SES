@@ -205,3 +205,98 @@ naep_table <- function() {
       options = list(pageLength = 25, dom = "Bfrtip", buttons = c("copy", "csv", "excel"))
     )
 }
+
+
+# ---- Point-scale SES index (SESCMP: 0-9 at grade 4; SESCMPP: 0-12 at grade 8) ----
+
+naep_points <- read_csv(here::here("data/naep_tuda_ses_points.csv"), show_col_types = FALSE) |>
+  select(subject, grade, jurisLabel, ses_points, stattype, value) |>
+  pivot_wider(names_from = stattype, values_from = value) |>
+  rename(mean = `MN:MN`, pct = `RP:RP`, basic = `ALC:AB`, proficient = `ALC:AP`)
+
+ses_points_max <- function(grd) if (grd == 4) 9 else 12
+ses_points_title <- function(grd) sprintf("SES index score (0–%d)", ses_points_max(grd))
+
+# Sequential blue ramp (light -> dark = low -> high value)
+seq_blue <- c("#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b")
+seq_colorscale <- lapply(seq_along(seq_blue), function(i) list((i - 1) / (length(seq_blue) - 1), seq_blue[i]))
+
+# Average SES index score per jurisdiction (weighted by share of students at each point)
+ses_points_summary <- naep_points |>
+  filter(!is.na(pct)) |>
+  group_by(subject, grade, jurisLabel) |>
+  summarise(avg_points = sum(ses_points * pct) / sum(pct), .groups = "drop")
+
+# Score difference between the top and bottom of the index scale (used in page text)
+point_gap <- function(j, s, g) {
+  x <- naep_points |> filter(jurisLabel == j, subject == s, grade == g)
+  round(x$mean[x$ses_points == ses_points_max(g)] - x$mean[x$ses_points == 0])
+}
+point_mean <- function(j, s, g, pt) {
+  x <- naep_points |> filter(jurisLabel == j, subject == s, grade == g, ses_points == pt)
+  round(x$mean)
+}
+
+# Heatmap: districts (rows) x SES index points (columns).
+#   stat = "mean": average scale score; rows sorted by the all-students average score
+#   stat = "pct":  share of students at each point; rows sorted by average SES index score
+ses_points_heatmap <- function(subj, grd, stat = "mean") {
+  d <- naep_points |>
+    filter(subject == subj, grade == grd) |>
+    mutate(value = .data[[stat]])
+
+  if (stat == "mean") {
+    order <- naep_wide |>
+      filter(subject == subj, grade == grd, group == "All students") |>
+      arrange(mean) |> pull(jurisLabel)
+  } else {
+    order <- ses_points_summary |>
+      filter(subject == subj, grade == grd) |>
+      arrange(avg_points) |> pull(jurisLabel)
+  }
+  order <- c(setdiff(unique(d$jurisLabel), order), order)
+
+  d <- d |> mutate(row = factor(axis_label(jurisLabel), axis_label(order)))
+
+  if (stat == "mean") {
+    hover <- paste0("<b>%{customdata}</b><br>SES index score %{x}",
+                    "<br>Average score: %{z:.0f}<br>Share of students: %{text}<extra></extra>")
+    text <- ifelse(is.na(d$pct), "—", sprintf("%.1f%%", d$pct))
+    cbar <- "Average<br>score"
+  } else {
+    hover <- paste0("<b>%{customdata}</b><br>SES index score %{x}",
+                    "<br>Share of students: %{z:.1f}%<br>Average score: %{text}<extra></extra>")
+    text <- ifelse(is.na(d$mean), "not reported", sprintf("%.0f", d$mean))
+    cbar <- "% of<br>students"
+  }
+
+  plot_ly(
+    d, x = ~ses_points, y = ~row, z = ~value, type = "heatmap",
+    colorscale = seq_colorscale, xgap = 2, ygap = 2,
+    customdata = ~jurisLabel, text = text, hovertemplate = hover,
+    hoverongaps = FALSE,
+    colorbar = list(title = list(text = cbar, font = list(size = 11)),
+                    thickness = 12, len = 0.5, outlinewidth = 0,
+                    tickfont = list(color = ink$muted))
+  ) |>
+    base_layout(ses_points_title(grd), height = 22 * nlevels(d$row) + 110) |>
+    layout(xaxis = list(dtick = 1, gridcolor = "rgba(0,0,0,0)",
+                        range = c(-0.5, ses_points_max(grd) + 0.5)),
+           yaxis = list(categoryorder = "array", categoryarray = levels(d$row)))
+}
+
+# Downloadable table of the point-scale results
+naep_points_table <- function() {
+  naep_points |>
+    arrange(subject, grade, jurisLabel, ses_points) |>
+    transmute(
+      Subject = subject, Grade = grade, Jurisdiction = jurisLabel,
+      `SES index score` = ses_points,
+      `% of students` = round(pct, 1), `Average score` = round(mean),
+      `% at/above Basic` = round(basic), `% at/above Proficient` = round(proficient)
+    ) |>
+    DT::datatable(
+      rownames = FALSE, filter = "top", extensions = "Buttons",
+      options = list(pageLength = 25, dom = "Bfrtip", buttons = c("copy", "csv", "excel"))
+    )
+}
